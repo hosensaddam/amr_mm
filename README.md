@@ -2,7 +2,7 @@
 
 **Project:** Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping
 **Collection date:** 31 October 2026 (all API queries and downloads)
-**Prepared by:** Agentic custom AI assistant for author review. System developed by MSH, MSIF, and KK. Eligibility decisions and classifications require author confirmation.
+**Prepared by:** Custom Agentic AI assistant for author review. System developed by Mohammad Saddam Hosen, MD Shahidul Islam Fakir, and Kurshed Khan. Eligibility decisions and classifications require author confirmation.
 
 ## 1\. What this package contains
 
