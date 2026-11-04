@@ -1,0 +1,31 @@
+model,held_out_study,sample_type,n,true_positive_share,accuracy,mean_predicted_prob
+Logistic regression (L2),PRJDB6153,Surface water,16,0.0,0.25,0.735692
+Logistic regression (L2),PRJEB13832,Municipal wastewater,60,1.0,0.8,0.644793
+Logistic regression (L2),PRJEB14051,Municipal wastewater,69,1.0,0.855072,0.670678
+Logistic regression (L2),PRJEB22915,Surface water,11,0.0,0.0,0.928101
+Logistic regression (L2),PRJEB27054,Municipal wastewater,86,1.0,0.94186,0.683373
+Logistic regression (L2),PRJEB27640,Built environment,8,0.0,0.75,0.248537
+Logistic regression (L2),PRJEB34690,Municipal wastewater,18,1.0,0.944444,0.723364
+Logistic regression (L2),PRJNA267173,Surface water,4,0.0,0.0,0.86792
+Logistic regression (L2),PRJNA299404,Built environment,1,0.0,0.0,0.648439
+Logistic regression (L2),PRJNA301589,Transit surface,24,0.0,0.333333,0.624513
+Logistic regression (L2),PRJNA400857,Surface water,13,0.0,0.0,0.898862
+Logistic regression (L2),PRJNA413894,Municipal wastewater,21,1.0,0.952381,0.79639
+Logistic regression (L2),PRJNA438174,Municipal wastewater,36,1.0,0.916667,0.759786
+Logistic regression (L2),PRJNA506137,Municipal wastewater,5,0.6,0.6,0.732358
+Logistic regression (L2),PRJNA527324,Air,24,0.0,0.0833333,0.79639
+Random forest,PRJDB6153,Surface water,16,0.0,0.375,0.49298
+Random forest,PRJEB13832,Municipal wastewater,60,1.0,0.866667,0.636696
+Random forest,PRJEB14051,Municipal wastewater,69,1.0,0.826087,0.700671
+Random forest,PRJEB22915,Surface water,11,0.0,0.0,0.792489
+Random forest,PRJEB27054,Municipal wastewater,86,1.0,0.837209,0.733433
+Random forest,PRJEB27640,Built environment,8,0.0,0.875,0.3381
+Random forest,PRJEB34690,Municipal wastewater,18,1.0,0.666667,0.579346
+Random forest,PRJNA267173,Surface water,4,0.0,0.0,0.776733
+Random forest,PRJNA299404,Built environment,1,0.0,1.0,0.397043
+Random forest,PRJNA301589,Transit surface,24,0.0,0.416667,0.546619
+Random forest,PRJNA400857,Surface water,13,0.0,0.230769,0.672919
+Random forest,PRJNA413894,Municipal wastewater,21,1.0,0.619048,0.552899
+Random forest,PRJNA438174,Municipal wastewater,36,1.0,0.805556,0.577808
+Random forest,PRJNA506137,Municipal wastewater,5,0.6,0.6,0.629927
+Random forest,PRJNA527324,Air,24,0.0,0.5,0.434285

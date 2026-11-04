@@ -1,0 +1,10 @@
+Quantity,Value
+Source-labelled cities,274
+Cities with >=10 samples,33
+Cities with >=30 samples,12
+Cities with 1 sample,67
+Median samples per city (IQR),3 (2-5)
+Cities represented in >1 sample type,6
+Cities with >=1 AMR-annotated sample,79
+Cities with >=1 taxonomy-annotated sample,4
+"Included samples without a City|Country pair (city missing, or country missing/unverified)",5069

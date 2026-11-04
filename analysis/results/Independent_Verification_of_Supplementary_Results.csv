@@ -1,0 +1,76 @@
+Area,Statistic,Supplement_Table,Reported,Recomputed,Abs_Difference,Tolerance,Match
+A. Evidence base,Included samples,Table S1,8053.0,8053.0,0.0,exact,YES
+A. Evidence base,Datasets with included samples,Table S1,112.0,112.0,0.0,exact,YES
+A. Evidence base,Countries reported,Table S1,106.0,106.0,0.0,exact,YES
+A. Evidence base,Source-labelled City|Country pairs,Table S1,274.0,274.0,0.0,exact,YES
+A. Evidence base,Samples with coordinates,Table S10,6134.0,6134.0,0.0,exact,YES
+A. Evidence base,Samples with a processed AMR table,Table S8,1072.0,1072.0,0.0,exact,YES
+A. Evidence base,Samples: Air,Table S2,427.0,427.0,0.0,exact,YES
+A. Evidence base,Datasets: Air,Table S2,7.0,7.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Air,Table S2,1.5567,1.559190213,0.0024902129999999634,rel 0.005,YES
+A. Evidence base,Samples: Built environment,Table S2,1449.0,1449.0,0.0,exact,YES
+A. Evidence base,Datasets: Built environment,Table S2,9.0,9.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Built environment,Table S2,1.2925,1.2924735,2.6499999999929358e-05,rel 0.005,YES
+A. Evidence base,Samples: Community wastewater,Table S2,529.0,529.0,0.0,exact,YES
+A. Evidence base,Datasets: Community wastewater,Table S2,6.0,6.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Community wastewater,Table S2,5.4518,5.452151413,0.00035141299999974507,rel 0.005,YES
+A. Evidence base,Samples: Hospital wastewater,Table S2,237.0,237.0,0.0,exact,YES
+A. Evidence base,Datasets: Hospital wastewater,Table S2,16.0,16.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Hospital wastewater,Table S2,0.22099,0.220990825,8.250000000098456e-07,rel 0.005,YES
+A. Evidence base,Samples: Municipal wastewater,Table S2,2254.0,2254.0,0.0,exact,YES
+A. Evidence base,Datasets: Municipal wastewater,Table S2,35.0,35.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Municipal wastewater,Table S2,10.51,10.523233405,0.013233404999999365,rel 0.005,YES
+A. Evidence base,Samples: Surface water,Table S2,882.0,882.0,0.0,exact,YES
+A. Evidence base,Datasets: Surface water,Table S2,36.0,36.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Surface water,Table S2,2.5872,2.5872470495,4.704950000000707e-05,rel 0.005,YES
+A. Evidence base,Samples: Transit surface,Table S2,1911.0,1911.0,0.0,exact,YES
+A. Evidence base,Datasets: Transit surface,Table S2,4.0,4.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Transit surface,Table S2,1.2339,1.233858146,4.185400000000783e-05,rel 0.005,YES
+A. Evidence base,Samples: Urban soil,Table S2,364.0,364.0,0.0,exact,YES
+A. Evidence base,Datasets: Urban soil,Table S2,7.0,7.0,0.0,exact,YES
+A. Evidence base,Median depth (Gbp): Urban soil,Table S2,10.711,10.710764615999999,0.00023538400000155946,rel 0.005,YES
+A. Evidence base,Samples with depth >= 10 Mbp,Table S92,7822.0,7822.0,0.0,exact,YES
+A. Evidence base,Samples with depth >= 100 Mbp,Table S92,7411.0,7411.0,0.0,exact,YES
+A. Evidence base,Samples with depth >= 500 Mbp,Table S92,6701.0,6701.0,0.0,exact,YES
+A. Evidence base,Samples with depth >= 1 Gbp,Table S92,5840.0,5840.0,0.0,exact,YES
+B. Stream 1 (DS02),n samples: Chennai,Table S26,109.0,109.0,0.0,exact,YES
+B. Stream 1 (DS02),Median total RPKM: Chennai,Table S26,460.82,460.8248925414276,0.0048925414275799994,abs 0.01,YES
+B. Stream 1 (DS02),n samples: Delhi,Table S26,100.0,100.0,0.0,exact,YES
+B. Stream 1 (DS02),Median total RPKM: Delhi,Table S26,666.28,666.2835686026937,0.0035686026936900817,abs 0.01,YES
+B. Stream 1 (DS02),n samples: Kolkata,Table S26,49.0,49.0,0.0,exact,YES
+B. Stream 1 (DS02),Median total RPKM: Kolkata,Table S26,558.25,558.25188850385,0.001888503849954759,abs 0.01,YES
+B. Stream 1 (DS02),n samples: Mumbai,Table S26,189.0,189.0,0.0,exact,YES
+B. Stream 1 (DS02),Median total RPKM: Mumbai,Table S26,421.43,421.42676539368205,0.0032346063179602424,abs 0.01,YES
+B. Stream 1 (DS02),Site-level Kruskal-Wallis H (19 site medians),Table S27,9.87,9.870000000000005,5.329070518200751e-15,abs 0.01,YES
+B. Stream 1 (DS02),Site-level epsilon-squared,Table S27,0.458,0.4580000000000003,2.7755575615628914e-16,abs 0.001,YES
+B. Stream 1 (DS02),"Whole-site permutation p (9,999 perm.; Monte Carlo)",Table S27,0.0047,0.0071,0.0024000000000000002,abs 0.003,YES
+B. Stream 1 (DS02),Mixed-model fold change vs Delhi: Chennai,Table S28,0.6150456,0.6150456476086854,4.760868543840502e-08,abs 0.005,YES
+B. Stream 1 (DS02),Mixed-model fold change vs Delhi: Kolkata,Table S28,0.8087792,0.8087791720396373,2.7960362691814566e-08,abs 0.005,YES
+B. Stream 1 (DS02),Mixed-model fold change vs Delhi: Mumbai,Table S28,0.6209511,0.6209510872623873,1.273761263131945e-08,abs 0.005,YES
+C. Stream 2 (ResFinder),Units: Air,Table S37,24.0,24.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Median total FPKM: Air,Table S37,17004.0,17003.901826076268,0.0981739237322472,rel 0.001,YES
+C. Stream 2 (ResFinder),Median gene richness: Air,Table S37,53.5,53.5,0.0,exact,YES
+C. Stream 2 (ResFinder),Units: Built environment,Table S37,9.0,9.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Median total FPKM: Built environment,Table S37,16071.0,16071.297754995758,0.2977549957577139,rel 0.001,YES
+C. Stream 2 (ResFinder),Median gene richness: Built environment,Table S37,60.0,60.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Units: Food-related environment,Table S37,155.0,155.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Median total FPKM: Food-related environment,Table S37,12882.0,12881.66919200051,0.3308079994894797,rel 0.001,YES
+C. Stream 2 (ResFinder),Median gene richness: Food-related environment,Table S37,20.0,20.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Units: Municipal wastewater,Table S37,293.0,293.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Median total FPKM: Municipal wastewater,Table S37,105480.0,105480.41437431233,0.41437431232770905,rel 0.001,YES
+C. Stream 2 (ResFinder),Median gene richness: Municipal wastewater,Table S37,89.0,89.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Units: Surface water,Table S37,46.0,46.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Median total FPKM: Surface water,Table S37,31579.0,31579.351433042088,0.3514330420875922,rel 0.001,YES
+C. Stream 2 (ResFinder),Median gene richness: Surface water,Table S37,60.0,60.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Units: Transit surface,Table S37,24.0,24.0,0.0,exact,YES
+C. Stream 2 (ResFinder),Median total FPKM: Transit surface,Table S37,34310.0,34309.595791199274,0.40420880072633736,rel 0.001,YES
+C. Stream 2 (ResFinder),Median gene richness: Transit surface,Table S37,58.5,58.5,0.0,exact,YES
+D. Stream 3 (Dhaka),Dhaka metagenomes reprocessed,Table S61,16.0,16.0,0.0,exact,YES
+D. Stream 3 (Dhaka),Median high-confidence ARG genes,Table S61,35.5,35.5,0.0,exact,YES
+D. Stream 3 (Dhaka),Minimum total FPKM-16S,Table S61,13248.0,13247.947626799132,0.05237320086780528,abs 1,YES
+D. Stream 3 (Dhaka),Maximum total FPKM-16S,Table S61,1286405.0,1286404.9832619969,0.016738003119826317,abs 1,YES
+D. Stream 3 (Dhaka),DS84 hospital vs STP inlet: median difference log10 FPKM-16S,Table S68,0.29,0.2861876493042361,0.0038123506957638553,abs 0.005,YES
+D. Stream 3 (Dhaka),DS84 hospital vs STP inlet: exact permutation p,Table S68,0.057,0.05714285714285714,0.00014285714285713902,abs 0.0005,YES
+D. Stream 3 (Dhaka),DS84 hospital vs STP inlet: Cliff's delta,Table S68,1.0,1.0,0.0,exact,YES
+D. Stream 3 (Dhaka),"Dhaka vs Karachi (GSS protocol): median difference, high-confidence genes",Table S68,-23.5,-23.5,0.0,exact,YES
+D. Stream 3 (Dhaka),Dhaka vs Karachi: exact permutation p,Table S68,0.012,0.012121212121212121,0.00012121212121212095,abs 0.0005,YES

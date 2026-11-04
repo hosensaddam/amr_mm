@@ -1,0 +1,22 @@
+specification,contrast,n,fold_change,ci_low,ci_high,p_value
+"Primary: all RGI hits, per million sequenced reads",Chennai vs Delhi,447,0.6144609,0.5392724,0.7001326,2.612915e-13
+"Primary: all RGI hits, per million sequenced reads",Kolkata vs Delhi,447,0.8074527,0.6804451,0.9581666,0.01431046
+"Primary: all RGI hits, per million sequenced reads",Mumbai vs Delhi,447,0.6205265,0.5660763,0.6802141,2.343538e-24
+Allele coverage >= 50%,Chennai vs Delhi,447,0.5630464,0.483034,0.6563126,2.059145e-13
+Allele coverage >= 50%,Kolkata vs Delhi,447,0.7501025,0.6134934,0.917131,0.005058098
+Allele coverage >= 50%,Mumbai vs Delhi,447,0.5708384,0.5122131,0.6361737,3.661647e-24
+Allele coverage >= 80%,Chennai vs Delhi,447,0.5364364,0.452555,0.6358653,7.030886e-13
+Allele coverage >= 80%,Kolkata vs Delhi,447,0.7035005,0.5614743,0.8814525,0.002237895
+Allele coverage >= 80%,Mumbai vs Delhi,447,0.5509551,0.4895321,0.6200849,4.876543e-23
+Denominator: prokaryote-classified reads (Bracken),Chennai vs Delhi,447,0.767244,0.681062,0.8643315,1.311012e-05
+Denominator: prokaryote-classified reads (Bracken),Kolkata vs Delhi,447,0.7868083,0.6961382,0.889288,0.0001239142
+Denominator: prokaryote-classified reads (Bracken),Mumbai vs Delhi,447,0.7916453,0.7338627,0.8539776,1.52248e-09
+"Primary, excluding depth-flagged samples",Chennai vs Delhi,443,0.6087193,0.5348367,0.6928081,5.521184e-14
+"Primary, excluding depth-flagged samples",Kolkata vs Delhi,443,0.8000463,0.6746902,0.9486933,0.01029614
+"Primary, excluding depth-flagged samples",Mumbai vs Delhi,443,0.6134602,0.5600723,0.6719372,7.08878e-26
+"Primary, adjusted for DS02 taxonomic cluster",Chennai vs Delhi,447,0.6460655,0.557535,0.7486537,6.255756e-09
+"Primary, adjusted for DS02 taxonomic cluster",Kolkata vs Delhi,447,0.8201095,0.6867694,0.9793383,0.0284822
+"Primary, adjusted for DS02 taxonomic cluster",Mumbai vs Delhi,447,0.6548043,0.5928212,0.7232682,7.104364e-17
+City-month geometric means (n = city-months),Chennai vs Delhi,96,0.6125152,0.5113072,0.7337564,1.039935e-07
+City-month geometric means (n = city-months),Kolkata vs Delhi,96,0.8029262,0.6626955,0.9728308,0.02501144
+City-month geometric means (n = city-months),Mumbai vs Delhi,96,0.6187947,0.5450467,0.7025213,1.23318e-13

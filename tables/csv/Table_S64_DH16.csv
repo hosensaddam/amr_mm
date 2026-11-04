@@ -1,0 +1,89 @@
+determinant,group,n,detected_high_confidence,pct_high_confidence,ci_low,ci_high,detected_any_hit_unconfirmed,pct_any_hit_unconfirmed,genes_high_confidence
+NDM,All Dhaka,16,7,43.75,23.1,66.82,10,62.5,blaNDM-1; blaNDM-18
+NDM,DS01,4,0,0.0,0.0,48.99,1,25.0,-
+NDM,DS03,4,2,50.0,15.0,85.0,3,75.0,blaNDM-1; blaNDM-18
+NDM,DS84,8,5,62.5,30.57,86.32,6,75.0,blaNDM-1
+NDM,Community wastewater,1,0,0.0,0.0,79.35,0,0.0,-
+NDM,Hospital wastewater,7,6,85.71,48.69,97.43,7,100.0,blaNDM-1; blaNDM-18
+NDM,Municipal wastewater,7,1,14.29,2.568,51.31,3,42.86,blaNDM-1
+NDM,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+KPC,All Dhaka,16,7,43.75,23.1,66.82,12,75.0,blaKPC-2; blaKPC-34
+KPC,DS01,4,0,0.0,0.0,48.99,1,25.0,-
+KPC,DS03,4,3,75.0,30.06,95.44,4,100.0,blaKPC-2; blaKPC-34
+KPC,DS84,8,4,50.0,21.52,78.48,7,87.5,blaKPC-2; blaKPC-34
+KPC,Community wastewater,1,0,0.0,0.0,79.35,1,100.0,-
+KPC,Hospital wastewater,7,7,100.0,64.57,100.0,7,100.0,blaKPC-2; blaKPC-34
+KPC,Municipal wastewater,7,0,0.0,2.776e-15,35.43,4,57.14,-
+KPC,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+OXA-48-like,All Dhaka,16,4,25.0,10.18,49.5,8,50.0,blaOXA-181
+OXA-48-like,DS01,4,0,0.0,0.0,48.99,0,0.0,-
+OXA-48-like,DS03,4,1,25.0,4.559,69.94,3,75.0,blaOXA-181
+OXA-48-like,DS84,8,3,37.5,13.68,69.43,5,62.5,blaOXA-181
+OXA-48-like,Community wastewater,1,0,0.0,0.0,79.35,0,0.0,-
+OXA-48-like,Hospital wastewater,7,4,57.14,25.05,84.18,7,100.0,blaOXA-181
+OXA-48-like,Municipal wastewater,7,0,0.0,2.776e-15,35.43,1,14.29,-
+OXA-48-like,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+VIM,All Dhaka,16,1,6.25,1.112,28.33,14,87.5,blaVIM-4
+VIM,DS01,4,0,0.0,0.0,48.99,3,75.0,-
+VIM,DS03,4,0,0.0,0.0,48.99,4,100.0,-
+VIM,DS84,8,1,12.5,2.242,47.09,7,87.5,blaVIM-4
+VIM,Community wastewater,1,0,0.0,0.0,79.35,1,100.0,-
+VIM,Hospital wastewater,7,1,14.29,2.568,51.31,7,100.0,blaVIM-4
+VIM,Municipal wastewater,7,0,0.0,2.776e-15,35.43,6,85.71,-
+VIM,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+IMP,All Dhaka,16,2,12.5,3.498,36.02,7,43.75,blaIMP-15; blaIMP-26
+IMP,DS01,4,0,0.0,0.0,48.99,1,25.0,-
+IMP,DS03,4,0,0.0,0.0,48.99,2,50.0,-
+IMP,DS84,8,2,25.0,7.148,59.07,4,50.0,blaIMP-15; blaIMP-26
+IMP,Community wastewater,1,0,0.0,0.0,79.35,0,0.0,-
+IMP,Hospital wastewater,7,2,28.57,8.222,64.11,6,85.71,blaIMP-15; blaIMP-26
+IMP,Municipal wastewater,7,0,0.0,2.776e-15,35.43,1,14.29,-
+IMP,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+CTX-M,All Dhaka,16,4,25.0,10.18,49.5,12,75.0,blaCTX-M-15; blaCTX-M-180
+CTX-M,DS01,4,0,0.0,0.0,48.99,3,75.0,-
+CTX-M,DS03,4,1,25.0,4.559,69.94,2,50.0,blaCTX-M-180
+CTX-M,DS84,8,3,37.5,13.68,69.43,7,87.5,blaCTX-M-15
+CTX-M,Community wastewater,1,0,0.0,0.0,79.35,0,0.0,-
+CTX-M,Hospital wastewater,7,4,57.14,25.05,84.18,6,85.71,blaCTX-M-15; blaCTX-M-180
+CTX-M,Municipal wastewater,7,0,0.0,2.776e-15,35.43,6,85.71,-
+CTX-M,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+MCR,All Dhaka,16,0,0.0,0.0,19.36,13,81.25,-
+MCR,DS01,4,0,0.0,0.0,48.99,3,75.0,-
+MCR,DS03,4,0,0.0,0.0,48.99,3,75.0,-
+MCR,DS84,8,0,0.0,0.0,32.44,7,87.5,-
+MCR,Community wastewater,1,0,0.0,0.0,79.35,1,100.0,-
+MCR,Hospital wastewater,7,0,0.0,2.776e-15,35.43,6,85.71,-
+MCR,Municipal wastewater,7,0,0.0,2.776e-15,35.43,6,85.71,-
+MCR,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+tet(X),All Dhaka,16,5,31.25,14.16,55.6,15,93.75,tet(X)
+tet(X),DS01,4,0,0.0,0.0,48.99,3,75.0,-
+tet(X),DS03,4,1,25.0,4.559,69.94,4,100.0,tet(X)
+tet(X),DS84,8,4,50.0,21.52,78.48,8,100.0,tet(X)
+tet(X),Community wastewater,1,0,0.0,0.0,79.35,1,100.0,-
+tet(X),Hospital wastewater,7,4,57.14,25.05,84.18,7,100.0,tet(X)
+tet(X),Municipal wastewater,7,1,14.29,2.568,51.31,6,85.71,tet(X)
+tet(X),Surface water,1,0,0.0,0.0,79.35,1,100.0,-
+qnr,All Dhaka,16,8,50.0,28.0,72.0,15,93.75,qnrB4; qnrS1; qnrS2; qnrVC1; qnrVC4
+qnr,DS01,4,0,0.0,0.0,48.99,3,75.0,-
+qnr,DS03,4,1,25.0,4.559,69.94,4,100.0,qnrS2; qnrVC4
+qnr,DS84,8,7,87.5,52.91,97.76,8,100.0,qnrB4; qnrS1; qnrS2; qnrVC1; qnrVC4
+qnr,Community wastewater,1,0,0.0,0.0,79.35,1,100.0,-
+qnr,Hospital wastewater,7,5,71.43,35.89,91.78,7,100.0,qnrB4; qnrS1; qnrS2; qnrVC1; qnrVC4
+qnr,Municipal wastewater,7,3,42.86,15.82,74.95,6,85.71,qnrS1; qnrS2; qnrVC1; qnrVC4
+qnr,Surface water,1,0,0.0,0.0,79.35,1,100.0,-
+vanA,All Dhaka,16,3,18.75,6.592,43.01,7,43.75,VanHAX
+vanA,DS01,4,0,0.0,0.0,48.99,0,0.0,-
+vanA,DS03,4,1,25.0,4.559,69.94,3,75.0,VanHAX
+vanA,DS84,8,2,25.0,7.148,59.07,4,50.0,VanHAX
+vanA,Community wastewater,1,0,0.0,0.0,79.35,0,0.0,-
+vanA,Hospital wastewater,7,3,42.86,15.82,74.95,7,100.0,VanHAX
+vanA,Municipal wastewater,7,0,0.0,2.776e-15,35.43,0,0.0,-
+vanA,Surface water,1,0,0.0,0.0,79.35,0,0.0,-
+sul,All Dhaka,16,15,93.75,71.67,98.89,16,100.0,sul1; sul2; sul4
+sul,DS01,4,4,100.0,51.01,100.0,4,100.0,sul1; sul2; sul4
+sul,DS03,4,4,100.0,51.01,100.0,4,100.0,sul1; sul2; sul4
+sul,DS84,8,7,87.5,52.91,97.76,8,100.0,sul1; sul2; sul4
+sul,Community wastewater,1,1,100.0,20.65,100.0,1,100.0,sul1; sul2
+sul,Hospital wastewater,7,7,100.0,64.57,100.0,7,100.0,sul1; sul2; sul4
+sul,Municipal wastewater,7,7,100.0,64.57,100.0,7,100.0,sul1; sul2; sul4
+sul,Surface water,1,0,0.0,0.0,79.35,1,100.0,-

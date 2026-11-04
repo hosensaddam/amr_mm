@@ -1,0 +1,17 @@
+index,factor,analysis,n_units,samples,H,df,p,p_perm,epsilon2,LR,ICC_site,sites_per_city,p_primary,p_primary_BH
+rarefied_richness,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,11.105491,3,0.011168909,0.0023,0.54036608,,,Chennai=5; Delhi=4; Kolkata=2; Mumbai=8,0.0023,0.0184
+rarefied_richness,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.0007649462,,,16.832841,0.038330621,,0.0007649462,0.012239139
+rarefied_richness,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.056795975,,,7.5298675,0.038330621,,0.056795975,0.09664
+rarefied_richness,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.027779722,,,7.1668979,0.038330621,,0.027779722,0.088895109
+shannon,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,6.9686842,3,0.07290264,0.0539,0.26457895,,,Chennai=5; Delhi=4; Kolkata=2; Mumbai=8,0.0539,0.09664
+shannon,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.025558609,,,9.2998641,0.12599988,,0.025558609,0.088895109
+shannon,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.27410873,,,3.8853911,0.12599988,,0.27410873,0.31326712
+shannon,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.20180965,,,3.2008607,0.12599988,,0.20180965,0.28063591
+gini_simpson,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,6.7594737,3,0.079972405,0.0604,0.25063158,,,Chennai=5; Delhi=4; Kolkata=2; Mumbai=8,0.0604,0.09664
+gini_simpson,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.054056218,,,7.6404995,0.11384369,,0.054056218,0.09664
+gini_simpson,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.34299487,,,3.3335897,0.11384369,,0.34299487,0.3658612
+gini_simpson,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.54687251,,,1.2070791,0.11384369,,0.54687251,0.54687251
+pielou_evenness,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,6.9686842,3,0.07290264,0.0539,0.26457895,,,Chennai=5; Delhi=4; Kolkata=2; Mumbai=8,0.0539,0.09664
+pielou_evenness,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.026284622,,,9.2383097,0.12599924,,0.026284622,0.088895109
+pielou_evenness,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.2711993,,,3.9113313,0.12599924,,0.2711993,0.31326712
+pielou_evenness,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.21047693,,,3.1167585,0.12599924,,0.21047693,0.28063591

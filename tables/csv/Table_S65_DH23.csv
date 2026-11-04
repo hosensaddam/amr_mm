@@ -1,0 +1,13 @@
+distance,term,covariates,n,df_term,df_resid,pseudo_F,R2_partial,p_value,permutation_scheme,status
+Genus Bray-Curtis,Dataset_ID,(none),16,2,13,2.83136,0.3034242,0.0048,free,"Descriptive (n = 16; dataset, sample type, year and platform confounded)"
+Genus Bray-Curtis,Dataset_ID,(PERMDISP),16,2,13,0.3863378,,0.6677,PERMDISP,Descriptive
+Genus Bray-Curtis,Sample_Type,(none),16,3,12,1.386565,0.2574117,0.1842,free,"Descriptive (n = 16; dataset, sample type, year and platform confounded)"
+Genus Bray-Curtis,Sample_Type,(PERMDISP),16,3,12,3.477328,,0.4813,PERMDISP,Descriptive
+Genus Aitchison (CLR),Dataset_ID,(none),16,2,13,2.648838,0.2895273,0.0001,free,"Descriptive (n = 16; dataset, sample type, year and platform confounded)"
+Genus Aitchison (CLR),Dataset_ID,(PERMDISP),16,2,13,0.07962665,,0.8966,PERMDISP,Descriptive
+Genus Aitchison (CLR),Sample_Type,(none),16,3,12,1.587206,0.2840786,0.0029,free,"Descriptive (n = 16; dataset, sample type, year and platform confounded)"
+Genus Aitchison (CLR),Sample_Type,(PERMDISP),16,3,12,6.709679,,0.7071,PERMDISP,Descriptive
+ARG gene Bray-Curtis (relative FPKM-16S),Dataset_ID,(none),16,2,13,3.674364,0.3611394,0.0002,free,"Descriptive (n = 16; dataset, sample type, year and platform confounded)"
+ARG gene Bray-Curtis (relative FPKM-16S),Dataset_ID,(PERMDISP),16,2,13,0.6198893,,0.4866,PERMDISP,Descriptive
+ARG gene Bray-Curtis (relative FPKM-16S),Sample_Type,(none),16,3,12,1.859217,0.3173149,0.0561,free,"Descriptive (n = 16; dataset, sample type, year and platform confounded)"
+ARG gene Bray-Curtis (relative FPKM-16S),Sample_Type,(PERMDISP),16,3,12,3.616926,,0.1911,PERMDISP,Descriptive

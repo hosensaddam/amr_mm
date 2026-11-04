@@ -1,0 +1,7 @@
+method,data_requirement,available,decision
+Point maps of observed values,Producer-reported coordinates,"6,134 included samples; 278 wastewater ARG units","Performed (Figures 22, 24)"
+Country-level choropleth,Country per sample,106 countries,Performed (Figure 23)
+Global Moran's I / Mantel distance decay,Comparable measurements at >=30 locations from one protocol,86 cities in the 2016 pilot (one study),Performed for the pilot only (Figure 26)
+"Local hotspot statistics (LISA, Getis-Ord Gi*)","Dense, comparable sampling within regions; multiple-testing control","One sample per city; sparse in Africa, South America, Oceania","Not performed: density insufficient, hotspots would be artefacts of sampling gaps"
+"Interpolated surfaces (kriging, IDW) / risk maps","Dense sampling, validated variogram, outcome data defining 'risk'",No such data available,Not performed: would imply measurements where none exist
+City-level mapping of DS02 Indian cities,Site coordinates,City labels only (19 sites unidentified),City used as unit (bar/box plots); site coordinates require Singh et al. Supplementary Data S7

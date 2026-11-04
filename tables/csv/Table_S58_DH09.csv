@@ -1,0 +1,33 @@
+run_accession,Sample_ID,Dataset_ID,Sample_Type,rank,dominant_taxa
+ERR2683246,SAMEA4777503,DS01,Municipal wastewater,Phylum,Firmicutes 32.3%; Bacteroidota 32.1%; Proteobacteria 27.4%; Campilobacterota 1.6%; Fusobacteriota 1.3%
+ERR2683246,SAMEA4777503,DS01,Municipal wastewater,Genus,Streptococcus 33.2%; Paludibacter 10.9%; Myroides 10.4%; Klebsiella 8.9%; Acinetobacter 6.8%
+ERR4682420,SAMEA7428327,DS01,Municipal wastewater,Phylum,Firmicutes 52.1%; Bacteroidota 19.2%; Proteobacteria 16.7%; Actinobacteriota 1.9%; Halobacterota 1.5%
+ERR4682420,SAMEA7428327,DS01,Municipal wastewater,Genus,Streptococcus 48.3%; Myroides 7.1%; uncultured 6.4%; Paludibacter 4.9%; Erysipelothrix 3.4%
+ERR4682869,SAMEA7428511,DS01,Municipal wastewater,Phylum,Proteobacteria 85.9%; Firmicutes 11.4%; Elusimicrobiota 0.7%; Bacteroidota 0.5%; Synergistota 0.3%
+ERR4682869,SAMEA7428511,DS01,Municipal wastewater,Genus,Acinetobacter 53.9%; Klebsiella 31.0%; Streptococcus 4.8%; Exiguobacterium 1.6%; Arsenophonus 1.3%
+ERR4678629,SAMEA7426329,DS01,Municipal wastewater,Phylum,Firmicutes 65.8%; Bacteroidota 13.8%; Proteobacteria 13.3%; Actinobacteriota 1.5%; Elusimicrobiota 0.8%
+ERR4678629,SAMEA7426329,DS01,Municipal wastewater,Genus,Streptococcus 52.4%; Erysipelothrix 4.9%; Myroides 4.6%; Paludibacter 4.3%; Klebsiella 4.2%
+SRR36711353,SAMN54495505,DS03,Community wastewater,Phylum,Firmicutes 33.9%; Actinobacteriota 25.7%; Proteobacteria 18.0%; Bacteroidota 13.1%; Patescibacteria 1.6%
+SRR36711353,SAMN54495505,DS03,Community wastewater,Genus,Streptococcus 33.6%; uncultured 8.6%; Klebsiella 7.9%; Myroides 5.7%; Propioniciclava 3.6%
+SRR36711354,SAMN54495504,DS03,Hospital wastewater,Phylum,Firmicutes 39.1%; Actinobacteriota 19.2%; Bacteroidota 17.1%; Proteobacteria 10.6%; Chloroflexi 2.8%
+SRR36711354,SAMN54495504,DS03,Hospital wastewater,Genus,Streptococcus 35.2%; Propioniciclava 7.7%; uncultured 6.3%; Myroides 5.9%; Klebsiella 3.4%
+SRR36711356,SAMN54495502,DS03,Hospital wastewater,Phylum,Actinobacteriota 45.6%; Firmicutes 20.1%; Proteobacteria 18.2%; Bacteroidota 7.9%; Chloroflexi 2.7%
+SRR36711356,SAMN54495502,DS03,Hospital wastewater,Genus,Streptococcus 23.6%; Propioniciclava 22.4%; Klebsiella 6.9%; Myroides 5.2%; uncultured 5.1%
+SRR36711355,SAMN54495503,DS03,Hospital wastewater,Phylum,Firmicutes 49.9%; Bacteroidota 19.7%; Proteobacteria 16.2%; Actinobacteriota 10.1%; Elusimicrobiota 0.5%
+SRR36711355,SAMN54495503,DS03,Hospital wastewater,Genus,Streptococcus 47.4%; Prevotella 5.9%; Klebsiella 5.1%; Bifidobacterium 4.2%; Myroides 3.9%
+SRR39037540,SAMN60675063,DS84,Hospital wastewater,Phylum,Firmicutes 55.5%; Proteobacteria 22.4%; Bacteroidota 16.9%; Actinobacteriota 1.9%; Patescibacteria 1.4%
+SRR39037540,SAMN60675063,DS84,Hospital wastewater,Genus,Streptococcus 50.6%; Klebsiella 7.7%; Acinetobacter 4.8%; Myroides 4.7%; Prevotella 3.9%
+SRR39037539,SAMN60675064,DS84,Hospital wastewater,Phylum,Proteobacteria 52.1%; Firmicutes 29.9%; Bacteroidota 8.5%; Actinobacteriota 7.1%; Campilobacterota 0.4%
+SRR39037539,SAMN60675064,DS84,Hospital wastewater,Genus,Streptococcus 24.0%; Pseudomonas 23.6%; Klebsiella 12.1%; Acinetobacter 9.2%; Bifidobacterium 5.2%
+SRR39037538,SAMN60675065,DS84,Hospital wastewater,Phylum,Proteobacteria 46.2%; Firmicutes 28.5%; Bacteroidota 19.3%; Campilobacterota 1.6%; Elusimicrobiota 1.2%
+SRR39037538,SAMN60675065,DS84,Hospital wastewater,Genus,Streptococcus 25.7%; Acinetobacter 17.3%; Klebsiella 14.4%; Pseudomonas 6.3%; Myroides 6.3%
+SRR39037537,SAMN60675066,DS84,Hospital wastewater,Phylum,Proteobacteria 48.1%; Firmicutes 30.1%; Bacteroidota 16.9%; Campilobacterota 1.1%; Elusimicrobiota 1.0%
+SRR39037537,SAMN60675066,DS84,Hospital wastewater,Genus,Streptococcus 23.5%; Klebsiella 17.5%; Acinetobacter 15.1%; Myroides 5.6%; Pseudomonas 5.4%
+SRR39037536,SAMN60675067,DS84,Municipal wastewater,Phylum,Proteobacteria 56.5%; Bacteroidota 16.7%; Firmicutes 16.7%; Campilobacterota 3.1%; Actinobacteriota 1.3%
+SRR39037536,SAMN60675067,DS84,Municipal wastewater,Genus,Klebsiella 19.0%; Acinetobacter 15.9%; Streptococcus 13.4%; Myroides 7.9%; Neisseria 5.7%
+SRR39037535,SAMN60675068,DS84,Municipal wastewater,Phylum,Proteobacteria 39.7%; Firmicutes 23.7%; Bacteroidota 22.0%; Campilobacterota 9.8%; Elusimicrobiota 1.1%
+SRR39037535,SAMN60675068,DS84,Municipal wastewater,Genus,Streptococcus 23.5%; Klebsiella 16.5%; Acinetobacter 11.0%; Myroides 7.8%; Neisseria 3.9%
+SRR39037534,SAMN60675069,DS84,Municipal wastewater,Phylum,Proteobacteria 43.4%; Firmicutes 23.2%; Bacteroidota 22.9%; Campilobacterota 4.5%; Actinobacteriota 1.6%
+SRR39037534,SAMN60675069,DS84,Municipal wastewater,Genus,Streptococcus 19.7%; Klebsiella 18.4%; Myroides 8.7%; Acinetobacter 4.8%; Prevotella 4.4%
+SRR39037533,SAMN60675070,DS84,Surface water,Phylum,Proteobacteria 30.8%; Cyanobacteria 26.3%; Actinobacteriota 13.8%; Firmicutes 11.1%; Bacteroidota 10.0%
+SRR39037533,SAMN60675070,DS84,Surface water,Genus,Streptococcus 17.9%; uncultured 10.2%; Klebsiella 8.6%; hgcI clade 7.6%; CL500-29 marine group 6.7%

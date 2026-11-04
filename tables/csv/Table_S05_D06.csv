@@ -1,0 +1,275 @@
+city_label,samples,sample_types,datasets,with_AMR,with_taxonomy
+London | United Kingdom,531,Transit surface,DS04,0,0
+New York City | United States,423,Transit surface,DS04,0,0
+Mumbai | India,189,Community wastewater,DS02,189,189
+Fairbanks | United States,138,Transit surface,DS04,0,0
+Chennai | India,109,Community wastewater,DS02,109,109
+Delhi | India,100,Community wastewater,DS02,100,100
+Singapore | Singapore,94,Municipal wastewater; Transit surface,DS01; DS04,3,0
+Rio De Janeiro | Brazil,68,Transit surface,DS04,0,0
+Berlin | Germany,62,Municipal wastewater; Transit surface,DS01; DS04,4,0
+Kolkata | India,49,Community wastewater,DS02,49,49
+Tokyo | Japan,35,Transit surface,DS04,0,0
+Santiago | Chile,30,Municipal wastewater; Transit surface,DS01; DS04,0,0
+Denver | United States,29,Transit surface,DS04,0,0
+Lyngby | Denmark,27,Municipal wastewater,DS01,0,0
+Offa | Nigeria,26,Transit surface,DS04,0,0
+El Paso | United States,24,Municipal wastewater,DS01,24,0
+Ilorin | Nigeria,23,Municipal wastewater; Transit surface,DS01; DS04,0,0
+Kuala Lumpur | Malaysia,23,Municipal wastewater,DS01,5,0
+Melbourne | Australia,22,Municipal wastewater,DS01,5,0
+Regina | Canada,20,Municipal wastewater,DS01,3,0
+Guangzhou | China,19,Municipal wastewater,DS01,1,0
+Seattle | United States,19,Municipal wastewater,DS01,4,0
+Hamilton | New Zealand,16,Transit surface,DS04,0,0
+Yaounde | Cameroon,16,Municipal wastewater,DS01,0,0
+Sacramento | United States,16,Transit surface,DS04,0,0
+Bogota | Colombia,15,Transit surface,DS04,0,0
+Auckland | New Zealand,15,Transit surface,DS04,0,0
+Moshi | Tanzania,15,Municipal wastewater,DS01,1,0
+Baltimore | United States,13,Transit surface,DS04,0,0
+Quito | Ecuador,12,Municipal wastewater,DS01,1,0
+San Francisco | United States,12,Transit surface,DS04,0,0
+Barcelona | Spain,10,Municipal wastewater,DS01,6,0
+Edinburgh | United Kingdom,10,Municipal wastewater; Transit surface,DS01; DS04,0,0
+Zagreb | Croatia,9,Municipal wastewater,DS01,5,0
+Belem | Brazil,9,Municipal wastewater,DS01,6,0
+Calgary | Canada,9,Municipal wastewater,DS01,5,0
+Belgrade | Serbia,8,Municipal wastewater,DS01,3,0
+Karachi | Pakistan,8,Municipal wastewater,DS01,1,0
+Pulawy | Poland,8,Municipal wastewater,DS01,3,0
+Helsinki | Finland,8,Municipal wastewater,DS01,3,0
+Dhaka | Bangladesh,8,Community wastewater; Hospital wastewater; Municipal wastewater,DS01; DS03,0,0
+Bukavu | Democratic Republic of the Congo,8,Municipal wastewater,DS01,0,0
+Vienna | Austria,8,Municipal wastewater,DS01,4,0
+Gothenburg | Sweden,7,Municipal wastewater,DS01,3,0
+Kitwe | Zambia,7,Municipal wastewater,DS01,7,0
+Riga | Latvia,7,Municipal wastewater,DS01,4,0
+Brno | Czech Republic,7,Municipal wastewater,DS01,3,0
+Ljubljana | Slovenia,7,Municipal wastewater,DS01,3,0
+Liebefeld | Switzerland,7,Municipal wastewater,DS01,7,0
+Lagos | Nigeria,7,Municipal wastewater,DS01,3,0
+Tehran | Iran,7,Municipal wastewater,DS01,3,0
+Skopje | Macedonia,7,Municipal wastewater,DS01,4,0
+Kensington | United Kingdom,6,Transit surface,DS04,0,0
+Birmingham | United Kingdom,6,Transit surface,DS04,0,0
+Swansea | United Kingdom,6,Transit surface,DS04,0,0
+Toronto | Canada,6,Municipal wastewater,DS01,5,0
+Sofia | Bulgaria,6,Municipal wastewater,DS01,4,0
+Reykjavik | Iceland,6,Municipal wastewater,DS01,3,0
+Oslo | Norway,6,Municipal wastewater,DS01,3,0
+Jaywick | United Kingdom,6,Transit surface,DS04,0,0
+Bratislava | Slovakia,6,Municipal wastewater,DS01,2,0
+Abidjan | Cote d'Ivoire,6,Municipal wastewater,DS01,3,0
+Bury | United Kingdom,6,Transit surface,DS04,0,0
+Eastbourne | United Kingdom,6,Transit surface,DS04,0,0
+Accra | Ghana,6,Municipal wastewater,DS01,0,0
+Athens | Greece,6,Municipal wastewater,DS01,0,0
+Lands End | United Kingdom,5,Transit surface,DS04,0,0
+Bouake | Cote d'Ivoire,5,Municipal wastewater,DS01,0,0
+Chicago | United States,5,Municipal wastewater,DS01,5,0
+Chapel Hill | United States,5,Municipal wastewater,DS01,0,0
+Woden | Australia,5,Municipal wastewater,DS01,5,0
+Dakar | Senegal,5,Municipal wastewater,DS01,1,0
+Eden | United Kingdom,5,Transit surface,DS04,0,0
+Islington | United Kingdom,5,Transit surface,DS04,0,0
+Avedore | Denmark,5,Municipal wastewater,DS01,1,0
+Belfast | Ireland,5,Transit surface,DS04,0,0
+Tirana | Albania,5,Municipal wastewater,DS01,3,0
+Bilthoven | Netherlands,5,Municipal wastewater,DS01,5,0
+Portland | United States,5,Municipal wastewater,DS01,4,0
+Phnom Penh | Cambodia,5,Municipal wastewater,DS01,1,0
+Newcastle | United Kingdom,5,Transit surface,DS04,0,0
+Rome | Italy,5,Municipal wastewater,DS01,1,0
+Budapest | Hungary,5,Municipal wastewater,DS01,1,0
+Ottawa | Canada,5,Municipal wastewater,DS01,1,0
+Palapye | Botswana,5,Municipal wastewater,DS01,4,0
+Oulu | Finland,5,Municipal wastewater,DS01,0,0
+Lome | Togo,5,Municipal wastewater,DS01,1,0
+Lisbon | Portugal,4,Municipal wastewater,DS01,0,0
+Nantes | France,4,Municipal wastewater,DS01,0,0
+Morogoro | Tanzania,4,Municipal wastewater,DS01,0,0
+Yamoussoukro | Cote d'Ivoire,4,Municipal wastewater,DS01,0,0
+Mwanza | Tanzania,4,Municipal wastewater,DS01,0,0
+Maningrida | Australia,4,Municipal wastewater,DS01,0,0
+Novara | Italy,4,Municipal wastewater,DS01,0,0
+Bradford | United Kingdom,4,Transit surface,DS04,0,0
+Bridgetown | Barbados,4,Municipal wastewater,DS01,0,0
+Praha | Czech Republic,4,Municipal wastewater,DS01,0,0
+Podgorica | Montenegro,4,Municipal wastewater,DS01,0,0
+Utrecht | Netherlands,4,Municipal wastewater,DS01,0,0
+Taipei | Taiwan,4,Municipal wastewater,DS01,0,0
+Beer-Sheva | Israel,4,Municipal wastewater,DS01,0,0
+Tbilisi | Georgia,4,Municipal wastewater,DS01,4,0
+Thika | Kenya,4,Municipal wastewater,DS01,4,0
+Thessaloniki | Greece,4,Municipal wastewater,DS01,0,0
+Thuwal | Saudi Arabia,4,Municipal wastewater,DS01,0,0
+Tamale | Ghana,4,Municipal wastewater,DS01,1,0
+Banja Luka | Bosnia and Herzegovina,4,Municipal wastewater,DS01,0,0
+Saint Philibert | France,4,Municipal wastewater,DS01,0,0
+Sisimiut | Greenland,4,Municipal wastewater,DS01,0,0
+St. Venera | Malta,4,Municipal wastewater,DS01,3,0
+Pathum Thani | Thailand,4,Municipal wastewater,DS01,0,0
+Porto | Portugal,4,Municipal wastewater,DS01,0,0
+Turku | Finland,4,Municipal wastewater,DS01,0,0
+Uppsala | Sweden,4,Municipal wastewater,DS01,1,0
+Butterworth | Malaysia,4,Municipal wastewater,DS01,0,0
+Dresden | Germany,4,Municipal wastewater,DS01,0,0
+Casablanca | Morocco,4,Municipal wastewater,DS01,0,0
+Christchurch | New Zealand,4,Municipal wastewater,DS01,0,0
+Camborne | United Kingdom,4,Municipal wastewater,DS01,0,0
+Cannobio | Italy,4,Municipal wastewater,DS01,0,0
+Verbania | Italy,4,Municipal wastewater,DS01,0,0
+Falmouth | United Kingdom,4,Municipal wastewater,DS01,0,0
+Kampala | Uganda,4,Municipal wastewater,DS01,0,0
+Darwin | Australia,4,Municipal wastewater,DS01,0,0
+Worthing | Barbados,4,Municipal wastewater,DS01,0,0
+Antananarivo | Madagascar,4,Municipal wastewater,DS01,0,0
+Vancouver | Canada,4,Municipal wastewater,DS01,0,0
+Colombo | Sri Lanka,4,Municipal wastewater,DS01,1,0
+Hiroshima | Japan,4,Municipal wastewater,DS01,0,0
+Ibadan | Nigeria,4,Municipal wastewater,DS01,0,0
+Houston | United States,4,Municipal wastewater,DS01,0,0
+Kochi | India,4,Municipal wastewater,DS01,0,0
+Klang | Malaysia,4,Municipal wastewater,DS01,0,0
+Kathmandu | Nepal,4,Municipal wastewater,DS01,1,0
+Amager | Denmark,4,Municipal wastewater,DS01,0,0
+Gwangju | South Korea,4,Municipal wastewater,DS01,0,0
+Jelutong | Malaysia,3,Municipal wastewater,DS01,0,0
+Waco | United States,3,Municipal wastewater,DS01,0,0
+Addis Ababa | Ethiopia,3,Municipal wastewater,DS01,1,0
+Jurong | Singapore,3,Municipal wastewater,DS01,0,0
+Johannesburg | South Africa,3,Municipal wastewater,DS01,3,0
+Ipoh | Malaysia,3,Municipal wastewater,DS01,0,0
+Ho Chi Minh | Viet Nam,3,Municipal wastewater,DS01,1,0
+Gros Islet | Saint Lucia,3,Municipal wastewater,DS01,0,0
+Atlanta | United States,3,Municipal wastewater,DS01,1,0
+Daejeon | South Korea,3,Municipal wastewater,DS01,0,0
+Udupi | India,3,Municipal wastewater,DS01,0,0
+Sungai Petani | Malaysia,3,Municipal wastewater,DS01,0,0
+Bern | Switzerland,3,Municipal wastewater,DS01,0,0
+Zaria | Nigeria,3,Municipal wastewater,DS01,0,0
+San Lorenzo | Paraguay,3,Municipal wastewater,DS01,0,0
+Dubai | United Arab Emirates,3,Municipal wastewater,DS01,0,0
+Dublin | Ireland,3,Municipal wastewater,DS01,3,0
+N'Djamena | Chad,3,Municipal wastewater,DS01,0,0
+Buenos Aires | Argentina,3,Municipal wastewater,DS01,0,0
+Lusaka | Zambia,3,Municipal wastewater,DS01,3,0
+Liepaja | Latvia,3,Municipal wastewater,DS01,0,0
+Montevideo | Uruguay,3,Municipal wastewater,DS01,0,0
+Newcastle Upon Tyne | United Kingdom,3,Municipal wastewater,DS01,0,0
+Ankara | Turkey,3,Municipal wastewater,DS01,3,0
+Anonymous | Japan,3,Municipal wastewater,DS01,0,0
+Valby | Denmark,3,Municipal wastewater,DS01,0,0
+Gaborone | Botswana,3,Municipal wastewater,DS01,0,0
+Chisinau | Moldova,3,Municipal wastewater,DS01,3,0
+Castries | Saint Lucia,3,Municipal wastewater,DS01,0,0
+Galapagos | Ecuador,3,Municipal wastewater,DS01,2,0
+Jerusalem | Israel,3,Municipal wastewater,DS01,3,0
+Ouagadougou | Burkina Faso,3,Municipal wastewater,DS01,0,0
+Rio de Janeiro | Brazil,3,Municipal wastewater,DS01,0,0
+Pretoria | South Africa,3,Municipal wastewater,DS01,0,0
+Zomba | Malawi,2,Municipal wastewater,DS01,0,0
+Tartu | Estonia,2,Municipal wastewater,DS01,0,0
+Belo Horizonte | Brazil,2,Municipal wastewater,DS01,0,0
+Quebec | Canada,2,Municipal wastewater,DS01,0,0
+Shiraz | Iran,2,Municipal wastewater,DS01,0,0
+Kuwait | Kuwait,2,Municipal wastewater,DS01,0,0
+Luxembourg | Luxembourg,2,Municipal wastewater,DS01,0,0
+Szekesfehervar | Hungary,2,Municipal wastewater,DS01,0,0
+Austin | United States,2,Municipal wastewater,DS01,0,0
+Galway | Ireland,2,Municipal wastewater,DS01,0,0
+Hong Kong | Hong Kong,2,Municipal wastewater,DS01,0,0
+Faisalabad | Pakistan,2,Municipal wastewater,DS01,0,0
+Bwake | Cote d'Ivoire,2,Municipal wastewater,DS01,0,0
+Dunedin | New Zealand,2,Municipal wastewater,DS01,1,0
+Ghent | Belgium,2,Municipal wastewater,DS01,0,0
+Deurne | Belgium,2,Municipal wastewater,DS01,0,0
+Kumasi | Ghana,2,Municipal wastewater,DS01,0,0
+Hyderabad | Pakistan,2,Municipal wastewater,DS01,0,0
+Almaty | Kazakhstan,2,Municipal wastewater,DS01,1,0
+Amsterdam | Netherlands,2,Municipal wastewater,DS01,0,0
+Cochin | India,2,Municipal wastewater,DS01,2,0
+Saint Martin | Mauritius,2,Municipal wastewater,DS01,0,0
+Tallinn | Estonia,2,Municipal wastewater,DS01,0,0
+Leuven | Belgium,2,Municipal wastewater,DS01,0,0
+Bruges | Belgium,2,Municipal wastewater,DS01,0,0
+Brisbane | Australia,2,Transit surface,DS04,0,0
+Bobo Dioulasso | Burkina Faso,2,Municipal wastewater,DS01,0,0
+Narva | Estonia,2,Municipal wastewater,DS01,0,0
+Nanjing | China,2,Municipal wastewater,DS01,0,0
+Mosquera | Colombia,2,Municipal wastewater,DS01,0,0
+Ostend | Belgium,2,Municipal wastewater,DS01,0,0
+Parnu | Estonia,2,Municipal wastewater,DS01,0,0
+Maputo | Mozambique,2,Municipal wastewater,DS01,0,0
+Nairobi | Kenya,2,Municipal wastewater,DS01,0,0
+Hatay | Turkey,2,Municipal wastewater,DS01,0,0
+Guatemala City | Guatemala,2,Municipal wastewater,DS01,0,0
+Grand Baie | Mauritius,2,Municipal wastewater,DS01,0,0
+Cotonou | Benin,1,Municipal wastewater,DS01,0,0
+Xghajra | Malta,1,Municipal wastewater,DS01,0,0
+Columbus | United States,1,Municipal wastewater,DS01,0,0
+Kasungu | Malawi,1,Municipal wastewater,DS01,0,0
+Kasoa | Ghana,1,Municipal wastewater,DS01,0,0
+Japan | Japan,1,Municipal wastewater,DS01,0,0
+Karonga | Malawi,1,Municipal wastewater,DS01,0,0
+Herrenschwanden | Switzerland,1,Municipal wastewater,DS01,0,0
+Harelbeke | Belgium,1,Municipal wastewater,DS01,0,0
+Hanoi | Viet Nam,1,Municipal wastewater,DS01,0,0
+Guayaquil | Ecuador,1,Municipal wastewater,DS01,0,0
+Chikwawa | Malawi,1,Municipal wastewater,DS01,0,0
+George Town | Malaysia,1,Municipal wastewater,DS01,0,0
+Djeffa | Benin,1,Municipal wastewater,DS01,0,0
+Canal Andriantany | Madagascar,1,Municipal wastewater,DS01,0,0
+Ghajnsielem | Malta,1,Municipal wastewater,DS01,0,0
+Granada | Nicaragua,1,Municipal wastewater,DS01,0,0
+Costanera | Paraguay,1,Municipal wastewater,DS01,0,0
+Damhusaaen | Denmark,1,Municipal wastewater,DS01,1,0
+Yangzhou | China,1,Municipal wastewater,DS01,0,0
+Alor Setar | Malaysia,1,Municipal wastewater,DS01,0,0
+Woodinville WA | United States,1,Municipal wastewater,DS01,0,0
+Asuncion | Paraguay,1,Municipal wastewater,DS01,0,0
+Antwerp South | Belgium,1,Municipal wastewater,DS01,0,0
+Vilnius | Lithuania,1,Municipal wastewater,DS01,0,0
+Valparaiso | Chile,1,Municipal wastewater,DS01,0,0
+Yamaguchi | Japan,1,Transit surface,DS04,0,0
+Cuenca | Ecuador,1,Municipal wastewater,DS01,0,0
+Cirkewwa | Malta,1,Municipal wastewater,DS01,0,0
+La Paz City | Bolivia,1,Municipal wastewater,DS01,0,0
+Lima | Peru,1,Municipal wastewater,DS01,1,0
+Kutaisi | Georgia,1,Municipal wastewater,DS01,0,0
+Lleida | Spain,1,Municipal wastewater,DS01,0,0
+Lilongwe | Malawi,1,Municipal wastewater,DS01,0,0
+Matagalpa | Nicaragua,1,Municipal wastewater,DS01,0,0
+Nsanje | Malawi,1,Municipal wastewater,DS01,0,0
+Bogota-Mosquera | Colombia,1,Municipal wastewater,DS01,0,0
+Brussels | Belgium,1,Municipal wastewater,DS01,0,0
+Blantyre | Malawi,1,Municipal wastewater,DS01,0,0
+Boulder | United States,1,Municipal wastewater,DS01,1,0
+Mzuzu | Malawi,1,Municipal wastewater,DS01,0,0
+Lake Anosy | Madagascar,1,Municipal wastewater,DS01,0,0
+Leon | Nicaragua,1,Municipal wastewater,DS01,0,0
+Manipal | India,1,Municipal wastewater,DS01,0,0
+Manila | Philippines,1,Municipal wastewater,DS01,0,0
+Managua | Nicaragua,1,Municipal wastewater,DS01,0,0
+Machinga | Malawi,1,Municipal wastewater,DS01,0,0
+Lynetten | Denmark,1,Municipal wastewater,DS01,1,0
+Mchinji | Malawi,1,Municipal wastewater,DS01,0,0
+Masaya | Nicaragua,1,Municipal wastewater,DS01,0,0
+Prishtina | Kosovo,1,Municipal wastewater,DS01,1,0
+Surat Thani | Thailand,1,Municipal wastewater,DS01,0,0
+South Adams County | United States,1,Municipal wastewater,DS01,1,0
+San Miguel Petapa | Guatemala,1,Municipal wastewater,DS01,0,0
+Santiago | Spain,1,Municipal wastewater,DS01,0,0
+Punta Arenas | Chile,1,Municipal wastewater,DS01,0,0
+Quezon City | Philippines,1,Municipal wastewater,DS01,0,0
+Raddolugama | Sri Lanka,1,Municipal wastewater,DS01,0,0
+Rathmalana | Sri Lanka,1,Municipal wastewater,DS01,0,0
+Port Louis | Mauritius,1,Municipal wastewater,DS01,0,0
+Piura City | Peru,1,Municipal wastewater,DS01,0,0
+Bhaktapur | Nepal,1,Municipal wastewater,DS01,0,0
+Beau Bassin Rose-Hill | Mauritius,1,Municipal wastewater,DS01,0,0
+Suzhou | China,1,Municipal wastewater,DS01,0,0
+Belvaux | Luxembourg,1,Municipal wastewater,DS01,1,0
+Banjul | Gambia,1,Municipal wastewater,DS01,1,0
+Tshwane | South Africa,1,Municipal wastewater,DS01,0,0

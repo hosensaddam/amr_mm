@@ -1,0 +1,22 @@
+phylum,permutation_importance_R2_drop,sd
+Proteobacteria,0.2174664,0.07785248
+Firmicutes,0.1401318,0.03588218
+Tenericutes,0.1330503,0.03580799
+Planctomycetota,0.04578506,0.009949798
+Lentisphaerae,0.03041747,0.008131283
+Verrucomicrobia,0.02417063,0.01054448
+Actinobacteria,0.02121992,0.006499201
+Acidobacteria,0.01392217,0.00786749
+Deinococcus-Thermus,0.009966895,0.00368991
+Spirochaetes,0.007308839,0.008623749
+Cyanobacteria,0.00700171,0.00248568
+Kiritimatiellaeota,0.006650536,0.006700076
+Candidatus Omnitrophica,0.005748692,0.003595949
+Chlamydiae,0.005106775,0.00228451
+Thermotogae,0.00463686,0.001574611
+Candidatus Eremiobacteraeota,0.004212365,0.002079593
+Chloroflexi,0.001009535,0.002519752
+Candidatus Thermoplasmatota,0.000818986,0.007155834
+Euryarchaeota,-0.002348646,0.006026389
+Nitrospirae,-0.00277546,0.003047926
+Bacteroidota,-0.0133384,0.009671039

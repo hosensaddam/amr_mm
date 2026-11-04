@@ -1,0 +1,7 @@
+target,required_data,available,decision
+Disease incidence / outbreak prediction,Clinical or epidemiological outcomes matched to samples by place and time,None linked,Not feasible
+"Clinical AMR prevalence (e.g., GLASS indicators)",Country/city-year surveillance indicators with matching denominators,Not downloaded; country-level only; temporal mismatch with 2016 pilot,Not feasible in this analysis; future work
+Food-safety or food-business impact,"Food-chain contamination, recall, trade or economic outcome data",No such data available,Not feasible
+Environmental matrix from resistome (Model A),"Matrix labels, resistome profiles, >= 2 studies per class","396 units, 15 studies",Performed (exploratory)
+normalized ARG abundance from taxonomy (Model B),Paired taxonomy and resistome from one pipeline; temporal or spatial hold-out,"DS02: 447 samples, 4 cities, 25 months",Performed (exploratory)
+Temporal forecasting of normalized ARG abundance,"Long, regularly spaced series per site with site identifiers",25 monthly points per city; sites unidentified,Not performed beyond the temporal hold-out; insufficient series length per site

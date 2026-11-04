@@ -1,0 +1,9 @@
+sample_type,samples,datasets,with_coordinates,median_Gbp,pct_of_included
+Air,427,7,392,1.559190213,5.3
+Built environment,1449,9,1374,1.2924735,18.0
+Community wastewater,529,6,82,5.452151413,6.6
+Hospital wastewater,237,16,77,0.220990825,2.9
+Municipal wastewater,2254,35,1908,10.523233405,28.0
+Surface water,882,36,830,2.5872470495,11.0
+Transit surface,1911,4,1180,1.233858146,23.7
+Urban soil,364,7,291,10.710764615999999,4.5

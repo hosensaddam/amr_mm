@@ -1,0 +1,8 @@
+term,estimate,SE,ci_low,ci_high,p_value,fold_change
+Intercept,4.923665,0.1336862,4.661644,5.185685,6.109593e-297,
+"C(Stratum, Treatment('Urban environmental'))[T.Food-related (contextual)]",-0.6241269,0.2280679,-1.071132,-0.1771219,0.006208089,0.2376146
+Study variance,0.1124582,,,,,
+Residual variance,0.2174488,,,,,
+ICC (study),0.3408784,,,,,
+"LRT chi2 (matrix term, ML)",6.793249,,,,,
+LRT p-value,0.00915032,,,,,

@@ -1,0 +1,89 @@
+determinant,group,n,detected_high_confidence,pct_high_confidence,ci_low,ci_high,detected_any_hit_unconfirmed
+NDM,Colombo,3,0,0.0,0.0,56.15,2
+NDM,Delhi,12,0,0.0,0.0,24.25,0
+NDM,Dhaka DS01,4,0,0.0,0.0,48.99,1
+NDM,Dhaka DS03,4,2,50.0,15.0,85.0,3
+NDM,Dhaka DS84,8,5,62.5,30.57,86.32,6
+NDM,Karachi,7,0,0.0,2.776e-15,35.43,3
+NDM,Kathmandu,3,0,0.0,0.0,56.15,0
+NDM,Kochi,4,0,0.0,0.0,48.99,2
+KPC,Colombo,3,0,0.0,0.0,56.15,0
+KPC,Delhi,12,0,0.0,0.0,24.25,0
+KPC,Dhaka DS01,4,0,0.0,0.0,48.99,1
+KPC,Dhaka DS03,4,3,75.0,30.06,95.44,4
+KPC,Dhaka DS84,8,4,50.0,21.52,78.48,7
+KPC,Karachi,7,0,0.0,2.776e-15,35.43,1
+KPC,Kathmandu,3,0,0.0,0.0,56.15,0
+KPC,Kochi,4,0,0.0,0.0,48.99,1
+OXA-48-like,Colombo,3,1,33.33,6.149,79.23,2
+OXA-48-like,Delhi,12,0,0.0,0.0,24.25,1
+OXA-48-like,Dhaka DS01,4,0,0.0,0.0,48.99,0
+OXA-48-like,Dhaka DS03,4,1,25.0,4.559,69.94,3
+OXA-48-like,Dhaka DS84,8,3,37.5,13.68,69.43,5
+OXA-48-like,Karachi,7,0,0.0,2.776e-15,35.43,2
+OXA-48-like,Kathmandu,3,0,0.0,0.0,56.15,1
+OXA-48-like,Kochi,4,0,0.0,0.0,48.99,1
+VIM,Colombo,3,0,0.0,0.0,56.15,3
+VIM,Delhi,12,1,8.333,1.487,35.39,11
+VIM,Dhaka DS01,4,0,0.0,0.0,48.99,3
+VIM,Dhaka DS03,4,0,0.0,0.0,48.99,4
+VIM,Dhaka DS84,8,1,12.5,2.242,47.09,7
+VIM,Karachi,7,0,0.0,2.776e-15,35.43,7
+VIM,Kathmandu,3,0,0.0,0.0,56.15,2
+VIM,Kochi,4,0,0.0,0.0,48.99,4
+IMP,Colombo,3,0,0.0,0.0,56.15,2
+IMP,Delhi,12,0,0.0,0.0,24.25,5
+IMP,Dhaka DS01,4,0,0.0,0.0,48.99,1
+IMP,Dhaka DS03,4,0,0.0,0.0,48.99,2
+IMP,Dhaka DS84,8,2,25.0,7.148,59.07,4
+IMP,Karachi,7,0,0.0,2.776e-15,35.43,2
+IMP,Kathmandu,3,0,0.0,0.0,56.15,0
+IMP,Kochi,4,0,0.0,0.0,48.99,2
+CTX-M,Colombo,3,1,33.33,6.149,79.23,2
+CTX-M,Delhi,12,0,0.0,0.0,24.25,1
+CTX-M,Dhaka DS01,4,0,0.0,0.0,48.99,3
+CTX-M,Dhaka DS03,4,1,25.0,4.559,69.94,2
+CTX-M,Dhaka DS84,8,3,37.5,13.68,69.43,7
+CTX-M,Karachi,7,4,57.14,25.05,84.18,7
+CTX-M,Kathmandu,3,0,0.0,0.0,56.15,2
+CTX-M,Kochi,4,0,0.0,0.0,48.99,2
+MCR,Colombo,3,0,0.0,0.0,56.15,3
+MCR,Delhi,12,0,0.0,0.0,24.25,9
+MCR,Dhaka DS01,4,0,0.0,0.0,48.99,3
+MCR,Dhaka DS03,4,0,0.0,0.0,48.99,3
+MCR,Dhaka DS84,8,0,0.0,0.0,32.44,7
+MCR,Karachi,7,1,14.29,2.568,51.31,7
+MCR,Kathmandu,3,0,0.0,0.0,56.15,3
+MCR,Kochi,4,1,25.0,4.559,69.94,4
+tet(X),Colombo,3,1,33.33,6.149,79.23,3
+tet(X),Delhi,12,1,8.333,1.487,35.39,11
+tet(X),Dhaka DS01,4,0,0.0,0.0,48.99,3
+tet(X),Dhaka DS03,4,1,25.0,4.559,69.94,4
+tet(X),Dhaka DS84,8,4,50.0,21.52,78.48,8
+tet(X),Karachi,7,0,0.0,2.776e-15,35.43,7
+tet(X),Kathmandu,3,2,66.67,20.77,93.85,3
+tet(X),Kochi,4,2,50.0,15.0,85.0,4
+qnr,Colombo,3,2,66.67,20.77,93.85,3
+qnr,Delhi,12,2,16.67,4.697,44.8,12
+qnr,Dhaka DS01,4,0,0.0,0.0,48.99,3
+qnr,Dhaka DS03,4,1,25.0,4.559,69.94,4
+qnr,Dhaka DS84,8,7,87.5,52.91,97.76,8
+qnr,Karachi,7,4,57.14,25.05,84.18,7
+qnr,Kathmandu,3,1,33.33,6.149,79.23,3
+qnr,Kochi,4,2,50.0,15.0,85.0,4
+vanA,Colombo,3,0,0.0,0.0,56.15,0
+vanA,Delhi,12,0,0.0,0.0,24.25,0
+vanA,Dhaka DS01,4,0,0.0,0.0,48.99,0
+vanA,Dhaka DS03,4,1,25.0,4.559,69.94,3
+vanA,Dhaka DS84,8,2,25.0,7.148,59.07,4
+vanA,Karachi,7,0,0.0,2.776e-15,35.43,0
+vanA,Kathmandu,3,0,0.0,0.0,56.15,0
+vanA,Kochi,4,0,0.0,0.0,48.99,0
+sul,Colombo,3,3,100.0,43.85,100.0,3
+sul,Delhi,12,12,100.0,75.75,100.0,12
+sul,Dhaka DS01,4,4,100.0,51.01,100.0,4
+sul,Dhaka DS03,4,4,100.0,51.01,100.0,4
+sul,Dhaka DS84,8,7,87.5,52.91,97.76,8
+sul,Karachi,7,7,100.0,64.57,100.0,7
+sul,Kathmandu,3,3,100.0,43.85,100.0,3
+sul,Kochi,4,4,100.0,51.01,100.0,4

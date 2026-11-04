@@ -1,0 +1,12 @@
+determinant,n,ResFinder_high_conf,ResFinder_any_hit,CARD_high_conf,CARD_any_hit,agree_RFhc_CARDhc,agree_RFhc_CARDany
+NDM,12,0,0,0,2,1.0,0.83333
+KPC,12,0,0,0,3,1.0,0.75
+OXA-48-like,12,0,1,0,8,1.0,0.33333
+VIM,12,1,11,1,5,1.0,0.66667
+IMP,12,0,5,2,5,0.83333,0.58333
+CTX-M,12,0,1,0,3,1.0,0.75
+MCR,12,0,9,2,12,0.83333,0.0
+tet(X),12,1,11,10,12,0.25,0.083333
+qnr,12,2,12,10,12,0.33333,0.16667
+vanA,12,0,0,0,1,1.0,0.91667
+sul,12,12,12,12,12,1.0,1.0

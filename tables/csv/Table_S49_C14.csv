@@ -1,0 +1,22 @@
+group,x,y,rho,p,n,ci_low,ci_high,p_BH
+All urban units,genus_shannon,gene_shannon_fragments,0.11073099,0.0275713,396,0.012016633,0.20730782,0.052636118
+All urban units,genus_richness,gene_richness,0.29664176,1.7390178e-09,396,0.20199794,0.38579646,1.2173125e-08
+All urban units,genus_shannon,log10_total_FPKM,-0.27395542,3.0115181e-08,396,-0.36430457,-0.17849736,1.581047e-07
+Food-related (contextual),genus_shannon,gene_shannon_fragments,0.29628806,0.00018161563,155,0.14205273,0.43647757,0.00047674102
+Food-related (contextual),genus_richness,gene_richness,0.5777885,3.5113463e-15,155,0.45215542,0.68094116,3.6869136e-14
+Food-related (contextual),genus_shannon,log10_total_FPKM,0.045164513,0.57682596,155,-0.11337037,0.20145667,0.63754448
+Air,genus_shannon,gene_shannon_fragments,0.31826087,0.12960878,24,-0.10825915,0.64582714,0.22681536
+Air,genus_richness,gene_richness,-0.22483149,0.29085665,24,-0.57956637,0.20153438,0.43628497
+Air,genus_shannon,log10_total_FPKM,0.70695652,0.00011232149,24,0.38243714,0.87621553,0.00033696447
+Built environment,genus_shannon,gene_shannon_fragments,0.75,0.019942126,9,0.067143396,0.95437327,0.041878465
+Built environment,genus_richness,gene_richness,0.29288959,0.4443547,9,-0.47414799,0.80717062,0.58321554
+Built environment,genus_shannon,log10_total_FPKM,0.016666667,0.9660548,9,-0.65473348,0.6733658,0.9660548
+Municipal wastewater,genus_shannon,gene_shannon_fragments,0.15574013,0.0075679344,293,0.041205751,0.26623461,0.017658514
+Municipal wastewater,genus_richness,gene_richness,0.57583589,2.8210929e-27,293,0.4868643,0.65298128,5.924295e-26
+Municipal wastewater,genus_shannon,log10_total_FPKM,-0.05355514,0.36100411,293,-0.16719731,0.061491435,0.50540575
+Surface water,genus_shannon,gene_shannon_fragments,0.064199815,0.67165408,46,-0.23068353,0.34828244,0.70523678
+Surface water,genus_richness,gene_richness,0.088836794,0.55713554,46,-0.20735817,0.37011163,0.63754448
+Surface water,genus_shannon,log10_total_FPKM,-0.20727721,0.16691105,46,-0.47182057,0.091503716,0.26962554
+Transit surface,genus_shannon,gene_shannon_fragments,0.79913043,2.8260662e-06,24,0.5405568,0.91975913,9.8912316e-06
+Transit surface,genus_richness,gene_richness,0.86404195,5.3182746e-08,24,0.66841318,0.94786099,2.2336753e-07
+Transit surface,genus_shannon,log10_total_FPKM,0.13826087,0.51939115,24,-0.28267427,0.51454395,0.63754448

@@ -1,0 +1,198 @@
+Dataset,Step,Detail,Records_or_Cells_Affected
+DS_A_sample_master,load,Read sample_master.csv as text,9734
+DS_A_sample_master,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,1
+DS_A_sample_master,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_A_sample_master,duplicates,"Rows sharing key Sample_ID (flagged, retained)",0
+DS_A_sample_master,type,N_Runs: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_A_sample_master,type,Latitude: converted to numeric; 2739 missing-value codes moved to companion column,2739
+DS_A_sample_master,type,Longitude: converted to numeric; 2739 missing-value codes moved to companion column,2739
+DS_A_sample_master,type,Base_Count_Total: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_A_sample_master,type,FASTQ_Bytes_Total: converted to numeric; 644 missing-value codes moved to companion column,644
+DS_A_sample_master,type,Collection_Year: converted to numeric; 832 missing-value codes moved to companion column,832
+DS_A_sample_master,type,Collection_Month: converted to numeric; 1488 missing-value codes moved to companion column,1488
+DS_A_sample_master,type,Latitude_Alternative: converted to numeric; 9733 missing-value codes moved to companion column,9733
+DS_A_sample_master,type,Longitude_Alternative: converted to numeric; 9733 missing-value codes moved to companion column,9733
+DS_A_sample_master,placeholder,Base_Count_Total: 0 used as placeholder -> set to missing with code,279
+DS_A_sample_master,range,Latitude/Longitude: outside valid WGS84 range (flagged),0
+DS_A_sample_master,range,"Latitude/Longitude: (0, 0) null-island coordinates (flagged)",0
+DS_A_sample_master,consistency,Latitude/Longitude: only one of the pair reported,0
+DS_A_sample_master,date,Collection_Date: precision classified (day/month/year/interval/missing); ISO date added where day-level,8902
+DS_A_sample_master,date,Collection_Date: values not matching an ISO 8601 pattern (flagged),0
+DS_A_sample_master,date,Collection_Date: 1970-01-01 placeholder dates (flagged),0
+DS_A_sample_master,date,Collection_Date: dates after the data-collection date (flagged),0
+DS_A_sample_master,consistency,Collection_Year differs from year of Collection_Date (flagged),0
+DS_A_sample_master,range,Collection_Month outside 1-12 (flagged),0
+DS_A_sample_master,outlier,"Base_Count_Total: log10 values beyond Q1-3*IQR / Q3+3*IQR [5.19e+05, 1.27e+13] (flagged, retained)",78
+DS_A_sample_master,outlier,"FASTQ_Bytes_Total: log10 values beyond Q1-3*IQR / Q3+3*IQR [1.85e+05, 8.33e+12] (flagged, retained)",41
+DS_A_sample_master,consistency,Countries mapped to more than one ISO code,0
+DS_A_sample_master,consistency,Included samples without a shotgun sequencing type (flagged),0
+DS_A_sample_master,depth,"Included samples with < 100 Mbp repository depth (flagged; analysed as sensitivity, Table S92)",632
+DS_A_sample_master,flags,Records with at least one cleaning flag,634
+DS_A_sample_master,rename,Variable names standardised to lower snake_case,94
+DS_A_sample_master,validate,Row count preserved (9734 -> 9734); columns 86 -> 97,9734
+DS_B_run_master,load,Read run_master.csv as text,11866
+DS_B_run_master,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_B_run_master,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_B_run_master,duplicates,"Rows sharing key Run_ID (flagged, retained)",0
+DS_B_run_master,type,Base_Count: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_B_run_master,type,Read_Count: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_B_run_master,type,FASTQ_Bytes: converted to numeric; 864 missing-value codes moved to companion column,864
+DS_B_run_master,type,SRC_lat: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_B_run_master,type,SRC_lon: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_B_run_master,range,SRC_lat/SRC_lon: outside valid WGS84 range (flagged),0
+DS_B_run_master,range,"SRC_lat/SRC_lon: (0, 0) null-island coordinates (flagged)",0
+DS_B_run_master,consistency,SRC_lat/SRC_lon: only one of the pair reported,0
+DS_B_run_master,outlier,"Base_Count: log10 values beyond Q1-3*IQR / Q3+3*IQR [5.34e+03, 2.52e+14] (flagged, retained)",1
+DS_B_run_master,outlier,"Read_Count: log10 values beyond Q1-3*IQR / Q3+3*IQR [26.7, 7.71e+11] (flagged, retained)",0
+DS_B_run_master,flags,Records with at least one cleaning flag,1
+DS_B_run_master,rename,Variable names standardised to lower snake_case,35
+DS_B_run_master,validate,Row count preserved (11866 -> 11866); columns 34 -> 36,11866
+DS_C_amr_genes_long,load,Read amr_genes_long.csv as text,316983
+DS_C_amr_genes_long,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_C_amr_genes_long,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_C_amr_genes_long,duplicates,"Rows sharing key Dataset_ID+Run_ID+AMR_Gene+Gene_Identifier (flagged, retained)",0
+DS_C_amr_genes_long,type,Detection_Value: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_C_amr_genes_long,type,Completely_Mapped_Reads: converted to numeric; 118056 missing-value codes moved to companion column,118056
+DS_C_amr_genes_long,type,Average_Percent_Coverage: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_C_amr_genes_long,type,Reference_Length_bp: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_C_amr_genes_long,range,"Average_Percent_Coverage: values outside [0, 100] (flagged)",258
+DS_C_amr_genes_long,range,"Detection_Value: values outside [0, None] (flagged)",0
+DS_C_amr_genes_long,outlier,"Detection_Value: log10 values beyond Q1-3*IQR / Q3+3*IQR [0.000813, 6.64e+04] (flagged, retained)",0
+DS_C_amr_genes_long,flags,Records with at least one cleaning flag,258
+DS_C_amr_genes_long,rename,Variable names standardised to lower snake_case,22
+DS_C_amr_genes_long,validate,Row count preserved (316983 -> 316983); columns 21 -> 23,316983
+DS_D_taxonomy_long,load,Read taxonomy_long.csv as text,75309
+DS_D_taxonomy_long,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_D_taxonomy_long,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_D_taxonomy_long,duplicates,"Rows sharing key Run_ID+Taxon_Name+Taxonomic_Rank (flagged, retained)",0
+DS_D_taxonomy_long,type,Abundance_Value: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_D_taxonomy_long,type,Relative_Abundance: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_D_taxonomy_long,type,Kraken_Assigned_Reads: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_D_taxonomy_long,range,"Relative_Abundance: values outside [0, 1] (flagged)",0
+DS_D_taxonomy_long,range,"Abundance_Value: values outside [0, None] (flagged)",0
+DS_D_taxonomy_long,flags,Records with at least one cleaning flag,0
+DS_D_taxonomy_long,rename,Variable names standardised to lower snake_case,15
+DS_D_taxonomy_long,validate,Row count preserved (75309 -> 75309); columns 15 -> 16,75309
+DS_E_diversity_long,load,Read diversity_long.csv as text,3011
+DS_E_diversity_long,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_E_diversity_long,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_E_diversity_long,duplicates,"Rows sharing key Run_ID+Feature_Category (flagged, retained)",0
+DS_E_diversity_long,type,Richness_n: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_E_diversity_long,type,Shannon: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_E_diversity_long,type,Simpson: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_E_diversity_long,type,Total_Fragments: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_E_diversity_long,type,Category_Fragments: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_E_diversity_long,range,"Simpson: values outside [0, 1] (flagged)",0
+DS_E_diversity_long,range,"Shannon: values outside [0, None] (flagged)",0
+DS_E_diversity_long,range,"Richness_n: values outside [0, None] (flagged)",0
+DS_E_diversity_long,outlier,"Total_Fragments: log10 values beyond Q1-3*IQR / Q3+3*IQR [4.37e+04, 3.56e+09] (flagged, retained)",0
+DS_E_diversity_long,flags,Records with at least one cleaning flag,0
+DS_E_diversity_long,rename,Variable names standardised to lower snake_case,11
+DS_E_diversity_long,validate,Row count preserved (3011 -> 3011); columns 11 -> 12,3011
+DS_F_env_covariates_long,load,Read env_covariates_long.csv as text,19441
+DS_F_env_covariates_long,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_F_env_covariates_long,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_F_env_covariates_long,duplicates,"Rows sharing key Dataset_ID+Sample_ID+Covariate (flagged, retained)",0
+DS_F_env_covariates_long,flags,Records with at least one cleaning flag,0
+DS_F_env_covariates_long,rename,Variable names standardised to lower snake_case,7
+DS_F_env_covariates_long,validate,Row count preserved (19441 -> 19441); columns 7 -> 8,19441
+DS_G_reprocessed_run_qc,load,Read run_qc.csv as text,51
+DS_G_reprocessed_run_qc,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_G_reprocessed_run_qc,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_G_reprocessed_run_qc,duplicates,"Rows sharing key run_accession (flagged, retained)",0
+DS_G_reprocessed_run_qc,type,requested_pairs: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,acquired_pairs: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,q30_rate_raw: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,q30_rate_qc: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,pct_reads_passed: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,duplication_rate: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,bacteria_16S_fragments: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,resfinder_aligned_fragments: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,lat: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,type,lon: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_G_reprocessed_run_qc,range,"q30_rate_raw: values outside [0, 1] (flagged)",0
+DS_G_reprocessed_run_qc,range,"q30_rate_qc: values outside [0, 1] (flagged)",0
+DS_G_reprocessed_run_qc,range,"pct_reads_passed: values outside [0, 100] (flagged)",0
+DS_G_reprocessed_run_qc,range,lat/lon: outside valid WGS84 range (flagged),0
+DS_G_reprocessed_run_qc,range,"lat/lon: (0, 0) null-island coordinates (flagged)",0
+DS_G_reprocessed_run_qc,consistency,lat/lon: only one of the pair reported,0
+DS_G_reprocessed_run_qc,outlier,"bacteria_16S_fragments: log10 values beyond Q1-3*IQR / Q3+3*IQR [1.73e+03, 8.09e+04] (flagged, retained)",0
+DS_G_reprocessed_run_qc,outlier,"resfinder_aligned_fragments: log10 values beyond Q1-3*IQR / Q3+3*IQR [459, 1.48e+04] (flagged, retained)",2
+DS_G_reprocessed_run_qc,flags,Records with at least one cleaning flag,2
+DS_G_reprocessed_run_qc,rename,Variable names standardised to lower snake_case,5
+DS_G_reprocessed_run_qc,validate,Row count preserved (51 -> 51); columns 52 -> 53,51
+DS_H_reprocessed_resfinder_annotated,load,Read resfinder_annotated_all_runs.csv as text,9712
+DS_H_reprocessed_resfinder_annotated,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_H_reprocessed_resfinder_annotated,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_H_reprocessed_resfinder_annotated,duplicates,"Rows sharing key run_accession+template (flagged, retained)",0
+DS_H_reprocessed_resfinder_annotated,type,fragmentCount: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_H_reprocessed_resfinder_annotated,type,Template_Identity: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_H_reprocessed_resfinder_annotated,type,Template_Coverage: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_H_reprocessed_resfinder_annotated,type,FPKM_16S: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_H_reprocessed_resfinder_annotated,type,RPKM_depth: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_H_reprocessed_resfinder_annotated,range,"Template_Identity: values outside [0, 100] (flagged)",0
+DS_H_reprocessed_resfinder_annotated,range,"Template_Coverage: values outside [0, None] (flagged)",0
+DS_H_reprocessed_resfinder_annotated,flags,Records with at least one cleaning flag,0
+DS_H_reprocessed_resfinder_annotated,rename,Variable names standardised to lower snake_case,21
+DS_H_reprocessed_resfinder_annotated,validate,Row count preserved (9712 -> 9712); columns 29 -> 30,9712
+DS_I_reprocessed_taxonomy_kraken_long,load,Read taxonomy_kraken_long.csv as text,25446
+DS_I_reprocessed_taxonomy_kraken_long,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_I_reprocessed_taxonomy_kraken_long,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_I_reprocessed_taxonomy_kraken_long,duplicates,"Rows sharing key run_accession+rank+taxid (flagged, retained)",0
+DS_I_reprocessed_taxonomy_kraken_long,type,clade_fragments: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_I_reprocessed_taxonomy_kraken_long,type,direct_fragments: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_I_reprocessed_taxonomy_kraken_long,flags,Records with at least one cleaning flag,0
+DS_I_reprocessed_taxonomy_kraken_long,rename,Variable names standardised to lower snake_case,0
+DS_I_reprocessed_taxonomy_kraken_long,validate,Row count preserved (25446 -> 25446); columns 7 -> 8,25446
+DS_J_reprocessed_amr_summary,load,Read amr_summary_all_runs.csv as text,51
+DS_J_reprocessed_amr_summary,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_J_reprocessed_amr_summary,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_J_reprocessed_amr_summary,duplicates,"Rows sharing key run_accession (flagged, retained)",0
+DS_J_reprocessed_amr_summary,type,total_FPKM_16S: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_J_reprocessed_amr_summary,type,total_RPKM_depth: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_J_reprocessed_amr_summary,type,genes_any_hit: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_J_reprocessed_amr_summary,type,genes_high_confidence: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_J_reprocessed_amr_summary,outlier,"total_FPKM_16S: log10 values beyond Q1-3*IQR / Q3+3*IQR [4.06e+04, 1.08e+06] (flagged, retained)",3
+DS_J_reprocessed_amr_summary,flags,Records with at least one cleaning flag,3
+DS_J_reprocessed_amr_summary,rename,Variable names standardised to lower snake_case,5
+DS_J_reprocessed_amr_summary,validate,Row count preserved (51 -> 51); columns 11 -> 12,51
+DS_K_reprocessed_comparative_variables,load,Read comparative_variables_all_runs.csv as text,45
+DS_K_reprocessed_comparative_variables,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_K_reprocessed_comparative_variables,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_K_reprocessed_comparative_variables,duplicates,"Rows sharing key run_accession (flagged, retained)",0
+DS_K_reprocessed_comparative_variables,type,log10_total_FPKM_16S: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_K_reprocessed_comparative_variables,type,ARG_genes_high_conf: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_K_reprocessed_comparative_variables,type,genus_richness_rarefied: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_K_reprocessed_comparative_variables,type,genus_shannon: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_K_reprocessed_comparative_variables,date,Collection_Date: precision classified (day/month/year/interval/missing); ISO date added where day-level,45
+DS_K_reprocessed_comparative_variables,date,Collection_Date: values not matching an ISO 8601 pattern (flagged),0
+DS_K_reprocessed_comparative_variables,date,Collection_Date: 1970-01-01 placeholder dates (flagged),0
+DS_K_reprocessed_comparative_variables,date,Collection_Date: dates after the data-collection date (flagged),0
+DS_K_reprocessed_comparative_variables,flags,Records with at least one cleaning flag,0
+DS_K_reprocessed_comparative_variables,rename,Variable names standardised to lower snake_case,11
+DS_K_reprocessed_comparative_variables,validate,Row count preserved (45 -> 45); columns 15 -> 18,45
+DS_L_dhaka_geographic_verification,load,Read dhaka_geographic_verification.csv as text,17
+DS_L_dhaka_geographic_verification,whitespace,Trimmed leading/trailing spaces and collapsed repeated spaces,0
+DS_L_dhaka_geographic_verification,duplicates,"Exact duplicate rows (flagged, retained)",0
+DS_L_dhaka_geographic_verification,duplicates,"Rows sharing key Sample_ID+coordinate_source (flagged, retained)",0
+DS_L_dhaka_geographic_verification,type,latitude: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_L_dhaka_geographic_verification,type,longitude: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_L_dhaka_geographic_verification,type,distance_to_DNCC_DSCC_boundary_km: converted to numeric; 0 missing-value codes moved to companion column,0
+DS_L_dhaka_geographic_verification,range,latitude/longitude: outside valid WGS84 range (flagged),0
+DS_L_dhaka_geographic_verification,range,"latitude/longitude: (0, 0) null-island coordinates (flagged)",0
+DS_L_dhaka_geographic_verification,consistency,latitude/longitude: only one of the pair reported,0
+DS_L_dhaka_geographic_verification,flags,Records with at least one cleaning flag,0
+DS_L_dhaka_geographic_verification,rename,Variable names standardised to lower snake_case,4
+DS_L_dhaka_geographic_verification,validate,Row count preserved (17 -> 17); columns 10 -> 11,17
+DS_C_amr_genes_long,referential,sample_id values not found in sample master,0
+DS_D_taxonomy_long,referential,sample_id values not found in sample master,0
+DS_E_diversity_long,referential,sample_id values not found in sample master,0
+DS_F_env_covariates_long,referential,sample_id values not found in sample master,0
+DS_K_reprocessed_comparative_variables,referential,sample_id values not found in sample master,0
+DS_L_dhaka_geographic_verification,referential,sample_id values not found in sample master,0
+DS_A_sample_master,referential,Run IDs listed in sample master but absent from run master,0
+DS_G_reprocessed_run_qc,referential,Reprocessed runs absent from run master,0
+DS_H_reprocessed_resfinder_annotated,referential,run_accession absent from reprocessed run QC table,0
+DS_I_reprocessed_taxonomy_kraken_long,referential,run_accession absent from reprocessed run QC table,0
+DS_J_reprocessed_amr_summary,referential,run_accession absent from reprocessed run QC table,0
+DS_A_sample_master,validate,"Included samples (expected 8,053 as reported in Table S1)",8053

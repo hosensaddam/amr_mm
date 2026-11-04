@@ -1,0 +1,13 @@
+term,estimate,SE,ci_low,ci_high,p_value
+Intercept,1.112022,0.07732598,0.9604659,1.263578,6.814061e-47
+"C(City, Treatment('Delhi'))[T.Chennai]",0.1373534,0.09057058,-0.04016165,0.3148685,0.1293842
+"C(City, Treatment('Delhi'))[T.Kolkata]",-0.08232738,0.1160099,-0.3097026,0.1450478,0.477916
+"C(City, Treatment('Delhi'))[T.Mumbai]",0.1850504,0.08208748,0.02416189,0.3459389,0.02417685
+"C(Season, Treatment('Winter (Dec-Feb)'))[T.Monsoon (Jun-Sep)]",0.01850498,0.04365406,-0.06705539,0.1040654,0.6716382
+"C(Season, Treatment('Winter (Dec-Feb)'))[T.Post-monsoon (Oct-Nov)]",-0.04571687,0.05042081,-0.1445398,0.05310609,0.364562
+"C(Season, Treatment('Winter (Dec-Feb)'))[T.Pre-monsoon (Mar-May)]",0.0411811,0.04308768,-0.0432692,0.1256314,0.339198
+C(year)[T.2023],0.05444423,0.03167066,-0.007629127,0.1165176,0.0856008
+C(year)[T.2024],0.01037831,0.05914849,-0.1055506,0.1263072,0.8607166
+Site variance (random intercept),0.01400439,,,,
+Residual variance,0.09714165,,,,
+ICC (site),0.1259999,,,,

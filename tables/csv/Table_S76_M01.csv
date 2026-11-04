@@ -1,0 +1,10 @@
+item,value
+Unit of analysis,Analytic unit (biological sample)
+Units,396
+Positive class (municipal wastewater),293
+"Negative class (surface water, air, built environment, transit)",103
+Studies (groups),15
+Features,CLR of 12 class-group shares of total FPKM
+Pre-processing (AUD-17 fix),"Multiplicative zero-replacement constant (0.65 x smallest non-zero share) and CLR estimated on the training fold only, inside each model pipeline; test folds never inform pre-processing"
+Validation,"Stratified group 4-fold CV (whole studies held out), 10 repeats; per-fold metrics averaged (leave-one-study-out used for per-study accuracy, Table M03)"
+Comparison validation (leakage illustration),"Stratified 4-fold ignoring study, 10 repeats"

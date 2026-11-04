@@ -1,0 +1,12 @@
+determinant,detection_rule,samples,sites,detected_samples,chi2,p_perm_whole_sites,site_prevalence_by_city,p_BH
+NDM,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,7,16.093379,0.0162,Chennai: median 0% (range 0-0%); Delhi: median 0% (range 0-4%); Kolkata: median 8% (range 4-12%); Mumbai: median 0% (range 0-4%),0.027
+KPC,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,8,7.1010156,0.0298,Chennai: median 0% (range 0-5%); Delhi: median 0% (range 0-0%); Kolkata: median 6% (range 4-8%); Mumbai: median 0% (range 0-4%),0.03725
+OXA-48-like,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,57,33.112251,0.005,Chennai: median 9% (range 0-19%); Delhi: median 16% (range 4-28%); Kolkata: median 36% (range 25-48%); Mumbai: median 6% (range 0-17%),0.01375
+VIM,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,6,9.6356776,0.0282,Chennai: median 0% (range 0-5%); Delhi: median 0% (range 0-4%); Kolkata: median 6% (range 4-8%); Mumbai: median 0% (range 0-4%),0.03725
+IMP,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,21,23.927141,0.0092,Chennai: median 0% (range 0-5%); Delhi: median 8% (range 4-20%); Kolkata: median 14% (range 8-20%); Mumbai: median 0% (range 0-8%),0.0184
+CTX-M,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,7,24.676432,0.0055,Chennai: median 0% (range 0-0%); Delhi: median 6% (range 4-12%); Kolkata: median 0% (range 0-0%); Mumbai: median 0% (range 0-0%),0.01375
+MCR,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,90,30.316523,0.0045,Chennai: median 14% (range 14-23%); Delhi: median 34% (range 20-60%); Kolkata: median 29% (range 28-29%); Mumbai: median 11% (range 0-29%),0.01375
+tet(X),high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,396,15.086431,0.151,Chennai: median 86% (range 77-91%); Delhi: median 94% (range 84-96%); Kolkata: median 74% (range 68-79%); Mumbai: median 96% (range 58-100%),0.151
+qnr,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,300,63.06986,0.0002,Chennai: median 41% (range 36-50%); Delhi: median 92% (range 92-96%); Kolkata: median 80% (range 76-83%); Mumbai: median 64% (range 46-88%),0.002
+vanA,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,1,8.1406607,0.0793,Chennai: median 0% (range 0-0%); Delhi: median 0% (range 0-0%); Kolkata: median 2% (range 0-4%); Mumbai: median 0% (range 0-0%),0.088111111
+sul,high-confidence (cov >= 50% and >= 2 completely mapped reads),447,19,447,,,constant (all or none detected),

@@ -1,0 +1,113 @@
+Dataset_ID,Dataset_Name,included_samples,countries,sample_types,sample_type_corrections,site_ids_recovered,CARD_RGI_profiles,ResFinder_KMA_profiles,uniformly_reprocessed_runs_this_update
+DS04,MetaSUB City Sampling Day 2016-2017 (SRA subset),1804,Australia; Brazil; Chile; Colombia; Germany; Ireland; Japan; New Zealand; Nigeria; Not yet verified; Singapore; United Kingdom; United States,Transit surface 1804,0,0,0,0,0
+DS01,Global Sewage Surveillance Project (Munk et al. 2022; incl. 2016 pilot),1034,Albania; Argentina; Australia; Austria; Bangladesh; Barbados; Belgium; Benin; Bolivia; Bosnia and Herzegovina; Botswana; Brazil; Bulgaria; Burkina Faso; Cambodia; Cameroon; Canada; Chad; Chile; China;,Municipal wastewater 1034,0,0,0,315,27
+DS02,Indian metropolitan open-drain wastewater (Singh et al. 2026),447,India,Community wastewater 447,0,19,447,0,12
+DS115,Hong Kong outdoor built environment surface metagenomes,415,Hong Kong,Built environment 415,0,0,0,0,0
+DS111,Shotgun metagenomic sequencing of subway and urban air samples: gCSD17,294,Hong Kong; Norway; Sweden; United Kingdom; United States,Air 294,0,0,0,0,0
+DS78,Examining the microbiome and resistome of an urban freshwater ecosystem of Manitoba,279,Canada,Surface water 279,0,0,0,0,0
+DS62,"Metagenomic Insights into Microbial Communities from Environmental Samples in an Urban Informal Settlement in Nairobi, Kenya",272,Kenya,Built environment 272,0,0,0,0,0
+DS06,Urban microbiomes in Japan,261,Japan,Built environment 261,0,0,0,0,0
+DS86,Metagenomic sequencing of urban wastewater samples from a coastal metropolis,252,China,Municipal wastewater 252,0,0,0,0,0
+DS76,Hospital surface microbiome,206,China,Built environment 206,0,0,0,0,0
+DS34,Dynamics of Antimicrobial Resistance in the Urban Water Cycle in Europe,162,Denmark,Municipal wastewater 162,0,0,0,0,0
+DS81,Citywide metagenomic analysis of Liverpool outdoor urban environment,124,United Kingdom,Built environment 124,0,0,0,0,0
+DS30,Metagenomics analysis of sewage for surveillance of antimicrobial resistance in South Africa,108,South Africa,Municipal wastewater 108,0,0,0,0,0
+DS127,GLUSEEN global urban soils (MG-RAST),100,Finland; Hungary; South Africa; United States,Urban soil 100,0,0,0,0,0
+DS71,Bacterial populations in Zimbabwe wastewater 2021,92,Zimbabwe,Municipal wastewater 92,0,0,0,0,0
+DS58,Metagenomic data in Xiamen urban park in 2020,90,China,Urban soil 90,0,0,0,0,0
+DS43,New Delhi House Microbiome,90,India,Built environment 90,0,0,0,0,0
+DS112,A metagenomics-enabled investigation of antimicrobial resistance in an urban watershed,74,United States,Surface water 74,0,0,0,0,0
+DS16,A spatiotemporal analysis of the microbial community on the surface of public places in urban areas of Xi'an,72,China,Built environment 72,0,0,0,0,0
+DS90,"Metagenomic analysis of microbial diversity in urban ponds of Shenzhen, China",72,China,Surface water 72,0,0,0,0,0
+DS20,Metagenomic characterization of three Swedish sewage treatment plants,70,Sweden,Municipal wastewater 70,0,0,0,69,0
+DS15,Metagenomic survey and whole genome sequencing of antimicrobial resistant bacteria in Japanese hospital sewage,69,Japan,Hospital wastewater 69,0,0,0,0,0
+DS18,Local surveillance of infectious diseases and antimicrobial resistance from sewage,64,Denmark,Municipal wastewater 64,0,0,0,60,0
+DS55,Metagenome sequencing of soils from historical and recent urban parks and undisturbed natural ecosystems in Torino (Northern Italy),61,Italy,Urban soil 61,0,0,0,0,0
+DS73,Microbial Metagenome of 30 Urban Forest Remnant Patches in Guiyang City.,60,China,Urban soil 60,0,0,0,0,0
+DS54,Chinese urban river metagenomic sequencing,57,China,Surface water 57,0,0,0,0,0
+DS129,"Mobile antibiotic resistome in Polish WWTPs, Tychy/Olsztyn (MG-RAST series)",56,Poland,Municipal wastewater 56,0,0,0,0,0
+DS41,Metagenomic sequencing of urban stormwater runoff,54,United States,Surface water 54,0,0,0,0,0
+DS38,Shotgun metagenomics of subway environment,54,Thailand,Transit surface 36; Air 18,0,0,0,0,0
+DS10,Comparative evaluation of antibiotic resistome in hospital wastewater sources,52,Japan,Hospital wastewater 52,0,0,0,0,0
+DS59,Microbial communities on station and train surfaces in Chennai Metro: Insights into urban transit microbiome,47,India,Transit surface 47,0,0,0,0,0
+DS19,"Surveillance of infectious diseases and antimicrobial resistance from sewage in Kibera (Nairobi, Kenya)",46,Kenya,Community wastewater 46,0,0,0,0,0
+DS32,Urban sewage metagenomic analysis of Latvian Cities,45,Latvia,Municipal wastewater 45,0,0,0,0,0
+DS64,Public air samples Metagenome,44,China,Air 44,0,0,0,0,0
+DS121,Wastewater Metagenomics and Isolate Sequencing,39,New Zealand,Municipal wastewater 39,0,0,0,0,0
+DS122,"Metagenomic analysis of an Urban Superfund Site: the Gowanus Canal in Brooklyn, New York",37,United States,Surface water 37,0,0,0,0,0
+DS103,Antimicrobial resistance of wastewater samples,36,Singapore,Municipal wastewater 36,0,0,0,36,0
+DS45,Urban stormwater long read metagenomes,32,United States,Surface water 32,0,0,0,0,0
+DS61,Characterization of the wastewater resistome and mobilome at community scale,30,Spain,Community wastewater 30,0,0,0,0,0
+DS74,Microbial community and function in three urban wetlands,30,China,Surface water 30,0,0,0,0,0
+DS56,Mapping Antimicrobial Resistance Landscape at a city scale sewage network,28,Spain,Municipal wastewater 24; Hospital wastewater 4,0,0,0,0,0
+DS72,Metagenomic assessment of full-scale wastewater treatment plants identifies sentinel antibiotic resistance genes for monitoring reclaimed wastewater and sludge.,27,Spain,Municipal wastewater 27,0,0,0,0,0
+DS105,wastewater Metagenome,27,South Korea,Surface water 16; Municipal wastewater 11,0,0,0,5,0
+DS47,Unveiling China's Antibiotic Resistance Threat: Urban Sewage Metagenome Surveillance Exposes Tibet-East Disparities and Pathogen Risks,25,China,Municipal wastewater 25,0,0,0,0,0
+DS36,Airborne ARGs in Nordic Urban Homes,25,Denmark; Iceland; Norway; Sweden,Air 25,0,0,0,0,0
+DS98,Microbial communities within an urban mass transit system,24,United States,Transit surface 24,0,0,0,24,0
+DS77,Urban forest soil metagenomic data,24,China,Urban soil 24,0,0,0,0,0
+DS106,Aerosol microbiome characterization of a semi-urban/rural outdoor ambient environment in Norway,24,Norway,Air 24,0,0,0,24,0
+DS35,River_water_and_wastewater_short_read_metagenomics,24,United Kingdom,Surface water 24,0,0,0,0,0
+DS27,Metagenomic Analysis of Microbial Contamination in the U.S. Portion of the Tijuana River Watershed,22,United States,Surface water 22,0,0,0,0,0
+DS102,Resistome of effluents of wastewater treatment plants,21,Italy,Municipal wastewater 21,0,0,0,21,0
+DS28,Distinctive hospital and community resistomes in Scottish urban wastewater: metagenomics of a paired wastewater sampling design,20,United Kingdom,Municipal wastewater 15; Hospital wastewater 5,0,0,0,0,0
+DS65,Metagenomic Profiling of Microbial Communities and the Resistome within Egyptian Hospital Wastewater and Tap water.,20,Egypt,Hospital wastewater 20,0,0,0,0,0
+DS42,sewage metagenome-sequencing,18,China,Municipal wastewater 18,0,0,0,0,0
+DS12,"Investigating the resistome, bacterial composition, and mobilome in hospital wastewaters in Metro Manila using a shotgun metagenomics approac",18,Philippines,Hospital wastewater 18,0,0,0,0,0
+DS63,Metagenomic analysis of water and sediment samples from a Urban River in Costa Rica,18,Costa Rica,Surface water 18,0,0,0,0,0
+DS24,Resistome risks of wastewaters and aquatic environments deciphered by shotgun metagenomic assembly,18,South Africa,Municipal wastewater 18,0,0,0,18,0
+DS100,wastewater metagenome Raw sequence reads,18,Burkina Faso; Cameroon,Municipal wastewater 18,0,0,0,0,0
+DS85,"Seasonal microbial community and metagenomic functional potential in urban rivers of Changzhou, China",16,China,Surface water 16,0,0,0,0,0
+DS09,Metagenomic survey and whole genome sequencing of antimicrobial resistant bacteria in Japanese hospital sewage,16,Japan,Hospital wastewater 16,0,0,0,0,0
+DS117,Resistome in sewage surviellance,16,Singapore,Municipal wastewater 16,0,0,0,0,0
+DS114,Comparative microbial antibiotic resistome between urban and deep forest environments,16,China,Urban soil 16,0,0,0,0,0
+DS14,Metagenomic sequences of the Tama River 2015_9 - 2016_12,16,Japan,Surface water 16,0,0,0,16,0
+DS120,Impact of wastewater disinfection on the antibiotic resistome in the intra- and extracellular DNA characterized by shotgun metagenomics,16,Italy,Municipal wastewater 16,0,0,0,0,0
+DS13,Metagenomic clean data of surface water samples from five urban lakes with different trophic levels in Nanchang (PRJCA051782),15,,Surface water 15,0,0,0,0,0
+DS51,Microbial communities and AMR in urban aquatic environment,14,Australia,Surface water 14,0,0,0,0,0
+DS50,Shotgun Metagenomics Unravels the Bacterial Diversity and Resistome Profile in a Tropical Urban Environment,13,India,Surface water 13,0,0,0,0,0
+DS101,Antimicrobial resistance of urban water samples,13,Singapore,Surface water 13,0,0,0,13,0
+DS31,Antibiotic-Resistance Genes: Playing Hide and Seek in the Soil of a European Capital,13,Czech Republic,Urban soil 13,0,0,0,0,0
+DS80,"Metagenomic analysis of microbial communities and antibiotic resistant genes in the Tijuana river, and potential sources",13,United States,Surface water 13,0,0,0,0,0
+DS118,Waste water metagenomics,12,Italy,Municipal wastewater 12,0,0,0,0,0
+DS89,Hospital wastewater metagenome,12,Malaysia,Hospital wastewater 12,0,0,0,0,0
+DS75,Temporal metagenomic profiling of bacterial communities in wastewater over a 12-month period,12,Brazil,Municipal wastewater 12,0,0,0,0,0
+DS52,"METAGENOMICS AND RESISTOME OF THE SEWAGE IN THE CITY OF BELEM, PARA, BRAZIL",12,Brazil,Municipal wastewater 12,0,0,0,0,0
+DS46,Metagenomic assessment of the WWTP effluents impact on the River Iskar,12,Bulgaria,Surface water 12,0,0,0,0,0
+DS93,"Metagenomic sequencing of urban airborne microbiota in Changsha, China",12,China,Air 12,0,0,0,0,0
+DS21,Anthropic Effects on Aquatic Microbial Communities and their Resistomes,11,Colombia,Surface water 11,0,0,0,11,0
+DS116,Metagenomic sequencing of wastewater treatment plants,11,China,Municipal wastewater 11,0,0,0,0,0
+DS68,Public transit microbiome- India,10,India,Air 10,0,0,0,0,0
+DS07,Antibiotic resistome in river by dry and wet weather,10,Japan,Surface water 10,0,0,0,0,0
+DS60,"Shifts in microbiome and antibiotic resistome due to the discharge of urban wastewater to rivers in the twin city, Odisha, India",9,India,Surface water 6; Community wastewater 3,0,0,0,0,0
+DS88,Metagenomic Taxa of Raw and Treated Wastewater from a Public Hospital in Paraguay,8,Paraguay,Hospital wastewater 8,0,0,0,0,0
+DS84,"Shotgun Metagenomics of Hospital and Urban Wastewater in Dhaka, Bangladesh",8,Bangladesh,Hospital wastewater 4; Municipal wastewater 3; Surface water 1,4,0,0,0,8
+DS126,Hospital wastewater metagenome- the impact of wastewater disinfection on the wastewater microbiome and resistome,8,Poland,Hospital wastewater 8,0,0,0,0,0
+DS23,Comparative metagenomics of controlled and uncontrolled built environments.,8,Austria; Germany; Italy,Built environment 8,0,0,0,8,0
+DS94,"Occurrence and Removal of Antibiotics, Antibiotic Resistance Genes, and Pathogens in Hospital Wastewater: A Multi-site Study in East China",8,China,Hospital wastewater 8,0,0,0,0,0
+DS109,Urban wastewater treatment plant,6,Portugal,Municipal wastewater 6,0,0,0,0,0
+DS49,Metagenomics insight into the microbial resistome and virulome composition of Kampala's wastewater,6,Uganda,Municipal wastewater 6,0,0,0,0,0
+DS104,Wastewater Metagenome,5,Canada,Municipal wastewater 5,0,0,0,0,0
+DS08,Kolkata sewage project,5,India,Municipal wastewater 5,0,0,0,0,0
+DS70,Temporal variations of resistomes in wastewater and river water,5,South Africa,Municipal wastewater 5,0,0,0,0,0
+DS83,Metagenomic characterization of microbial communities across treatment stages of a municipal wastewater treatment plant,5,Israel,Municipal wastewater 5,0,0,0,0,0
+DS11,"Metagenomic sequencing of hospital wastewater samples from Chongqing, China (PRJCA041808)",5,,Hospital wastewater 5,0,0,0,0,0
+DS95,Urban waterways sediment Metagenome,4,Singapore,Surface water 4,0,0,0,4,0
+DS03,Dhaka hospital and community wastewater (BCSIR),4,Bangladesh,Hospital wastewater 3; Community wastewater 1,0,0,0,0,4
+DS119,"Metagenomic responses to Cunha canal, a polluted urban river in Rio de janeiro, Brazil",4,Brazil,Surface water 4,0,0,0,0,0
+DS48,Metageonome of Hospital wastewater,4,Poland,Hospital wastewater 4,0,0,0,0,0
+DS69,"Metagenomic profiling of microbial diversity and antibiotic resistance genes in a wastewater influent from Iasi, Romania",4,Romania,Municipal wastewater 4,0,0,0,0,0
+DS92,"Shotgun metagenomics of microbial communities in an urban river receiving reclaimed water in Ningbo, China",3,China,Surface water 3,0,0,0,0,0
+DS37,"Urban wastewater and it's receiving river Kathajodi, Cuttack Metagenome",3,India,Surface water 3,0,0,0,0,0
+DS110,"metagenomic studies of the urban river sediments of Zhengzhou city, China",3,China,Surface water 3,0,0,0,0,0
+DS40,Urban-Rural Pond Shotgun Metagenome,2,Bangladesh,Surface water 2,0,0,0,0,0
+DS39,"Unraveling the Functional role of Microbial Communities in Mangrove Habitats from Urban Locations, Using Shotgun Metagenomics Sequencing Approach",2,India,Surface water 2,0,0,0,0,0
+DS25,Metagenome of a polluted urban lake depicts pathogenic microbial diversity and bacterial antibiotic resistance and virulence,2,Bolivia,Surface water 2,0,0,0,0,0
+DS57,"Metagenome Sequencing and Analysis of Wastewater Samples Collected from River Mahananda, Siliguri, West Bengal, India",2,India,Community wastewater 2,0,0,0,0,0
+DS124,"Metagenomic profiling of antibiotic resistance genes and bacterial community along an urban river, the Kanda River in Japan",1,Japan,Surface water 1,0,0,0,0,0
+DS108,"Sediment Metagenome of River Yamuna (Faizupur Khadar , New Delhi s3)",1,India,Surface water 1,0,0,0,0,0
+DS107,"Sediment Metagenome of River Yamuna (Wazaribad , New Delhi s1)",1,India,Surface water 1,0,0,0,0,0
+DS17,Metagenomic analysis of hospital wastewater,1,Turkey,Hospital wastewater 1,0,0,0,0,0
+DS26,Metagenomes of a contaminated urban lake,1,Bolivia,Surface water 1,0,0,0,0,0
+DS67,Functional resistomes in municipal wastewater treatment plant posing challenges to public health,1,Hungary,Municipal wastewater 1,0,0,0,0,0
+DS97,hospital shower hose biofilms metagenomes,1,United States,Built environment 1,0,0,0,1,0

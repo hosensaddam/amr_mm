@@ -1,0 +1,9 @@
+model,validation,n,folds_evaluated,roc_auc_mean,roc_auc_sd,roc_auc_p2_5,roc_auc_p97_5,pr_auc_mean,balanced_accuracy_mean,pooled_seed0_accuracy,pooled_seed0_balanced_accuracy,pooled_seed0_precision,pooled_seed0_recall,pooled_seed0_f1,pooled_seed0_brier
+Baseline (prior),"Stratified group 4-fold (studies held out), 10 repeats",396,40,0.5,0.0,0.5,0.5,0.737034,0.5,0.739899,0.5,0.739899,1.0,0.850508,0.193414
+Baseline (prior),"Stratified 4-fold ignoring study (leakage-prone), 10 repeats",396,40,0.5,0.0,0.5,0.5,0.739899,0.5,0.739899,0.5,0.739899,1.0,0.850508,0.192463
+Logistic regression (L2),"Stratified group 4-fold (studies held out), 10 repeats",396,40,0.464974,0.145524,0.256783,0.624753,0.701545,0.589362,0.739899,0.575549,0.772989,0.918089,0.839314,0.21727
+Logistic regression (L2),"Stratified 4-fold ignoring study (leakage-prone), 10 repeats",396,40,0.716963,0.0580795,0.59564,0.799987,0.815333,0.666788,0.810606,0.661105,0.809659,0.972696,0.883721,0.154206
+Random forest,"Stratified group 4-fold (studies held out), 10 repeats",396,40,0.702977,0.184157,0.232,0.853913,0.860582,0.593942,0.641414,0.56251,0.774545,0.726962,0.75,0.210993
+Random forest,"Stratified 4-fold ignoring study (leakage-prone), 10 repeats",396,40,0.926443,0.0224418,0.882883,0.958957,0.970398,0.852553,0.878788,0.84254,0.918089,0.918089,0.918089,0.107711
+Gradient boosting (HistGB),"Stratified group 4-fold (studies held out), 10 repeats",396,40,0.633788,0.128724,0.309867,0.732754,0.811953,0.581328,0.661616,0.560423,0.771331,0.771331,0.771331,0.270117
+Gradient boosting (HistGB),"Stratified 4-fold ignoring study (leakage-prone), 10 repeats",396,40,0.908457,0.0254628,0.856678,0.946088,0.963086,0.780784,0.840909,0.757132,0.863924,0.931741,0.896552,0.114481

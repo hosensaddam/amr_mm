@@ -1,0 +1,6 @@
+covariate,statistic,df,p_value,effect (Cramer's V or epsilon-squared)
+City,121.44289,9,6.7670544e-22,0.30093428
+Season,10.91581,9,0.2815239,0.09022224
+year,12.408136,6,0.053459104,0.11781064
+log10 sequenced reads (Kruskal-Wallis),3.8022459,3,0.283625,0.0018109388
+log10 total ARG RPKM (Kruskal-Wallis),46.806846,3,3.8204553e-10,0.098886786

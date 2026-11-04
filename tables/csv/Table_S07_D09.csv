@@ -1,0 +1,7 @@
+Platform_Family,Air,Built environment,Community wastewater,Hospital wastewater,Municipal wastewater,Surface water,Transit surface,Urban soil,Total
+DNBSEQ/MGI/BGISEQ,0,261,0,17,297,25,0,90,690
+Illumina,427,1188,529,188,1939,546,1911,274,7002
+Ion Torrent,0,0,0,0,12,0,0,0,12
+Oxford Nanopore,0,0,0,32,0,311,0,0,343
+PacBio,0,0,0,0,6,0,0,0,6
+Total,427,1449,529,237,2254,882,1911,364,8053

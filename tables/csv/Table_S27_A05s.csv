@@ -1,0 +1,13 @@
+variable,factor,analysis,n_units,samples,H,df,p,p_perm,epsilon2,LR,ICC_site,p_primary,p_primary_BH
+log10_total_RPKM,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,9.87,3,0.019704129,0.0047,0.458,,,0.0047,0.01128
+log10_total_RPKM,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.00065266409,,,17.168056,0.11400375,0.00065266409,0.0026106564
+log10_total_RPKM,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.023566812,,,9.4779765,0.11400375,0.023566812,0.035350217
+log10_total_RPKM,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.030861668,,,6.9564808,0.11400375,0.030861668,0.041148891
+family_richness_cov50,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,13.648156,3,0.0034253805,0.0001,0.70987709,,,0.0001,0.0006
+family_richness_cov50,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,7.4647202e-07,,,31.267971,0.064624482,7.4647202e-07,8.9576642e-06
+family_richness_cov50,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.0015500371,,,15.337187,0.064624482,0.0015500371,0.0046501113
+family_richness_cov50,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.05737318,,,5.7163567,0.064624482,0.05737318,0.065579649
+family_shannon,City,Site-level Kruskal-Wallis (site medians; whole-site permutation),19,447,9.9671053,3,0.018847832,0.007,0.46447368,,,0.007,0.012
+family_shannon,C(City),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.0065434808,,,12.260027,0.024311281,0.0065434808,0.012
+family_shannon,C(Season),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,3,0.060114678,,,7.4025972,0.024311281,0.060114678,0.065579649
+family_shannon,C(year),"Mixed model, site random intercept; ML likelihood-ratio test",19,447,,2,0.083949336,,,4.9550836,0.024311281,0.083949336,0.083949336

@@ -1,0 +1,9 @@
+Mechanism,share_of_total_RPKM_pct,mean_share_pct_Chennai,mean_share_pct_Delhi,mean_share_pct_Kolkata,mean_share_pct_Mumbai
+antibiotic inactivation,40.306,40.625,42.681,38.66,38.307
+antibiotic efflux,32.85,30.133,30.183,35.016,32.931
+antibiotic target protection,10.436,11.396,10.773,9.4912,11.095
+antibiotic target replacement,9.6866,9.9478,9.3311,10.038,10.673
+antibiotic target alteration,3.6426,4.4831,4.3101,2.6643,3.1665
+multiple mechanisms,2.8966,3.3706,2.4949,3.9665,3.6553
+reduced permeability to antibiotic,0.18156,0.043204,0.22704,0.16445,0.1728
+resistance by host-dependent nutrient acquisition,0.00018728,0.0,0.00041999,0.00051134,0.0

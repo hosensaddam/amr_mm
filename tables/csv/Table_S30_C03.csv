@@ -1,0 +1,4 @@
+test,statistic,p_value,n,permutations,procrustes_correlation_r
+Mantel (Spearman): taxonomy Aitchison vs ARG Bray-Curtis,0.30609082,0.001,447,999,
+Mantel (Spearman): taxonomy Bray-Curtis vs ARG Bray-Curtis,0.48753211,0.001,447,999,
+Procrustes m2 (PCoA 5 axes; lower = more concordant),0.84714777,0.001,447,999,0.39096321

@@ -1,0 +1,226 @@
+{
+ "Fig02": {
+  "old": "S6.1",
+  "title": "Included urban metagenomes by sample type, continent and sequencing platform",
+  "interp": "Municipal wastewater (2,254), transit surfaces (1,911) and built environments (1,449) dominate the 8,053 samples; Illumina platforms predominate. The matrix mix differs by continent, so any pooled 'urban' summary is weighted towards matrices that dominate particular regions.",
+  "limitation": "Limitation: Descriptive counts; platform families only.",
+  "revision": "",
+  "meta": "Original file: Fig02_sample_type_continent_platform.png | Analytical area: Evidence base / descriptive | Objective(s): 1, 5 | Decision: A - Accepted"
+ },
+ "Fig04": {
+  "old": "S6.2",
+  "title": "Availability of processed annotations and sequencing depth by sample type",
+  "interp": "Most samples have raw reads and metadata only; processed AMR tables are concentrated in community wastewater (DS02) and municipal wastewater. Median depth ranges from 0.22 Gbp (hospital wastewater) to 10.7 Gbp (urban soil), a 50-fold difference that alone can change detection frequencies.",
+  "limitation": "Limitation: Depth is total sequenced bases from repository records, not post-QC depth.",
+  "revision": "Revision: Useful evidence of depth heterogeneity (median 0.22–10.7 Gbp by matrix). Revise: one text overlap flagged (AUD-15); panel A legend should state 'absent bar = zero'.",
+  "meta": "Original file: Fig04_annotation_coverage_depth.png | Analytical area: Evidence base / data availability | Objective(s): 1, 2, 5 | Decision: B - Accepted with revision"
+ },
+ "Fig06": {
+  "old": "S6.3",
+  "title": "Phylum-level alpha diversity of Indian open-drain wastewater by city and season (site-aware tests)",
+  "interp": "Median phylum Shannon diversity ranged 1.17–1.43 and rarefied richness 94–96 phyla between cities. With sites as units, richness differed between cities (perm. p = 0.002) but Shannon diversity only marginally (perm. p = 0.054); season had no detectable effect within sites (p = 0.27).",
+  "limitation": "Limitation: Phylum-level diversity is coarse; sample points are repeated measures of 19 sites.",
+  "revision": "Revision: Statistics are site-aware and correctly reported. Revise: two text overlaps flagged; numerical results are carried by Table 6.2, so figure is supplementary.",
+  "meta": "Original file: Fig06_ds02_alpha_diversity.png | Analytical area: Microbiome variance / diversity | Objective(s): 1 | Decision: B - Accepted with revision"
+ },
+ "Fig08": {
+  "old": "S6.4",
+  "title": "Bacterial genus diversity across urban matrices and food-related environments (ResFinder resource)",
+  "interp": "Genus Shannon medians: air 4.88, transit 4.88, surface water 4.24, municipal wastewater 4.06, food-related 4.06, built environment 3.95. After adjusting for study and depth, no matrix contrast was supported (p 0.14–0.73; study ICC 0.56), so apparent matrix differences are largely study differences.",
+  "limitation": "Limitation: rRNA mapping (SILVA via KMA); richness depth-dependent.",
+  "revision": "",
+  "meta": "Original file: Fig08_rrna_diversity_by_matrix.png | Analytical area: Microbiome variance / diversity | Objective(s): 1, 4 | Decision: A - Accepted"
+ },
+ "Fig10": {
+  "old": "S6.5",
+  "title": "Abundance of the 30 most abundant CARD gene families by city and season",
+  "interp": "Thirty CARD gene families dominate abundance in all city-season cells, with consistent ranking across seasons; efflux and multi-class families (some with housekeeping functions) are prominent.",
+  "limitation": "Limitation: Abundance is not phenotype; family harmonization affects ranking.",
+  "revision": "",
+  "meta": "Original file: Fig10_ds02_gene_family_heatmap.png | Analytical area: AMR gene presence and abundance | Objective(s): 2 | Decision: A - Accepted"
+ },
+ "Fig11": {
+  "old": "S6.6",
+  "title": "Detection of clinically important ARG determinants by city, CARD/RGI (high-confidence and any-hit tiers)",
+  "interp": "City-level detection mirrors Table 6.4: sul and tet(X) are near-universal; carbapenemase genes are rare at high confidence, with Kolkata showing the highest NDM (8.2%) and OXA-48-like (36.7%) frequencies; any-hit bounds are much higher.",
+  "limitation": "Limitation: Kolkata has two sites; city differences tested site-aware in Table A10s.",
+  "revision": "",
+  "meta": "Original file: Fig11_ds02_clinical_determinants.png | Analytical area: AMR gene presence (clinically important determinants) | Objective(s): 2, 3 | Decision: A - Accepted"
+ },
+ "Fig12": {
+  "old": "S6.7",
+  "title": "Monthly total normalized ARG abundance by city, March 2022-March 2024",
+  "interp": "Monthly median total RPKM fluctuated within each city over 25 months; Delhi was the highest city in most months. The lowest point (Chennai, August 2023, 88 RPKM) rests on five samples with an IQR of 59–602, so single-month excursions should not be interpreted as signals.",
+  "limitation": "Limitation: Observed series, not modelled; site composition varies by month; no trend test performed.",
+  "revision": "Revision: Only longitudinal series in the evidence base; observed (not forecast) values. Revise caption: it states that site identities are not available, which is superseded by the AUD-11 recovery of 19 site labels; state the number of sites sampled each month instead.",
+  "meta": "Original file: Fig12_ds02_monthly_arg_load.png | Analytical area: Environmental monitoring | Objective(s): 3, 4, 5 | Decision: B - Accepted with revision"
+ },
+ "Fig15": {
+  "old": "S6.8",
+  "title": "Spearman correlations between CLR phylum abundances and resistance-class abundances (DS02)",
+  "interp": "Spearman correlations between CLR phylum abundances and class-group abundance show strong positive associations, for example Proteobacteria with multi-class (rho = 0.82) and peptide/polymyxin genes (rho = 0.71), and negative associations, for example Planctomycetota with beta-lactam genes (rho = -0.49); each of these pairs has BH q < 0.001 (correction over 150 tests).",
+  "limitation": "Limitation: Compositional associations; not host assignments.",
+  "revision": "",
+  "meta": "Original file: Fig15_ds02_phylum_class_correlation.png | Analytical area: Microbial communities and AMR | Objective(s): 2 | Decision: A - Accepted"
+ },
+ "Fig17": {
+  "old": "S6.9",
+  "title": "Between-study heterogeneity of normalized ARG abundance by matrix (forest plot)",
+  "interp": "Study means within a matrix span up to about 1.5 log10 units (e.g., surface water 3.9–5.3), comparable to the spread between matrices; I² was 0.97–0.98 in every matrix with at least four studies. This is the main reason matrix contrasts are treated as study-limited.",
+  "limitation": "Limitation: t-intervals for small studies are wide; built environment includes a single-unit study.",
+  "revision": "",
+  "meta": "Original file: Fig17_rf_study_forest.png | Analytical area: Comparative analysis / heterogeneity | Objective(s): 2, 5 | Decision: A - Accepted"
+ },
+ "Fig19": {
+  "old": "S6.10",
+  "title": "Principal component analysis of CLR-transformed prokaryotic phylum composition (DS02)",
+  "interp": "CLR-PCA of 21 prevalent phyla: PC1 36.4%, PC2 20.2%. Samples fall into four discrete clusters (silhouette 0.79) defined by low-abundance phyla (Candidatus Omnitrophica, Chlamydiae, Candidatus Eremiobacteraeota), weakly related to city (V = 0.30), not to season (V = 0.09) or depth, but associated with total ARG abundance (epsilon-squared 0.10).",
+  "limitation": "Limitation: Clusters may reflect site or processing batch; CLR exaggerates differences in rare taxa.",
+  "revision": "Revision: Methodologically sound CLR-PCA with explained variance; reveals four discrete clusters (possible batch/site effect). Revise: 5.5 pt font and two overlaps; loading labels crowded.",
+  "meta": "Original file: Fig19_ds02_taxonomy_pca.png | Analytical area: PCA / ordination | Objective(s): 1 | Decision: B - Accepted with revision"
+ },
+ "Fig20": {
+  "old": "S6.11",
+  "title": "Principal component analysis of CLR-transformed resistance-class composition (DS02)",
+  "interp": "CLR-PCA of 13 class groups: PC1 35.1%, PC2 25.8%, PC3 17.6%. PC1 is driven by fluoroquinolone/quinolone (54.7% contribution) and glycopeptide (29.8%) genes, which together make up less than 1% of total RPKM; ordination therefore emphasizes rare classes, and city overlap is extensive.",
+  "limitation": "Limitation: Caption statistic is sample-level; remove or replace with site-level test.",
+  "revision": "Revision: Valid PCA (PC1 35.1%, PC2 25.8%); PC1 is driven by two low-abundance classes (fluoroquinolone/quinolone, glycopeptide). Revise: the caption's 'PC1 by city epsilon-squared = 0.29' is a sample-level (pseudo-replicated) statistic and should be removed or replaced by a site-level test; font >= 6 pt; label vectors directly.",
+  "meta": "Original file: Fig20_ds02_resistome_pca.png | Analytical area: PCA / ordination | Objective(s): 2 | Decision: B - Accepted with revision"
+ },
+ "Fig21": {
+  "old": "S6.12",
+  "title": "Ordination of resistome composition across urban matrices (CLR-PCA, PCoA and NMDS)",
+  "interp": "Matrix groups occupy partly distinct regions (PCoA 18.3% and 10.4%), with food-related units separate from wastewater; but project explains as much variation as matrix (R² 0.22 versus 0.21), and NMDS stress (0.217) indicates a poor two-dimensional fit.",
+  "limitation": "Limitation: Study-confounded; revise to a single PCoA panel.",
+  "revision": "Revision: Matrix separation is study-confounded (PERMANOVA project R2 0.22) and NMDS stress 0.217 indicates a poor two-dimensional fit; three panels redundant. Revise to PCoA only.",
+  "meta": "Original file: Fig21_rf_resistome_ordination.png | Analytical area: PCA / ordination | Objective(s): 2 | Decision: B - Accepted with revision"
+ },
+ "Fig22": {
+  "old": "S6.13",
+  "title": "Global distribution of included urban metagenomes with source-reported coordinates",
+  "interp": "Sampled locations (6,134 samples with coordinates) concentrate in North America, Europe and East Asia; Africa is represented largely by sewage points. All DS02 Indian samples lack coordinates and are absent.",
+  "limitation": "Limitation: Coordinates as reported; 228 flagged mismatches not corrected.",
+  "revision": "Revision: Evidence map of sampled locations (6,134 of 8,053). Revise: legend overlaps South American and Atlantic points.",
+  "meta": "Original file: Fig22_global_sample_map.png | Analytical area: Spatial analysis / evidence map | Objective(s): 1, 5 | Decision: B - Accepted with revision"
+ },
+ "Fig24": {
+  "old": "S6.14",
+  "title": "Observed normalized ARG abundance in municipal wastewater at reported sampling locations",
+  "interp": "Observed municipal-wastewater abundance (278 units, 7 studies) is generally higher at African and some South American and Asian points than at European points, matching the continental pattern in Figure S6.15.",
+  "limitation": "Limitation: Points are observations, not a surface; colour clipped to 2nd-98th percentiles.",
+  "revision": "Revision: Observed (not interpolated) values only. Revise: title collides with colour bar and the top colour-bar label is clipped. Must not be presented as a risk map.",
+  "meta": "Original file: Fig24_wastewater_arg_load_map.png | Analytical area: Spatial analysis / observed-value map | Objective(s): 3, 5 | Decision: B - Accepted with revision"
+ },
+ "Fig25": {
+  "old": "S6.15",
+  "title": "Continental variation in the sewage resistome, 2016 Global Sewage Surveillance pilot",
+  "interp": "Within the single-protocol 2016 pilot, median abundance was highest in South America and Africa and lowest in Europe and Oceania (epsilon-squared 0.24); Europe and North America had larger MLS shares, Africa larger folate-pathway-antagonist and aminoglycoside shares.",
+  "limitation": "Limitation: Continents are coarse; Oceania n = 3.",
+  "revision": "Revision: Within-study (single protocol) comparison. Revise: overlapping log-axis tick labels in panel A.",
+  "meta": "Original file: Fig25_pilot_continent_resistome.png | Analytical area: Comparative / spatial | Objective(s): 2, 3 | Decision: B - Accepted with revision"
+ },
+ "Fig27": {
+  "old": "S6.16",
+  "title": "Exploratory classification of municipal wastewater versus other urban matrices from resistome class composition (grouped CV)",
+  "interp": "With whole studies held out, the random forest achieved mean ROC-AUC 0.70 (SD 0.18; 2.5–97.5 percentile 0.23–0.85) and balanced accuracy 0.59; logistic regression performed below chance (0.46). Allowing study leakage inflated AUC to 0.93, showing that most apparent signal is study-specific.",
+  "limitation": "Limitation: 15 studies; unstable across folds; matrix-signature test only, not a health or food-safety prediction.",
+  "revision": "",
+  "meta": "Original file: Fig27_modelA_classification_performance.png | Analytical area: Predictive modelling | Objective(s): 4 | Decision: A - Accepted"
+ },
+ "Fig28": {
+  "old": "S6.17",
+  "title": "Exploratory prediction of total normalized ARG abundance from phylum composition (temporal hold-out)",
+  "interp": "Ridge regression on CLR phylum composition explained 52% of variance in later-month total RPKM (95% CI 0.28–0.67; MAE 0.110 log10 units), versus a baseline R² of -0.02; random forest R² 0.32. Held-out-city R² ranged -0.04 (Delhi) to 0.41 (Kolkata) for ridge, so the association does not transfer reliably between cities.",
+  "limitation": "Limitation: Within one study and pipeline; association, not forecast of health outcomes.",
+  "revision": "",
+  "meta": "Original file: Fig28_modelB_regression_performance.png | Analytical area: Predictive modelling | Objective(s): 4 | Decision: A - Accepted"
+ },
+ "Fig29": {
+  "old": "S6.18",
+  "title": "Robustness of key ARG-abundance contrasts to alternative analytical specifications",
+  "interp": "City contrasts (versus Delhi) and matrix contrasts (versus municipal wastewater) keep their direction under alternative thresholds, denominators, outlier handling, pilot-project choice and KMA version; confidence intervals widen, and some matrix contrasts lose significance under the trimmed-fragment denominator.",
+  "limitation": "Limitation: Sensitivity, not validation; the seven DS02 specifications are sample-level models, so cite their direction, not their p-values.",
+  "revision": "",
+  "meta": "Original file: Fig29_sensitivity_forest.png | Analytical area: Sensitivity analysis | Objective(s): 2, 5 | Decision: A - Accepted"
+ },
+ "Fig32": {
+  "old": "S6.19",
+  "title": "Phylum and genus composition of the 16 Dhaka wastewater and pond metagenomes",
+  "interp": "Dhaka communities: Proteobacteria 34.1%, Firmicutes 32.7%, Bacteroidota 16.0% (means); Streptococcus, Klebsiella and Acinetobacter lead at genus level. DS01 samples are Firmicutes/Streptococcus-rich; one DS01 sample is dominated by Acinetobacter; the pond sample has a large Cyanobacteria share.",
+  "limitation": "Limitation: 52–72% of 16S fragments unresolved below family; Enterobacteriaceae genera poorly separable.",
+  "revision": "",
+  "meta": "Original file: Fig32_dhaka_taxonomic_composition.png | Analytical area: Taxonomic relative abundance (Dhaka) | Objective(s): 1 | Decision: A - Accepted"
+ },
+ "Fig34": {
+  "old": "S6.20",
+  "title": "Antibiotic-class composition and normalized ARG abundance in Dhaka samples",
+  "interp": "MLS genes dominate DS01 samples (77.0% mean share), whereas DS03 and DS84 samples have mixed profiles. Hospital samples tend to carry more high-confidence genes than municipal samples at similar total abundance; the pond sample is lowest on both axes.",
+  "limitation": "Limitation: Sample type confounded with dataset.",
+  "revision": "",
+  "meta": "Original file: Fig34_dhaka_resistance_classes.png | Analytical area: AMR gene presence and abundance (Dhaka) | Objective(s): 2 | Decision: A - Accepted"
+ },
+ "Fig36": {
+  "old": "S6.21",
+  "title": "Detection of clinically important ARG determinants in Dhaka samples (high-confidence and any-hit tiers)",
+  "interp": "NDM and KPC are each detected at high confidence in 7 of 16 samples (43.8%), qnr in 8, sul in 15, MCR in none; any-hit bounds are higher, notably for VIM (14 of 16 versus 1) and MCR (13 versus 0).",
+  "limitation": "Limitation: n = 16; wide Wilson intervals (e.g., NDM 23.1–66.8%).",
+  "revision": "",
+  "meta": "Original file: Fig36_dhaka_clinical_determinants.png | Analytical area: AMR gene presence (Dhaka) | Objective(s): 2, 3 | Decision: A - Accepted"
+ },
+ "Fig37": {
+  "old": "S6.22",
+  "title": "Ordination of the Dhaka microbiome and resistome",
+  "interp": "Dhaka samples separate mainly by dataset in genus and ARG ordinations (dataset R² 0.30 and 0.36); dispersion did not differ (PERMDISP p 0.49–0.90). Microbiome and resistome structures are strongly concordant (Mantel r = 0.69).",
+  "limitation": "Limitation: Descriptive; dataset, year, instrument and sample type confounded.",
+  "revision": "Revision: Descriptive only (dataset, year, instrument and sample type confounded). Revise: two text overlaps.",
+  "meta": "Original file: Fig37_dhaka_beta_diversity.png | Analytical area: PCA / ordination (Dhaka) | Objective(s): 1, 2 | Decision: B - Accepted with revision"
+ },
+ "Fig39": {
+  "old": "S6.23",
+  "title": "Within-Dhaka comparison of resistome and microbiome metrics by sample type and dataset",
+  "interp": "In DS84, hospital wastewater exceeded STP inlets by 0.29 log10 FPKM-16S (Cliff's delta 1.00) and carried 20 more high-confidence genes, but the exact p-values (0.057 and 0.086, i.e., 2/35 and 3/35) are at or near the minimum attainable with 4 versus 3 samples (2/35 = 0.057).",
+  "limitation": "Limitation: Underpowered; other contrasts confound type with study.",
+  "revision": "",
+  "meta": "Original file: Fig39_dhaka_within_city_comparison.png | Analytical area: Comparative analysis (within Dhaka) | Objective(s): 2, 3 | Decision: A - Accepted"
+ },
+ "Fig40": {
+  "old": "S6.24",
+  "title": "Microbiome composition of Dhaka compared with Delhi and other South Asian cities (uniform reprocessing)",
+  "interp": "Delhi open drains separate from all sewage samples on PCoA2 (genus Bray-Curtis), reflecting matrix and study; Dhaka DS01 and DS03 are Firmicutes-rich and DS03 Actinobacteriota-rich relative to comparator cities.",
+  "limitation": "Limitation: Matrices, years and studies differ.",
+  "revision": "Revision: Useful context; Delhi separates on PCoA2 (matrix and study differ). Revise: x-axis title overlaps legend; three overlaps flagged.",
+  "meta": "Original file: Fig40_dhaka_vs_delhi_south_asia_microbiome.png | Analytical area: Comparative analysis (cross-city) | Objective(s): 1 | Decision: B - Accepted with revision"
+ },
+ "Fig42": {
+  "old": "S6.25",
+  "title": "Dhaka compared with Karachi and other South Asian cities under a matched sewage-surveillance protocol",
+  "interp": "Under the matched protocol, Dhaka's abundance (median log10 5.46) overlaps Karachi's (5.40), but Dhaka has fewer high-confidence genes (19.5 versus 43.0; p = 0.012) and lower genus Shannon (2.53 versus 3.34; p = 0.227, not significant).",
+  "limitation": "Limitation: Four Dhaka and seven Karachi samples; city-rounds, not independent sites.",
+  "revision": "Revision: Design-matched comparison (same programme, platform, years). Revise: x-axis labels overlap ('Karachi'/'Kathmandu').",
+  "meta": "Original file: Fig42_dhaka_vs_karachi_matched_sewage.png | Analytical area: Comparative analysis (cross-city) | Objective(s): 2 | Decision: B - Accepted with revision"
+ },
+ "Fig43": {
+  "old": "S6.26",
+  "title": "Dhaka sampling locations against official city-corporation boundaries",
+  "interp": "Reported coordinates of all 16 Dhaka samples fall inside the Dhaka North/South City Corporations, but only 12 are confirmed (10 with sample-level and 2 with two-decimal coordinates); 3 have only a city-level publication coordinate and 1 lies closer to the boundary than its coordinate precision; a DS84 inlet sample and a DS01 sample lie about 0.13 km apart near the Pagla treatment area.",
+  "limitation": "Limitation: Whether DS01 rounds were all sampled at Pagla is unconfirmed (author decision).",
+  "revision": "",
+  "meta": "Original file: Fig43_dhaka_sampling_map.png | Analytical area: Spatial analysis / geographic verification | Objective(s): 5 | Decision: A - Accepted"
+ },
+ "Fig44": {
+  "old": "S6.27",
+  "title": "Calibration of the uniform reprocessing pipeline against the ResFinder resource",
+  "interp": "For five pilot sewage units, gene-level FPKM from the Stream 3 workflow correlated with resource values (Spearman rho 0.81–0.92; presence Jaccard 0.42–0.64), with totals slightly lower (log10 ratio -0.09 +/- 0.03).",
+  "limitation": "Limitation: Pipelines differ in KMA version, ResFinder release, depth and denominator; values not interchangeable.",
+  "revision": "",
+  "meta": "Original file: Fig44_resfinder_calibration.png | Analytical area: Methods validation | Objective(s): Prerequisite | Decision: A - Accepted"
+ },
+ "Fig45": {
+  "old": "S6.28",
+  "title": "Sensitivity of key results to sequencing-depth thresholds",
+  "interp": "DS02 site-aware city tests remain significant for total RPKM and family richness across depth thresholds from 10 Mbp to 1 Gbp, although thresholds up to 500 Mbp removed no DS02 sample and 1 Gbp removed only one, so this is a weak test for DS02; ResFinder matrix fold changes keep direction at every threshold; binomial thinning to 1–2 million read pairs reduces gene richness, confirming that rare-gene detection is depth-limited.",
+  "limitation": "Limitation: Thresholds remove few samples in DS02.",
+  "revision": "",
+  "meta": "Original file: Fig45_depth_sensitivity.png | Analytical area: Sensitivity analysis | Objective(s): 2, 5 | Decision: A - Accepted"
+ }
+}

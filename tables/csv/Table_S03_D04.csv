@@ -1,0 +1,107 @@
+Continent,Country,samples,sample_types,cities,datasets,with_AMR
+North America,United States,1051,6,19,12,75
+Asia,China,1043,6,4,20,2
+Europe,United Kingdom,821,6,16,6,0
+Asia,India,642,6,8,13,451
+Asia,Hong Kong,497,3,1,3,0
+Asia,Japan,456,5,5,9,16
+North America,Canada,334,2,6,3,18
+Africa,Kenya,324,3,2,3,5
+Europe,Denmark,276,2,6,4,66
+Asia,Singapore,167,3,2,6,57
+Africa,South Africa,159,2,3,5,22
+Europe,Sweden,121,2,2,4,75
+Europe,Italy,115,3,4,6,10
+South America,Brazil,112,3,4,5,8
+Europe,Norway,108,2,1,4,28
+Europe,Spain,98,3,3,4,7
+Africa,Zimbabwe,92,1,0,1,0
+Europe,Poland,77,2,1,4,4
+Oceania,New Zealand,77,2,4,3,2
+Europe,Germany,73,3,2,3,11
+Africa,Nigeria,64,2,5,2,4
+Asia,Thailand,60,3,2,2,0
+Europe,Finland,58,2,3,2,4
+Europe,Latvia,56,1,2,2,5
+Asia,Malaysia,55,2,8,2,6
+Oceania,Australia,53,3,5,3,12
+Asia,South Korea,34,2,2,2,5
+South America,Chile,32,2,3,2,0
+South America,Colombia,31,3,3,3,13
+Europe,Hungary,29,2,2,3,2
+Africa,Cameroon,28,1,1,2,0
+Europe,Czech Republic,25,2,2,2,4
+Africa,Tanzania,24,1,3,1,2
+Africa,Egypt,20,1,0,1,0
+Asia,Philippines,20,2,2,2,0
+Europe,Bulgaria,19,2,1,2,5
+South America,Ecuador,19,1,4,1,5
+North America,Costa Rica,18,1,0,1,0
+Asia,Bangladesh,18,4,1,4,0
+Africa,Cote d'Ivoire,18,1,4,1,4
+Africa,Ghana,14,1,4,1,2
+Europe,Portugal,14,1,2,2,0
+Asia,Israel,13,1,2,2,4
+South America,Paraguay,13,2,3,2,0
+Europe,Iceland,13,2,1,2,4
+Europe,Belgium,13,1,8,1,0
+Asia,Pakistan,13,1,3,1,2
+Europe,Netherlands,12,1,3,1,6
+Africa,Zambia,12,1,2,1,12
+Europe,Switzerland,12,1,3,1,8
+Africa,Malawi,11,1,10,1,0
+Africa,Burkina Faso,11,1,2,2,0
+Europe,Ireland,11,2,3,2,4
+Africa,Uganda,10,1,1,2,0
+Europe,Croatia,10,1,1,1,6
+Europe,Austria,10,2,1,2,6
+Asia,Iran,10,1,2,1,4
+Europe,Greece,10,1,2,1,0
+Africa,Chad,9,1,1,1,5
+Africa,Botswana,9,1,2,1,5
+Europe,Serbia,9,1,1,1,4
+Europe,Slovenia,8,1,1,1,4
+North America,Barbados,8,1,2,1,0
+Europe,Malta,8,1,4,1,4
+Europe,Macedonia,8,1,1,1,5
+Europe,France,8,1,2,1,0
+Europe,Estonia,8,1,4,1,0
+Africa,Democratic Republic of the Congo,8,1,1,1,0
+Asia,Turkey,7,2,2,2,4
+Europe,Slovakia,7,1,1,1,3
+Asia,Lebanon,7,1,0,1,0
+Asia,Sri Lanka,7,1,3,1,2
+Asia,Georgia,6,1,2,1,5
+Asia,Cambodia,6,1,1,1,2
+Africa,Togo,6,1,1,1,2
+Africa,Madagascar,6,1,3,1,0
+Africa,Senegal,6,1,1,1,2
+Asia,Nepal,6,1,2,1,2
+North America,Saint Lucia,6,1,2,1,0
+Europe,Albania,6,1,1,1,4
+Seven seas (open ocean),Mauritius,6,1,4,1,0
+Asia,Viet Nam,5,1,2,1,2
+North America,Nicaragua,5,1,5,1,0
+Europe,Romania,4,1,0,1,0
+North America,Greenland,4,1,1,1,0
+Europe,Montenegro,4,1,1,1,0
+Europe,Luxembourg,4,1,2,1,2
+Africa,Ethiopia,4,1,1,1,2
+Africa,Morocco,4,1,1,1,0
+Asia,Saudi Arabia,4,1,1,1,0
+South America,Bolivia,4,2,1,3,0
+Asia,Taiwan,4,1,1,1,0
+Europe,Bosnia and Herzegovina,4,1,1,1,0
+Europe,Moldova,4,1,1,1,4
+Asia,Kazakhstan,3,1,1,1,2
+South America,Argentina,3,1,1,1,0
+Asia,United Arab Emirates,3,1,1,1,0
+North America,Guatemala,3,1,2,1,0
+South America,Peru,3,1,2,1,2
+South America,Uruguay,3,1,1,1,0
+Africa,Benin,2,1,2,1,0
+Africa,Gambia,2,1,1,1,2
+Asia,Kuwait,2,1,1,1,0
+Africa,Mozambique,2,1,1,1,0
+Europe,Kosovo,2,1,1,1,2
+Europe,Lithuania,1,1,1,1,0

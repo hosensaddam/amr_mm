@@ -1,0 +1,13 @@
+target_city,Dataset_ID,Dataset_Name,Sample_Type,Inclusion_Status,samples,source_labelled_city,years,CARD_RGI,ResFinder_KMA,taxonomy,reprocessed_uniform_pipeline_runs,note
+Dhaka,DS01,Global Sewage Surveillance Project (Munk et al. 2022; incl. 2016 pilot),Municipal wastewater,Included,4,4,2017-2018,0,0,0,4,Uniformly reprocessed in this update (notebooks 12-16)
+Dhaka,DS03,Dhaka hospital and community wastewater (BCSIR),Community wastewater,Included,1,1,2025-2025,0,0,0,4,Uniformly reprocessed in this update (notebooks 12-16)
+Dhaka,DS03,Dhaka hospital and community wastewater (BCSIR),Hospital wastewater,Included,3,3,2025-2025,0,0,0,4,Uniformly reprocessed in this update (notebooks 12-16)
+Dhaka,DS84,"Shotgun Metagenomics of Hospital and Urban Wastewater in Dhaka, Bangladesh",Hospital wastewater,Included,4,0,2024-2024,0,0,0,8,Uniformly reprocessed in this update (notebooks 12-16)
+Dhaka,DS84,"Shotgun Metagenomics of Hospital and Urban Wastewater in Dhaka, Bangladesh",Municipal wastewater,Included,3,0,2024-2024,0,0,0,8,Uniformly reprocessed in this update (notebooks 12-16)
+Dhaka,DS84,"Shotgun Metagenomics of Hospital and Urban Wastewater in Dhaka, Bangladesh",Surface water,Included,1,0,2024-2024,0,0,0,8,Uniformly reprocessed in this update (notebooks 12-16)
+Delhi,DS02,Indian metropolitan open-drain wastewater (Singh et al. 2026),Community wastewater,Included,100,100,2022-2024,100,0,100,12,Uniformly reprocessed in this update (notebooks 12-16)
+Delhi,DS107,"Sediment Metagenome of River Yamuna (Wazaribad , New Delhi s1)",Surface water,Included,1,0,2017-2017,0,0,0,0,
+Delhi,DS108,"Sediment Metagenome of River Yamuna (Faizupur Khadar , New Delhi s3)",Surface water,Included,1,0,2017-2017,0,0,0,0,
+Delhi,DS43,New Delhi House Microbiome,Built environment,Included,90,0,2021-2021,0,0,0,0,
+Delhi,DS68,Public transit microbiome- India,Air,Included,10,0,2023-2024,0,0,0,0,
+Karachi,DS01,Global Sewage Surveillance Project (Munk et al. 2022; incl. 2016 pilot),Municipal wastewater,Included,8,8,2016-2018,0,1,0,7,Uniformly reprocessed in this update (notebooks 12-16)

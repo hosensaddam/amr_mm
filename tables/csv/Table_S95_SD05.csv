@@ -1,0 +1,26 @@
+threshold,Sample_Type,units,median_genus_shannon,median_gene_richness,median_total_FPKM
+none,Air,24,4.88478,53.5,17003.9
+none,Built environment,9,3.95023,60.0,16071.3
+none,Municipal wastewater,293,4.06173,89.0,105480.0
+none,Surface water,46,4.23893,60.0,31579.4
+none,Transit surface,24,4.87559,58.5,34309.6
+>= 10 Mbp,Air,24,4.88478,53.5,17003.9
+>= 10 Mbp,Built environment,9,3.95023,60.0,16071.3
+>= 10 Mbp,Municipal wastewater,293,4.06173,89.0,105480.0
+>= 10 Mbp,Surface water,46,4.23893,60.0,31579.4
+>= 10 Mbp,Transit surface,24,4.87559,58.5,34309.6
+>= 100 Mbp,Air,24,4.88478,53.5,17003.9
+>= 100 Mbp,Built environment,9,3.95023,60.0,16071.3
+>= 100 Mbp,Municipal wastewater,292,4.06154,89.0,105494.0
+>= 100 Mbp,Surface water,46,4.23893,60.0,31579.4
+>= 100 Mbp,Transit surface,24,4.87559,58.5,34309.6
+>= 500 Mbp,Air,24,4.88478,53.5,17003.9
+>= 500 Mbp,Built environment,9,3.95023,60.0,16071.3
+>= 500 Mbp,Municipal wastewater,285,4.06911,90.0,105013.0
+>= 500 Mbp,Surface water,40,4.2662,69.0,41096.4
+>= 500 Mbp,Transit surface,22,4.98307,60.5,34309.6
+>= 1 Gbp,Air,24,4.88478,53.5,17003.9
+>= 1 Gbp,Built environment,9,3.95023,60.0,16071.3
+>= 1 Gbp,Municipal wastewater,245,4.13046,104.0,103028.0
+>= 1 Gbp,Surface water,30,4.17303,69.0,23448.5
+>= 1 Gbp,Transit surface,19,5.11516,61.0,34816.8

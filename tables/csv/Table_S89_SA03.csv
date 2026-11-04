@@ -1,0 +1,31 @@
+specification,contrast,n_units,n_studies,fold_change,ci_low,ci_high,p_value
+Primary (PRJEB27054 pilot; all hits; FPKM per bacterial fragments),Air vs municipal wastewater,396,15,0.1333296,0.01262608,1.407941,0.09384122
+Primary (PRJEB27054 pilot; all hits; FPKM per bacterial fragments),Built environment vs municipal wastewater,396,15,0.0976989,0.01411024,0.6764645,0.01847868
+Primary (PRJEB27054 pilot; all hits; FPKM per bacterial fragments),Surface water vs municipal wastewater,396,15,0.2315424,0.07809399,0.6865047,0.008332834
+Primary (PRJEB27054 pilot; all hits; FPKM per bacterial fragments),Transit surface vs municipal wastewater,396,15,0.3308156,0.03132767,3.493365,0.3576602
+Primary (PRJEB27054 pilot; all hits; FPKM per bacterial fragments),Food-related (contextual) vs municipal wastewater,448,11,0.2376146,0.08489228,0.6650864,0.006208089
+PRJEB13831 replaces PRJEB27054,Air vs municipal wastewater,391,15,0.1341873,0.0128126,1.405354,0.09373632
+PRJEB13831 replaces PRJEB27054,Built environment vs municipal wastewater,391,15,0.09857628,0.01430015,0.6795231,0.01866211
+PRJEB13831 replaces PRJEB27054,Surface water vs municipal wastewater,391,15,0.2334035,0.07868546,0.6923412,0.008722829
+PRJEB13831 replaces PRJEB27054,Transit surface vs municipal wastewater,391,15,0.3329439,0.03179046,3.486946,0.358769
+PRJEB13831 replaces PRJEB27054,Food-related (contextual) vs municipal wastewater,443,11,0.2391697,0.08601538,0.6650222,0.006110439
+Both pilot projects included (double counts pilot samples),Air vs municipal wastewater,477,16,0.1236127,0.01263498,1.209349,0.07239727
+Both pilot projects included (double counts pilot samples),Built environment vs municipal wastewater,477,16,0.09071986,0.014064,0.5851885,0.01162515
+Both pilot projects included (double counts pilot samples),Surface water vs municipal wastewater,477,16,0.2204968,0.07838259,0.6202762,0.004170116
+Both pilot projects included (double counts pilot samples),Transit surface vs municipal wastewater,477,16,0.3067063,0.03134974,3.000622,0.3097887
+Both pilot projects included (double counts pilot samples),Food-related (contextual) vs municipal wastewater,529,12,0.2101771,0.07664494,0.5763513,0.002440744
+Exclude studies run with KMA 1.2.21,Air vs municipal wastewater,309,13,0.1403439,0.02025056,0.972636,0.04680571
+Exclude studies run with KMA 1.2.21,Built environment vs municipal wastewater,309,13,0.05346926,0.008234132,0.3472087,0.00215353
+Exclude studies run with KMA 1.2.21,Surface water vs municipal wastewater,309,13,0.1750956,0.0623137,0.4920019,0.0009480463
+Exclude studies run with KMA 1.2.21,Transit surface vs municipal wastewater,309,13,0.3482196,0.05024543,2.413292,0.2855081
+Exclude studies run with KMA 1.2.21,Food-related (contextual) vs municipal wastewater,345,9,0.167436,0.04820871,0.5815303,0.004903281
+FPKM per million trimmed fragments,Air vs municipal wastewater,396,15,0.1625337,0.007387148,3.576104,0.2493209
+FPKM per million trimmed fragments,Built environment vs municipal wastewater,396,15,0.0675239,0.005420424,0.8411661,0.03622724
+FPKM per million trimmed fragments,Surface water vs municipal wastewater,396,15,0.2760371,0.06994276,1.089412,0.06610618
+FPKM per million trimmed fragments,Transit surface vs municipal wastewater,396,15,0.3163861,0.01437973,6.9612,0.4655928
+FPKM per million trimmed fragments,Food-related (contextual) vs municipal wastewater,448,11,0.4036055,0.08286976,1.965704,0.261327
+Templates with run coverage >= 50% only,Air vs municipal wastewater,388,14,0.08098835,0.005731525,1.144392,0.06286474
+Templates with run coverage >= 50% only,Built environment vs municipal wastewater,388,14,0.2810278,0.01896298,4.164779,0.3561212
+Templates with run coverage >= 50% only,Surface water vs municipal wastewater,388,14,0.193623,0.05892166,0.6362663,0.006833866
+Templates with run coverage >= 50% only,Transit surface vs municipal wastewater,388,14,0.2389635,0.01691138,3.376634,0.289427
+Templates with run coverage >= 50% only,Food-related (contextual) vs municipal wastewater,439,11,0.2318526,0.06829999,0.7870516,0.01907942

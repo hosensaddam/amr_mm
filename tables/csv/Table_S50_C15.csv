@@ -1,0 +1,8 @@
+term,estimate,SE,ci_low,ci_high,p_value
+Intercept,0.5822884,0.3919499,-0.1859194,1.350496,0.1373798
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Air]",-0.1187663,0.3802586,-0.8640595,0.6265269,0.7547894
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Built environment]",-0.6833354,0.3505158,-1.370334,0.003662944,0.05123409
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Surface water]",0.1177118,0.2079533,-0.2898692,0.5252928,0.5713604
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Transit surface]",0.06081095,0.3806589,-0.6852668,0.8068887,0.8730766
+genus_shannon,0.2236307,0.04078815,0.1436874,0.303574,4.187963e-08
+log10_bacterial_fragments,0.3598426,0.06706737,0.228393,0.4912922,8.077455e-08

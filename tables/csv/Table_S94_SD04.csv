@@ -1,0 +1,21 @@
+threshold,units,studies,matrix,fold_change_vs_MW,ci_low,ci_high,units_in_matrix,same_direction_as_primary,CI_excludes_1
+none,396,15,Air,0.13333,0.0126261,1.40794,24,True,False
+none,396,15,Built environment,0.0976989,0.0141102,0.676465,9,True,True
+none,396,15,Surface water,0.231542,0.078094,0.686505,46,True,True
+none,396,15,Transit surface,0.330816,0.0313277,3.49337,24,True,False
+>= 10 Mbp,396,15,Air,0.13333,0.0126261,1.40794,24,True,False
+>= 10 Mbp,396,15,Built environment,0.0976989,0.0141102,0.676465,9,True,True
+>= 10 Mbp,396,15,Surface water,0.231542,0.078094,0.686505,46,True,True
+>= 10 Mbp,396,15,Transit surface,0.330816,0.0313277,3.49337,24,True,False
+>= 100 Mbp,395,15,Air,0.133607,0.0126317,1.41319,24,True,False
+>= 100 Mbp,395,15,Built environment,0.0979173,0.014121,0.678975,9,True,True
+>= 100 Mbp,395,15,Surface water,0.231919,0.0781369,0.688359,46,True,True
+>= 100 Mbp,395,15,Transit surface,0.331505,0.0313416,3.50639,24,True,False
+>= 500 Mbp,380,15,Air,0.133212,0.013183,1.34608,24,True,False
+>= 500 Mbp,380,15,Built environment,0.098256,0.0145988,0.661303,9,True,True
+>= 500 Mbp,380,15,Surface water,0.245116,0.0827561,0.726011,40,True,True
+>= 500 Mbp,380,15,Transit surface,0.319411,0.0315425,3.23447,22,True,False
+>= 1 Gbp,327,15,Air,0.138216,0.0120544,1.58477,24,True,False
+>= 1 Gbp,327,15,Built environment,0.101791,0.0136653,0.758224,9,True,True
+>= 1 Gbp,327,15,Surface water,0.239567,0.0769726,0.74562,30,True,True
+>= 1 Gbp,327,15,Transit surface,0.342049,0.0296401,3.94727,19,True,False

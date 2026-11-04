@@ -1,0 +1,146 @@
+{
+ "A01": {
+  "title": "CARD antimicrobial resistance gene families in Indian open-drain wastewater: mean and median abundance, share of total abundance and coverage-qualified prevalence",
+  "interpretation": "The table lists 315 CARD gene families detected across the open-drain metagenomes. Abundance was concentrated in a few families: RND efflux pumps contributed 16.4% of total RPKM, MFS efflux pumps 13.6% and sul genes 8.5%. Coverage-qualified prevalence reached 100% (95% CI 99.1–100) for MFS pumps, sul and MPH, and 22 families exceeded 90%. Beta-lactamase families formed 217 of the 315 rows, yet most occurred sporadically; NDM (1.6%), CTX-M (1.6%), KPC (1.8%) and VIM (1.3%) were detected with coverage of at least 50% in few samples, whereas any-hit detection of NDM reached 77 samples. The Wilson intervals treat monthly repeats from the same sites as independent and are therefore narrower than site-aware intervals; detection indicates DNA presence, not phenotypic resistance.",
+  "notes": "RPKM, reads per kilobase per million sequenced reads; RND, resistance-nodulation-cell division; MFS, major facilitator superfamily; MPH, macrolide phosphotransferase. Prevalence denominator 447 samples (sample-level, descriptive); Wilson 95% CI. Blank prevalence cells: no coverage-based estimate reported.",
+  "sort_hint": "share_of_total_pct"
+ },
+ "A02": {
+  "title": "Resistance-class composition of Indian open-drain wastewater resistomes: share of total CARD abundance by class group, overall and mean share by city",
+  "interpretation": "Five class groups accounted for most of the resistome: macrolide–lincosamide–streptogramin (MLS) genes contributed 17.6% of total RPKM, multi-class genes 16.9%, aminoglycoside 15.6%, beta-lactam 14.1% and tetracycline 11.7%. Fluoroquinolone/quinolone (0.69%), glycopeptide (0.14%) and fosfomycin (0.08%) genes formed small shares. Mean city shares were broadly similar, with the clearest differences in tetracycline (7.1% in Kolkata, 15.7% in Mumbai) and multi-class genes (14.3% in Mumbai, 21.8% in Kolkata). A small abundance share does not imply rarity: quinolone genes held 0.69% of RPKM yet qnr met the high-confidence rule in 67.1% of samples (Table A09). City shares are sample-level descriptive means, not site-aware tests, and Kolkata rests on two sites.",
+  "notes": "RPKM, reads per kilobase per million sequenced reads. Overall share = class RPKM summed over 447 samples divided by total RPKM; city columns = mean of per-sample shares. Genes spanning several classes are grouped as multi-class. Descriptive; no test.",
+  "sort_hint": ""
+ },
+ "A03": {
+  "title": "Resistance mechanisms in Indian open-drain wastewater resistomes: share of total CARD abundance by mechanism, overall and mean share by city",
+  "interpretation": "Antibiotic inactivation (40.3% of total RPKM) and antibiotic efflux (32.9%) together dominated the mechanism profile, followed by target protection (10.4%), target replacement (9.7%) and target alteration (3.6%); reduced permeability contributed 0.18%. City profiles were similar: inactivation ranged from 38.3% (Mumbai) to 42.7% (Delhi) and efflux from 30.1% (Chennai) to 35.0% (Kolkata). The target-replacement share closely matched the folate-pathway class share (9.7%; Table A02), consistent with both being carried mainly by sul and dfr genes. Mechanisms are assigned from reference annotations, not measured; efflux families include widespread chromosomal pumps whose contribution to clinically relevant resistance cannot be inferred from read counts, and city means are descriptive.",
+  "notes": "RPKM, reads per kilobase per million sequenced reads; mechanisms follow the CARD Antibiotic Resistance Ontology. Overall share pooled over 447 samples; city columns are means of per-sample shares. Sample-level, descriptive; no test.",
+  "sort_hint": ""
+ },
+ "A04": {
+  "title": "Total normalized antimicrobial resistance gene abundance and gene-family richness and diversity in Indian open-drain wastewater, by city",
+  "interpretation": "Median total ARG abundance was 666 RPKM in Delhi (bootstrap 95% CI 629–736; n = 100), 558 RPKM in Kolkata (429–656; n = 49), 461 RPKM in Chennai (383–515; n = 109) and 421 RPKM in Mumbai (398–449; n = 189). Interquartile ranges overlapped widely, for example 308–580 RPKM in Chennai and 342–763 RPKM in Kolkata. Median gene-family richness ranged from 39 (Chennai) to 53.5 (Delhi) families, and median family Shannon diversity from 3.06 to 3.23. These are sample-level summaries; bootstrap intervals that resample repeated monthly samples are optimistic, and the site-aware tests are reported separately (Tables A05s and A07s). RPKM uses total sequenced reads, including eukaryotic reads, as denominator.",
+  "notes": "ARG, antimicrobial resistance gene; RPKM, reads per kilobase per million sequenced reads; IQR, Q1–Q3. Richness counts CARD families with coverage of at least 50%. Bootstrap 95% CI of the sample median; descriptive.",
+  "sort_hint": ""
+ },
+ "A05s": {
+  "title": "Site-aware tests of city, season and year differences in total normalized resistance gene abundance, gene-family richness and diversity in Indian open-drain wastewater",
+  "interpretation": "With sites as the independent unit, city differences in total ARG abundance were supported by the site-level Kruskal–Wallis test (H = 9.87; whole-site permutation p = 0.0047; ε² = 0.46) and by the mixed model (LR = 17.2; p = 0.00065; BH q = 0.0026). Family richness differed more strongly (H = 13.6; permutation p = 0.0001; ε² = 0.71; mixed-model p < 0.0001), and family Shannon diversity also differed (permutation p = 0.007). Within sites, season (p = 0.024; q = 0.035) and year (p = 0.031; q = 0.041) were associated with total abundance, whereas season and year effects on Shannon diversity were not supported (q = 0.066 and 0.084). Estimates from 19 units, two in Kolkata, are imprecise and not causal.",
+  "notes": "ARG, antimicrobial resistance gene; RPKM, reads per kilobase per million reads; ε², epsilon-squared; LR, likelihood ratio; BH, Benjamini–Hochberg; ICC, site intraclass correlation. Units: 19 site medians (Kruskal–Wallis) or 447 samples with site random intercept (ML LRT). Primary inference.",
+  "sort_hint": ""
+ },
+ "A07s": {
+  "title": "Mixed-effects model of total normalized resistance gene abundance in Indian open-drain wastewater on city, season and year, with a site random intercept; fold changes relative to Delhi",
+  "interpretation": "Relative to Delhi, total ARG abundance was 0.62-fold in Chennai (95% CI 0.48–0.78; p < 0.0001) and 0.62-fold in Mumbai (0.50–0.77), whereas the Kolkata estimate (0.81; 0.59–1.10; p = 0.18) was compatible with no difference. Relative to winter, monsoon (0.86; 0.76–0.97) and pre-monsoon samples (0.87; 0.77–0.98) had lower abundance, while post-monsoon samples did not differ (0.98; 0.85–1.13). Relative to the first collection year, samples from 2023 had 0.89-fold abundance (0.81–0.97), and 2024 did not differ (0.96; 0.82–1.14). Between-site variance was small relative to residual variance (0.0048 vs. 0.038; ICC 0.11). Season and year are partly entangled with the sampling calendar, Kolkata contributes two sites, and the estimates describe associations, not causal effects.",
+  "notes": "ARG, antimicrobial resistance gene; ICC, intraclass correlation. Outcome log10 total RPKM; fold change = 10^estimate. Linear mixed model, REML, 447 samples nested in 19 sites; references Delhi, winter (Dec–Feb), 2022. Primary site-aware inference.",
+  "sort_hint": ""
+ },
+ "A09": {
+  "title": "Detection of clinically important resistance determinants in Indian open-drain wastewater by city: high-confidence, stricter-coverage and any-hit detection with Wilson confidence intervals",
+  "interpretation": "Under the primary high-confidence rule, sul genes were detected in all 447 samples, tet(X) in 88.6% (95% CI 85.3–91.2) and qnr in 67.1% (62.6–71.3). MCR genes were detected in 20.1% (16.7–24.1) and OXA-48-like genes in 12.8% (10.0–16.2), whereas IMP (4.7%), KPC (1.8%), NDM (1.6%), CTX-M (1.6%), VIM (1.3%) and vanA (0.2%) were uncommon. Any-hit detection was far higher for several determinants (MCR 89.0%, OXA-48-like 72.9%, KPC 38.3%), giving uncertainty ranges up to 68.9 percentage points, and the stricter 80% coverage tier reduced MCR to 5.1%. Sample-level city percentages, such as OXA-48-like in 36.7% of Kolkata samples, are descriptive (Table A10s). Detection reflects DNA presence, not phenotypic resistance, host or expression.",
+  "notes": "High-confidence: allele coverage ≥ 50% and ≥ 2 completely mapped reads (CARD/RGI). Any hit: unconfirmed upper bound. Uncertainty range = any-hit minus high-confidence, percentage points. Denominators: samples per city (447 overall); Wilson 95% CI; sample-level, descriptive.",
+  "sort_hint": ""
+ },
+ "A10s": {
+  "title": "Site-aware city comparisons of high-confidence detection of clinically important resistance determinants in Indian open-drain wastewater, with site-level prevalence by city",
+  "interpretation": "When city labels were permuted among 19 whole sites, city differences in detection were supported after BH adjustment for qnr (permutation p = 0.0002; q = 0.002), MCR (p = 0.0045), OXA-48-like (p = 0.005), CTX-M (p = 0.0055; all q = 0.014), IMP (q = 0.018), NDM (q = 0.027), KPC and VIM (both q = 0.037). Differences in tet(X) (p = 0.151) and vanA (q = 0.088) were not supported, and sul was detected in every sample. Site-level medians illustrate the pattern: qnr in 41% of samples per Chennai site against 92% per Delhi site, and CTX-M detected only at Delhi sites (median 6%). NDM, KPC and VIM rested on 6 to 8 positive samples and Kolkata on two sites, so these contrasts are fragile.",
+  "notes": "BH, Benjamini–Hochberg. High-confidence rule: coverage ≥ 50% and ≥ 2 completely mapped reads. Chi-squared statistic on 447 samples; p from permuting city labels among 19 whole sites (primary). Site prevalence = per-site share of samples with detection.",
+  "sort_hint": ""
+ },
+ "A11": {
+  "title": "Monthly median total normalized resistance gene abundance in Indian open-drain wastewater by city, with interquartile ranges and samples per city-month",
+  "interpretation": "The table contains 96 city-month summaries. Delhi and Kolkata contributed 25 monthly rounds from March 2022 to March 2024, Mumbai 24 (no July 2022 round) and Chennai 22, ending in December 2023. Monthly medians fluctuated within every city: 395–934 RPKM in Delhi, 217–1162 RPKM in Kolkata, 285–598 RPKM in Mumbai and 88–660 RPKM in Chennai. The lowest value (88 RPKM, Chennai, August 2023) rested on five samples with an interquartile range of 59–602 RPKM, indicating heterogeneity across sites rather than a uniform drop. Kolkata medians rested on one or two samples per month. No trend or seasonality test is reported here; the site-aware model of season and year is given in Table A07s.",
+  "notes": "RPKM, reads per kilobase per million sequenced reads; IQR, Q1–Q3; n, samples per city-month (1 to 8). Descriptive monthly medians; samples within a month come from different sites of the same city.",
+  "sort_hint": ""
+ },
+ "C01": {
+  "title": "Sequential PERMANOVA and dispersion tests of prokaryotic phylum and resistance gene-family composition in Indian open-drain wastewater by city, season and year",
+  "interpretation": "With whole sites permuted, city explained 7.3% of Bray–Curtis variation in phylum composition (pseudo-F = 11.66; p = 0.014) without detectable dispersion differences (PERMDISP p = 0.093); season (p = 0.474) and year (p = 0.08) were not supported for this distance. For ARG-family composition, city explained 8.6% (Bray–Curtis) and 11.8% (Jaccard) of variation (both p = 0.001), and smaller within-site effects of season (1.4%; p = 0.009) and year (0.9%; p = 0.012) were present. However, dispersion also differed between cities for both resistome distances (PERMDISP F = 8.85 and 6.65; p = 0.001), so part of the city effect reflects unequal spread rather than shifted centroids. Free-permutation rows give identical R² but treat repeated samples as independent and are descriptive.",
+  "notes": "PERMANOVA, permutational multivariate analysis of variance (sequential terms: city, then season, then year); PERMDISP, distance-to-centroid dispersion test; ARG, antimicrobial resistance gene; R², partial. 447 samples, 999 permutations; city permuted among whole sites, season and year within sites.",
+  "sort_hint": ""
+ },
+ "C03": {
+  "title": "Concordance between prokaryotic community structure and resistome structure in Indian open-drain wastewater: Mantel and Procrustes tests",
+  "interpretation": "Prokaryotic community and resistome dissimilarities were moderately concordant. The Spearman Mantel correlation between taxonomic Aitchison distance and resistome Bray–Curtis distance was 0.31, rising to 0.49 when taxonomic Bray–Curtis distance was used. Procrustes analysis of the first five principal coordinates gave m² = 0.85 (correlation 0.39). All three statistics had p = 0.001, the smallest value attainable with 999 permutations. Because the 447 samples include repeated monthly samples from the same sites, these p-values are descriptive and likely optimistic. Concordance indicates that samples similar in phylum composition also tended to have similar resistomes, which may reflect shared site or city structure; it does not identify the bacterial hosts of resistance genes.",
+  "notes": "Mantel test, Spearman correlation between distance matrices; Procrustes m², sum of squared residuals after superimposition (lower = more concordant); PCoA, principal coordinates analysis. Sample-level (447 samples), 999 permutations; descriptive.",
+  "sort_hint": ""
+ },
+ "C04": {
+  "title": "Spearman correlations between centered log-ratio phylum abundances and log-transformed resistance class-group abundance in Indian open-drain wastewater, with Benjamini–Hochberg adjustment",
+  "interpretation": "Of 150 phylum–class pairs (15 phyla, 10 class groups), 107 had BH-adjusted p below 0.05, and 10 had an absolute correlation of at least 0.5. The strongest positive correlations linked Proteobacteria with multi-class genes (rho = 0.82; 95% CI 0.78–0.85) and peptide/polymyxin genes (0.71), Firmicutes with phenicol (0.68) and MLS genes (0.57), and Actinobacteria with rifamycin genes (0.67). Planctomycetota (rho = −0.49) and Acidobacteria (−0.45) correlated negatively with beta-lactam genes, and Proteobacteria negatively with tetracycline genes (−0.32). With 447 samples, small correlations reach significance, and repeated sampling of the same sites makes p-values optimistic. Correlations of compositional phylum abundance with gene abundance are consistent with, but do not demonstrate, carriage of these genes by the correlated phyla.",
+  "notes": "CLR, centered log-ratio; MLS, macrolide–lincosamide–streptogramin; BH, Benjamini–Hochberg; rho, Spearman correlation with 95% CI. Class abundance as log10 RPKM. Sample-level (447 samples); 150 tests; descriptive and exploratory.",
+  "sort_hint": "rho"
+ },
+ "P01": {
+  "title": "Explained variance of principal components from centered log-ratio PCA of prevalent prokaryotic phyla in Indian open-drain wastewater",
+  "interpretation": "The first principal component explained 36.4% of the CLR variance in phylum composition and the second 20.2%, so the first two components captured 56.6% and the first three 66.2%. Five components had eigenvalues above 1 (PC1 6.45 to PC5 1.05), and ten components captured 93.9% of total variance. This concentration of variance in a few axes indicates that a small number of compositional contrasts structured the phylum profiles. As shown by the loadings (Table P02), these axes were driven mainly by low-abundance phyla rather than by the dominant Proteobacteria, so a large share of explained variance does not imply large shifts in the dominant community. The analysis is sample-level and descriptive.",
+  "notes": "PCA, principal component analysis; CLR, centered log-ratio transformation; PC, principal component. Input: 447 samples and the 21 phyla with prevalence ≥ 90% and mean relative abundance ≥ 0.1% (Table P02). Descriptive ordination; no test.",
+  "sort_hint": ""
+ },
+ "P02": {
+  "title": "Loadings and percentage contributions of prevalent prokaryotic phyla to the first three principal components of the centered log-ratio PCA in Indian open-drain wastewater",
+  "interpretation": "Each of the first three components was dominated by one to three minor phyla. Candidatus Omnitrophica contributed 76.0% of PC1 (loading 0.87), with Chlamydiae a further 14.0%. PC2 contrasted Candidatus Eremiobacteraeota (loading 0.66; 44.2%) with Chlamydiae (−0.65; 42.7%), and PC3 was shaped by Candidatus Eremiobacteraeota (39.9%), Chlamydiae (24.6%) and Candidatus Omnitrophica (12.8%). The dominant phyla contributed little: Proteobacteria accounted for 0.65% of PC1 and 6.4% of PC3, and Bacteroidota 3.4% of PC2. Because the CLR transformation weights log-ratios equally, sporadic changes in low-abundance phyla can dominate the ordination; these axes therefore describe variation in minor taxa and may be sensitive to classification and detection limits.",
+  "notes": "PC, principal component; CLR, centered log-ratio. Contribution = squared loading as a percentage of the component total. 21 phyla, 447 samples; descriptive ordination.",
+  "sort_hint": ""
+ },
+ "P03b": {
+  "title": "Discrete prokaryotic taxonomic clusters in Indian open-drain wastewater identified by k-means on the first three principal components: size, city composition and median phylum abundance",
+  "interpretation": "The four clusters differed in size and in the minor phyla that defined them. Cluster T4 (n = 226) was characterized by Candidatus Omnitrophica (median 2.14%) and comprised 130 Mumbai samples; T2 (n = 92) by Chlamydiae (2.37%), with 42 Chennai samples; and T1 (n = 31) by Candidatus Eremiobacteraeota (1.79%), with 22 Delhi samples. T3 (n = 98) had very low levels of all three marker phyla and drew samples from all four cities (20 to 27 per city). Median Proteobacteria abundance was similar across clusters (61.6–70.5%). The clusters are therefore distinguished by minor phyla with medians no higher than 2.37%, not by the dominant community, and their link to particular sites or processing batches was not tested.",
+  "notes": "Clusters from k-means (k = 4) on CLR-PCA scores PC1–PC3; n, samples per cluster; city columns, sample counts; phylum columns, median relative abundance (%). 447 samples; descriptive.",
+  "sort_hint": ""
+ },
+ "P03c": {
+  "title": "Associations of discrete prokaryotic taxonomic clusters in Indian open-drain wastewater with city, season, year, sequencing depth and total normalized resistance gene abundance",
+  "interpretation": "Cluster membership was associated with city (chi-squared = 121.4; df = 9; Cramér's V = 0.30; p < 0.0001), a moderate association, but not with season (V = 0.09; p = 0.28), and only weakly with year (V = 0.12; p = 0.053). Sequencing depth did not differ between clusters (ε² = 0.0018; p = 0.28), which argues against depth as the main driver of clustering. Total ARG abundance differed between clusters (H = 46.8; ε² = 0.099; p < 0.0001), although the effect size was small. These tests treat samples as independent despite repeated monthly sampling of sites, so p-values are optimistic and the city association may partly reflect site membership; other technical factors, such as processing batch, were not assessed.",
+  "notes": "Chi-squared test with Cramér's V for categorical covariates; Kruskal–Wallis H with epsilon-squared (ε²) for log10 sequenced reads and log10 total ARG RPKM. ARG, antimicrobial resistance gene. Sample-level (447 samples); descriptive.",
+  "sort_hint": ""
+ },
+ "P04": {
+  "title": "Explained variance of principal components from centered log-ratio PCA of resistance class-group composition in Indian open-drain wastewater",
+  "interpretation": "The first three components explained 35.1%, 25.8% and 17.6% of CLR variance in resistance-class composition, together 78.5%, and only these three had eigenvalues above 1 (2.05, 1.51 and 1.03). The fourth component added 6.6%, and ten components captured 98.8%. Resistome composition at class level was therefore low-dimensional, with three axes sufficient to describe most between-sample variation. The loadings (Table P05) show that these axes were driven mainly by classes with small abundance shares, so the ordination emphasizes relative variation in rare classes more than the dominant MLS, aminoglycoside and beta-lactam genes. The analysis is sample-level and descriptive.",
+  "notes": "PCA, principal component analysis; CLR, centered log-ratio; PC, principal component; MLS, macrolide–lincosamide–streptogramin. Input: 13 class groups (CARD/RGI RPKM), 447 samples. Descriptive ordination; no test.",
+  "sort_hint": ""
+ },
+ "P05": {
+  "title": "Loadings and percentage contributions of resistance class groups to the first three principal components of the centered log-ratio PCA in Indian open-drain wastewater",
+  "interpretation": "PC1 contrasted fluoroquinolone/quinolone genes (loading 0.74; 54.7% of the component) with glycopeptide genes (−0.55; 29.8%). PC2 was dominated by glycopeptide genes (0.68; 46.0%) opposed to tetracycline genes (−0.39; 15.4%), and PC3 by fluoroquinolone/quinolone (27.4%), multi-class (24.8%) and peptide/polymyxin genes (19.1%). The most abundant classes contributed little to PC1: MLS 1.9%, aminoglycoside 0.67% and beta-lactam 0.19%. Fluoroquinolone/quinolone and glycopeptide genes held only 0.69% and 0.14% of total RPKM (Table A02), so the leading axes reflect log-ratio variation in rare classes, which is sensitive to zero handling and detection limits, rather than variation in the bulk of the resistome.",
+  "notes": "PC, principal component; CLR, centered log-ratio; MLS, macrolide–lincosamide–streptogramin; RPKM, reads per kilobase per million reads. Contribution = squared loading as a percentage of the component total. 13 class groups, 447 samples; descriptive.",
+  "sort_hint": ""
+ },
+ "T00": {
+  "title": "Domain-level composition of phylum-classified reads in Indian open-drain wastewater: mean and standard deviation of bacterial, archaeal, eukaryotic and viral shares by city",
+  "interpretation": "Across all samples, bacteria accounted for 66.4% (SD 10.0) of phylum-classified reads and eukaryotes for 31.0% (SD 9.5), with archaea (1.16%) and viruses (1.44%) forming small fractions. The eukaryotic share ranged from 25.6% in Kolkata to 33.7% in Mumbai, and the bacterial share from 63.7% in Mumbai to 72.2% in Kolkata. This substantial and variable eukaryotic fraction matters for normalization: RPKM divides gene reads by all sequenced reads, so cities with more eukaryotic DNA would show lower ARG abundance per million reads even with identical bacterial resistomes. Prokaryote-based analyses therefore excluded eukaryotic reads, and between-city abundance contrasts should be read with this denominator effect in mind. The shares depend on the classification database.",
+  "notes": "Shares of reads classified at phylum level (Kraken 2/Bracken); unclassified reads excluded. SD, standard deviation; ARG, antimicrobial resistance gene; RPKM, reads per kilobase per million sequenced reads. 447 samples; descriptive.",
+  "sort_hint": ""
+ },
+ "T02": {
+  "title": "Mean relative abundance of the ten dominant prokaryotic phyla in Indian open-drain wastewater, by city",
+  "interpretation": "Proteobacteria dominated the prokaryotic fraction in every city, with mean relative abundance from 62.5% (Mumbai) to 70.9% (Kolkata). Bacteroidota ranged from 8.7% (Chennai) to 14.0% (Mumbai), Actinobacteria from 7.8% (Delhi) to 9.9% (Chennai) and Firmicutes from 4.4% (Kolkata) to 6.0% (Delhi). The remaining six named phyla each contributed at most 2.2%, and all other phyla combined 2.8–3.6%. The four cities thus shared a broadly similar phylum profile, with differences mainly in the balance between Proteobacteria and Bacteroidota. These are unweighted sample means that give more weight to cities and sites with more samples; city differences in composition are tested with sites as units in Table C01.",
+  "notes": "Relative abundance (%) of prokaryotic reads (Kraken 2/Bracken), eukaryotic reads excluded. Means over samples per city: Chennai 109, Delhi 100, Kolkata 49, Mumbai 189. Descriptive; no test.",
+  "sort_hint": ""
+ },
+ "T03": {
+  "title": "Mean relative abundance of the ten dominant prokaryotic phyla in Indian open-drain wastewater, by season",
+  "interpretation": "Seasonal phylum profiles were almost identical. Proteobacteria ranged from 65.0% in winter to 67.2% after the monsoon, Bacteroidota from 11.1% to 12.6%, Actinobacteria from 8.8% to 9.7% and Firmicutes from 4.8% to 5.9%. No named phylum changed by more than about two percentage points between seasons, and minor phyla such as Chlamydiae (0.36–0.57%) and Cyanobacteria (0.48–0.64%) varied within narrow ranges. This stability is consistent with the absence of a season effect on Bray–Curtis phylum composition within sites (p = 0.474; Table C01). Seasonal means pool cities and years unevenly, because collection months differed between years, so the table describes rather than tests seasonal variation.",
+  "notes": "Seasons: winter December–February, pre-monsoon March–May, monsoon June–September, post-monsoon October–November. Relative abundance (%) of prokaryotic reads; means over samples per season. Descriptive; no test.",
+  "sort_hint": ""
+ },
+ "T04": {
+  "title": "Phylum-level alpha diversity of prokaryotic communities in Indian open-drain wastewater by city: observed and rarefied richness, Shannon, Gini–Simpson and Pielou evenness",
+  "interpretation": "Phylum-level diversity was low and similar across cities. Median Shannon diversity was 1.17 in Delhi, 1.18 in Kolkata, 1.29 in Chennai and 1.43 in Mumbai, and median Pielou evenness ranged from 0.26 to 0.31, reflecting dominance by Proteobacteria (Table T02). Median rarefied richness was 94 phyla in Delhi and Kolkata and 96 in Chennai and Mumbai, and observed richness medians were 97–99 phyla, close to saturation. Median Gini–Simpson values ranged from 0.50 to 0.60. These are sample-level summaries; whether city differences hold with sites as units is assessed in Tables T06s and T08s. Phylum resolution is coarse, so genus- or species-level diversity may differ in pattern.",
+  "notes": "Median, Q1–Q3, mean and SD per city (Chennai 109, Delhi 100, Kolkata 49, Mumbai 189 samples). Rarefied richness at a common read depth; Shannon in natural-log units; prokaryotic phyla (Kraken 2/Bracken). Descriptive.",
+  "sort_hint": ""
+ },
+ "T06s": {
+  "title": "Site-aware tests of city, season and year differences in phylum-level alpha diversity of prokaryotic communities in Indian open-drain wastewater",
+  "interpretation": "With sites as units, rarefied phylum richness differed between cities (site-level H = 11.1; whole-site permutation p = 0.0023; BH q = 0.018; mixed-model p = 0.00076; q = 0.012). City differences in Shannon diversity were not supported after adjustment (permutation p = 0.054; q = 0.097; mixed-model p = 0.026; q = 0.089), and Gini–Simpson (p = 0.060) and Pielou evenness (p = 0.054) followed the same pattern. Season was not associated with any index within sites (p = 0.057 to 0.34; all q ≥ 0.097), and the year association with richness (p = 0.028) did not survive adjustment (q = 0.089). Site intraclass correlations were 0.04 for richness and 0.13 for Shannon. Inference rests on 19 sites (Chennai 5, Delhi 4, Kolkata 2, Mumbai 8), limiting power.",
+  "notes": "H, Kruskal–Wallis on 19 site medians with whole-site permutation p; LR, likelihood ratio from ML mixed models with site random intercept (447 samples); ε², epsilon-squared; BH, Benjamini–Hochberg; ICC, site intraclass correlation. Primary inference.",
+  "sort_hint": ""
+ },
+ "T08s": {
+  "title": "Mixed-effects model of phylum-level Shannon diversity of prokaryotic communities in Indian open-drain wastewater on city, season and year, with a site random intercept",
+  "interpretation": "Relative to Delhi (intercept 1.11), Shannon diversity was 0.19 units higher in Mumbai (95% CI 0.02–0.35; p = 0.024), whereas the Chennai (0.14; −0.04 to 0.31; p = 0.13) and Kolkata contrasts (−0.08; −0.31 to 0.15; p = 0.48) included zero. No season contrast with winter was supported (p = 0.34 to 0.67), and Shannon diversity in 2023 (0.054; p = 0.086) and 2024 (0.010; p = 0.86) did not differ from the first collection year. Between-site variance (0.014) was small relative to residual variance (0.097), giving an intraclass correlation of 0.13. The single Mumbai contrast should not be overinterpreted, because the overall city effect on Shannon diversity was not supported after multiple-testing adjustment (q = 0.089; Table T06s).",
+  "notes": "Linear mixed model, REML, 447 samples in 19 sites; references Delhi, winter (December–February) and 2022. Estimates in Shannon units (natural log) with 95% CI. ICC, site intraclass correlation. Primary site-aware inference.",
+  "sort_hint": ""
+ }
+}

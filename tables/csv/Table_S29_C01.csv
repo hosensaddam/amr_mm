@@ -1,0 +1,25 @@
+features,distance,term,covariates,n,df_term,df_resid,pseudo_F,R2_partial,p_value,permutations,permutation_scheme
+Prokaryotic phyla,Bray-Curtis,City,"(none; free permutation, descriptive)",447,3,443,11.65899,0.0731771,0.001,999,free
+Prokaryotic phyla,Bray-Curtis,City,(none),447,3,443,11.65899,0.0731771,0.014,999,blocks: Site
+Prokaryotic phyla,Bray-Curtis,Season,City,447,3,440,0.8248781,0.005183456,0.474,999,within Site
+Prokaryotic phyla,Bray-Curtis,year,City;Season,447,2,438,1.812329,0.007564405,0.08,999,within Site
+Prokaryotic phyla,Bray-Curtis,City,(PERMDISP),447,3,443,2.038882,,0.093,999,PERMDISP (distance to centroid)
+Prokaryotic phyla,Bray-Curtis,Season,(PERMDISP),447,3,443,0.8223423,,0.482,999,PERMDISP (distance to centroid)
+Prokaryotic phyla,Aitchison (CLR),City,"(none; free permutation, descriptive)",447,3,443,11.60354,0.07285445,0.001,999,free
+Prokaryotic phyla,Aitchison (CLR),City,(none),447,3,443,11.60354,0.07285445,0.001,999,blocks: Site
+Prokaryotic phyla,Aitchison (CLR),Season,City,447,3,440,1.739162,0.01086518,0.001,999,within Site
+Prokaryotic phyla,Aitchison (CLR),year,City;Season,447,2,438,2.244867,0.009297063,0.001,999,within Site
+Prokaryotic phyla,Aitchison (CLR),City,(PERMDISP),447,3,443,0.805508,,0.502,999,PERMDISP (distance to centroid)
+Prokaryotic phyla,Aitchison (CLR),Season,(PERMDISP),447,3,443,1.338222,,0.251,999,PERMDISP (distance to centroid)
+ARG gene families,Bray-Curtis (relative RPKM),City,"(none; free permutation, descriptive)",447,3,443,13.80622,0.08550181,0.001,999,free
+ARG gene families,Bray-Curtis (relative RPKM),City,(none),447,3,443,13.80622,0.08550181,0.001,999,blocks: Site
+ARG gene families,Bray-Curtis (relative RPKM),Season,City,447,3,440,2.248849,0.0138103,0.009,999,within Site
+ARG gene families,Bray-Curtis (relative RPKM),year,City;Season,447,2,438,2.304823,0.009380394,0.012,999,within Site
+ARG gene families,Bray-Curtis (relative RPKM),City,(PERMDISP),447,3,443,8.847286,,0.001,999,PERMDISP (distance to centroid)
+ARG gene families,Bray-Curtis (relative RPKM),Season,(PERMDISP),447,3,443,2.604323,,0.043,999,PERMDISP (distance to centroid)
+ARG gene families,"Jaccard (presence, cov>=50%)",City,"(none; free permutation, descriptive)",447,3,443,19.67971,0.1175987,0.001,999,free
+ARG gene families,"Jaccard (presence, cov>=50%)",City,(none),447,3,443,19.67971,0.1175987,0.001,999,blocks: Site
+ARG gene families,"Jaccard (presence, cov>=50%)",Season,City,447,3,440,2.428213,0.01437111,0.001,999,within Site
+ARG gene families,"Jaccard (presence, cov>=50%)",year,City;Season,447,2,438,2.368715,0.009288195,0.002,999,within Site
+ARG gene families,"Jaccard (presence, cov>=50%)",City,(PERMDISP),447,3,443,6.65342,,0.001,999,PERMDISP (distance to centroid)
+ARG gene families,"Jaccard (presence, cov>=50%)",Season,(PERMDISP),447,3,443,0.2248849,,0.882,999,PERMDISP (distance to centroid)

@@ -1,0 +1,15 @@
+workbook,check,value,status
+AMR_Updated_Final_Analysis.xlsx,Sheets,30,INFO
+AMR_Updated_Final_Analysis.xlsx,Excel tables,159,VERIFIED
+AMR_Updated_Final_Analysis.xlsx,Embedded images,90,INFO
+AMR_Updated_Final_Analysis.xlsx,Native charts,5,VERIFIED
+AMR_Updated_Final_Analysis.xlsx,Cells compared with source CSVs (first 400 rows per table),65792,INFO
+AMR_Updated_Final_Analysis.xlsx,Cell mismatches vs CSV,0,VERIFIED
+AMR_Updated_Final_Analysis.xlsx,Integer cells stored as text (AUD-01 rule),0,VERIFIED
+Dhaka_City_Advanced_Analysis.xlsx,Sheets,18,INFO
+Dhaka_City_Advanced_Analysis.xlsx,Excel tables,38,VERIFIED
+Dhaka_City_Advanced_Analysis.xlsx,Embedded images,28,INFO
+Dhaka_City_Advanced_Analysis.xlsx,Native charts,3,VERIFIED
+Dhaka_City_Advanced_Analysis.xlsx,Cells compared with source CSVs (first 400 rows per table),24934,INFO
+Dhaka_City_Advanced_Analysis.xlsx,Cell mismatches vs CSV,0,VERIFIED
+Dhaka_City_Advanced_Analysis.xlsx,Integer cells stored as text (AUD-01 rule),0,VERIFIED

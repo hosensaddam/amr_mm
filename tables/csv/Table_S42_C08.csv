@@ -1,0 +1,11 @@
+term,estimate,SE,ci_low,ci_high,p_value,fold_change_vs_MW,single_study_matrix,studies_for_matrix
+Intercept,5.016265,0.1762975,4.670728,5.361801,4.422441e-178,,,
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Air]",-0.8750735,0.5222841,-1.898731,0.1485845,0.09384122,0.1333296,Yes,1.0
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Built environment]",-1.01011,0.4287606,-1.850466,-0.169755,0.01847868,0.0976989,No,2.0
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Surface water]",-0.6353694,0.2408274,-1.107382,-0.1633565,0.008332834,0.2315424,No,5.0
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Transit surface]",-0.480414,0.5222841,-1.504072,0.543244,0.3576602,0.3308156,Yes,1.0
+Study variance,0.2363557,,,,,,,
+Residual variance,0.1282588,,,,,,,
+ICC (study),0.6482345,,,,,,,
+"LRT chi2 (matrix term, ML)",13.07456,,,,,,,
+LRT p-value,0.01091715,,,,,,,

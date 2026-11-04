@@ -1,0 +1,5 @@
+check,n,statistic,p_value,effect,effect_name
+DS02 phylum observed_richness by city (Kruskal-Wallis),447,24.02107,2.472823e-05,0.04745163,epsilon-squared
+DS02 phylum rarefied_richness by city (Kruskal-Wallis),447,61.79247,2.433371e-13,0.1327144,epsilon-squared
+DS02 resistome Aitchison distance (families in >= 50% of samples) ~ City (PERMANOVA),447,18.83474,0.001,0.1131206,R2
+Model A random forest ROC-AUC across 5 random seeds (LOGO),396,0.6556546,,0.006588975,SD across seeds; range 0.646-0.667

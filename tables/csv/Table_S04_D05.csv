@@ -1,0 +1,10 @@
+Continent,Air,Built environment,Community wastewater,Hospital wastewater,Municipal wastewater,Surface water,Transit surface,Urban soil,Total
+Africa,0,271,46,20,445,0,43,20,845
+Asia,164,1042,453,172,588,270,209,190,3088
+Europe,192,132,30,21,867,36,654,134,2066
+North America,59,1,0,0,165,529,655,20,1429
+Not reported,12,3,0,16,15,15,208,0,269
+Oceania,0,0,0,0,83,14,33,0,130
+Seven seas (open ocean),0,0,0,0,6,0,0,0,6
+South America,0,0,0,8,85,18,109,0,220
+Total,427,1449,529,237,2254,882,1911,364,8053

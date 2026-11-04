@@ -1,0 +1,1 @@
+ERR2607520 ftp.sra.ebi.ac.uk/vol1/fastq/ERR260/000/ERR2607520/ERR2607520_1.fastq.gz ftp.sra.ebi.ac.uk/vol1/fastq/ERR260/000/ERR2607520/ERR2607520_2.fastq.gz 4000000

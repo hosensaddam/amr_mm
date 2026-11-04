@@ -1,0 +1,6 @@
+unit_id,runs,City,genes_resource,genes_ours,genes_both,jaccard_presence,spearman_log_FPKM_shared_genes,spearman_top50_resource_genes,total_FPKM_resource,total_FPKM_ours,log10_ratio_total_ours_vs_resource,share_of_resource_FPKM_in_shared_genes
+BIO:2016_pil_ind_01,ERR2607465;ERR2607466,Cochin,165,199,133,0.575758,0.880811,0.927891,253875.0,202624.0,-0.0979298,96.0173
+BIO:2016_pil_lka_01,ERR2607486,Colombo,132,93,66,0.415094,0.807449,0.682021,20136.4,17336.6,-0.0650172,82.7324
+BIO:2016_pil_npl_01,ERR2607518,Kathmandu,155,133,102,0.548387,0.868575,0.930948,290078.0,256625.0,-0.0532144,97.4447
+BIO:2016_pil_pak_01,ERR2607520,Karachi,188,161,125,0.558036,0.904461,0.942473,440826.0,362147.0,-0.0853817,97.4302
+SAMEA4700785,ERR2607464,Not reported,113,137,98,0.644737,0.922384,0.908737,262349.0,191285.0,-0.137198,96.8792

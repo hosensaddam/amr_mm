@@ -1,0 +1,7 @@
+Stratum,Sample_Type,units,studies,countries,median_total_FPKM,Q1,Q3,mean_log10_FPKM,sd_log10_FPKM,median_gene_richness,median_bacterial_fragments,median_CI95
+Food-related (contextual),Food-related environment,155,4,4,12882.0,6913.4,33362.0,4.0821,0.76196,20.0,7201.0,"(11027.0, 16495.0)"
+Urban environmental,Air,24,1,1,17004.0,12596.0,24150.0,4.1412,0.39541,53.5,23014.0,"(14881.0, 22010.0)"
+Urban environmental,Built environment,9,2,4,16071.0,8574.2,72634.0,4.3367,0.56911,60.0,68197.0,"(8461.0, 88963.0)"
+Urban environmental,Municipal wastewater,293,7,63,105480.0,67379.0,189060.0,5.0051,0.39564,89.0,38336.0,"(96717.0, 115653.0)"
+Urban environmental,Surface water,46,5,4,31579.0,12822.0,229590.0,4.6208,0.83196,60.0,4814.0,"(15152.0, 95207.0)"
+Urban environmental,Transit surface,24,1,1,34310.0,27361.0,40175.0,4.5359,0.24382,58.5,15359.0,"(28157.0, 38103.0)"

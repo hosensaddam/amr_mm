@@ -1,0 +1,7 @@
+Sample_Type,units,studies,median_total_FPKM,median_gene_richness
+Air,24,1,17003.901826076268,53.5
+Built environment,9,2,16071.297754995758,60.0
+Food-related environment,155,4,12881.66919200051,20.0
+Municipal wastewater,293,7,105480.41437431233,89.0
+Surface water,46,5,31579.351433042088,60.0
+Transit surface,24,1,34309.595791199274,58.5

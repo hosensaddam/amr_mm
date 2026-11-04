@@ -1,0 +1,6 @@
+item,n
+Included samples,8053
+with source-reported coordinates (mapped),6134
+without coordinates (not mapped),1919
+distinct coordinate pairs,2557
+flagged coordinate-country mismatch >25 km (mapped as reported),228

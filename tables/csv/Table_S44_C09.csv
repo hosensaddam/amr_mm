@@ -1,0 +1,12 @@
+term,estimate,SE,ci_low,ci_high,p_value
+Intercept,-131.7857,18.56736,-168.177,-95.3943,1.26846e-12
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Air]",-29.66209,30.51351,-89.46746,30.14328,0.3310022
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Built environment]",-68.31765,25.6922,-118.6734,-17.96186,0.007835406
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Surface water]",-8.038871,14.98204,-37.40312,21.32538,0.5915665
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Transit surface]",-19.79768,30.51817,-79.6122,40.01685,0.516521
+log10_bacterial_fragments,49.91585,3.5427,42.97228,56.85941,4.389629e-45
+Study variance,797.7967,,,,
+Residual variance,570.2588,,,,
+ICC (study),0.583161,,,,
+"LRT chi2 (matrix term, ML)",8.749527,,,,
+LRT p-value,0.06767428,,,,

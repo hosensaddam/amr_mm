@@ -1,0 +1,146 @@
+{
+ "DH02": {
+  "title": "Dhaka metagenome inventory by dataset: BioProjects, sequencing platform, collection period, sequencing depth and sample-type composition (3 datasets, 16 samples)",
+  "interpretation": "The 16 Dhaka metagenomes (Table DH03) came from three datasets that differed simultaneously in period, platform, depth and matrix. DS01 comprised 4 municipal wastewater samples from four BioProjects (Illumina NovaSeq 6000, 2017-06-14 to 2018-12-31; median 13.4 Gbp, range 12.9-13.7). DS03 comprised 3 hospital and 1 community wastewater samples collected on 2025-06-18 (NextSeq 2000; median 7.1 Gbp, 6.0-8.0). DS84 comprised 4 hospital, 3 municipal wastewater and 1 surface-water sample (NextSeq 500, 2024-06-04 to 2024-11-01; median 2.4 Gbp, 1.2-4.9). Because dataset, year, instrument, depth and sample type covary, no between-dataset difference can be attributed to time, setting or hospital influence. The DS84 collection year also differs between source records (2024 here, 2025 in another record) and requires author verification.",
+  "notes": "Gbp, gigabase pairs of the full public library (ENA); sample types are the verified types after reclassification (Table DH03). Inventory only; no statistical test. Uniform analysis used a fixed subsample per run (Table DH06).",
+  "sort_hint": ""
+ },
+ "DH03": {
+  "title": "Dhaka sample-level metadata: verified sample type, reclassification record, collection date, coordinates and coordinate precision for the 16 Dhaka-labelled metagenomes",
+  "interpretation": "Checking each record against the BioSample isolation source and BioProject description changed the sample type of 4 of the 16 samples, all in DS84, where a study-level hospital-wastewater default had been applied: three urban sewage-treatment-plant inlets (UWW1-UWW3) became municipal wastewater and the pond control became surface water. The verified composition was 7 hospital, 7 municipal, 1 community and 1 surface-water sample, so hospital and municipal contrasts rest on small groups drawn from different datasets. Coordinates were reported to at least 3 decimals for 11 samples and to 2 decimals or fewer for 5; three DS01 samples shared one city-level coordinate (23.76, 90.38) and no DS01 locality was reported. DS84 dates in these records fall in 2024, but another source record gives 2025, so the year is unverified.",
+  "notes": "One row per BioSample. Original versus verified sample type is shown with the reason for each change. Coordinate precision is as reported by the source; no coordinates were imputed. Descriptive metadata; no test.",
+  "sort_hint": ""
+ },
+ "DH06": {
+  "title": "Read-level quality control and sequencing-depth assessment for each Dhaka metagenome after uniform subsampling of 4,000,000 read pairs per run",
+  "interpretation": "All 16 runs completed processing with 4,000,000 read pairs acquired and no QC flag raised. Between 91.7% and 99.4% of pairs passed fastp filtering, and the post-QC Q30 rate ranged from 0.848 to 0.966; NextSeq runs (DS03, DS84) lost more pairs as too short than NovaSeq runs (DS01). The subsample represented 4.3%-8.9% of each DS01 library but up to 99.2% of the smallest DS84 library, so sampling effort was equal per run but not per library. Prokaryotic 16S fragments, the denominator for FPKM-16S, ranged from 3,584 to 33,566, and ResFinder-aligned fragments from 61 (pond water) to 9,843. Low 16S and alignment counts widen the uncertainty of normalized abundances, and instrument differences remain confounded with dataset.",
+  "notes": "Q30, share of bases with Phred quality >= 30; FPKM-16S, fragments per kilobase of template per million prokaryotic 16S fragments. Unit: sequencing run (one per sample). Descriptive QC; no test.",
+  "sort_hint": ""
+ },
+ "DH08": {
+  "title": "Relative abundance (mean, median, maximum) and prevalence of every prokaryotic phylum, class, order, family and genus in 16 Dhaka metagenomes, overall and by dataset",
+  "interpretation": "The table lists 1,849 taxa (62 phyla, 145 classes, 298 orders, 434 families, 910 genera); 678 genera were detected in at least one sample and 14 in all 16. Proteobacteria (mean 34.1%, median 29.1%, maximum 85.9%), Firmicutes (32.7%), Bacteroidota (16.0%) and Actinobacteriota (8.3%) dominated at phylum level. Streptococcus was the most abundant genus (mean 29.8%, present in all 16 samples), followed by Klebsiella (11.5%) and Acinetobacter (9.0%; maximum 53.9%). Dataset means diverged for several taxa: Actinobacteriota averaged 25.2% in DS03 versus 1.0% in DS01 and 3.6% in DS84, Propioniciclava 8.8% in DS03, and Acinetobacter 15.4% in DS01 versus 0.6% in DS03. These differences are compositional and confounded with dataset, year and platform, and genus labels from 16S fragments do not identify pathogenic species.",
+  "notes": "Relative abundance, % of prokaryotic 16S fragments assigned at that rank (Kraken 2 clade counts, SILVA 138); prevalence, samples with the taxon (of 16). Taxa with zero prevalence are retained for completeness. Unit: sample; descriptive.",
+  "sort_hint": "mean_RA_pct"
+ },
+ "DH09": {
+  "title": "Five most abundant phyla and genera in each Dhaka metagenome, with sample-specific relative abundance, by dataset and verified sample type",
+  "interpretation": "Streptococcus was among the five dominant genera in all 16 samples and ranked first in 14, with shares from 4.8% to 52.4%. The two exceptions were a DS01 municipal sample dominated by Acinetobacter (53.9%) and Klebsiella (31.0%), with Proteobacteria at 85.9%, and the first DS84 sewage-treatment-plant inlet, led by Klebsiella (19.0%) and Acinetobacter (15.9%) with Streptococcus third (13.4%). Proteobacteria was the leading phylum in 8 samples, Firmicutes in 7 and Actinobacteriota in 1 DS03 hospital sample (45.6%), which also carried Propioniciclava at 22.4%. The pond sample differed in kind, with Cyanobacteria (26.3%) and freshwater lineages such as the hgcI clade (7.6%). Rank-based summaries of single samples are sensitive to unresolved fragments (labelled uncultured) and should not be read as group differences.",
+  "notes": "Values are % of prokaryotic 16S fragments assigned at the given rank in that sample (Kraken 2, SILVA 138). Unit: sample; descriptive. Uncultured denotes a SILVA placeholder without a named genus.",
+  "sort_hint": ""
+ },
+ "DH10": {
+  "title": "Taxonomic resolution of Dhaka metagenomes: share of prokaryotic 16S fragments unresolved below phylum, family and genus, and fragments available for genus-level estimates",
+  "interpretation": "Lowest-common-ancestor assignment left a large share of 16S fragments unresolved: 33.4%-46.4% below phylum, 51.7%-72.4% below family and 58.8%-79.3% below genus. Genus-assigned fragments therefore ranged from 850 in the pond sample to 12,398 in one DS01 sample, against 3,584 to 33,566 prokaryotic 16S fragments per sample. Excluding the pond, unresolved shares below genus were broadly similar across datasets (DS01 63.1%-66.5%; DS03 58.8%-70.0%; DS84 61.5%-69.9%), so resolution is unlikely to explain dataset contrasts alone. The pond minimum set the rarefaction depth for genus diversity (Table DH17). Genus-level abundance and diversity estimates describe only the resolvable minority of fragments and may under-represent poorly characterized lineages.",
+  "notes": "Kraken 2 lowest-common-ancestor assignment against the SILVA 138 16S index; percentages use all prokaryotic 16S fragments of the sample as denominator. Unit: sample; descriptive.",
+  "sort_hint": ""
+ },
+ "DH11": {
+  "title": "Per-sample normalized ARG abundance, high-confidence gene, allele and class richness, and ARG diversity in 16 Dhaka metagenomes (ResFinder/KMA, uniform subsample)",
+  "interpretation": "Total normalized ARG abundance spanned 13,248 FPKM-16S in the pond sample to 1,286,400 in one DS84 hospital sample; the other samples ranged from 163,203 to 558,929. High-confidence gene richness was 13-24 in DS01, 18-54 in DS03 and 35-68 in the seven DS84 wastewater samples, with up to 11 antibiotic classes. Gene-level Shannon diversity was 1.54-3.23 in DS01 and 3.51-4.18 in the other wastewater samples. The pond sample had 61 aligned fragments and 34 any-hit genes but no high-confidence gene, so its abundance consists entirely of unconfirmed alignments. Higher DS84 richness coincides with a different study, year, instrument and greater hospital representation, and with lower library depth, so the contrast is descriptive.",
+  "notes": "FPKM-16S, fragments per kilobase of template per million prokaryotic 16S fragments; RPKM-depth, per million analysed read pairs. High confidence: identity >= 90%, coverage >= 60%; any hit, unconfirmed upper bound. Unit: sample; descriptive.",
+  "sort_hint": ""
+ },
+ "DH12": {
+  "title": "All ResFinder genes aligned in Dhaka metagenomes: class, mechanism, mean and median FPKM-16S, share of total, and any-hit and high-confidence detection overall and by dataset",
+  "interpretation": "Of 550 genes with aligned fragments, 394 met the any-hit criterion and 114 the high-confidence criterion in at least one sample. erm(B) contributed the largest share of total FPKM-16S (8.8%; mean 33,362.7 but median 4,761.5), followed by sul1 (6.7%), blaOXA (6.1%), mph(E) (5.6%) and msr(E) (5.4%). Six genes (sul1, mph(E), msr(E), aph(6)-Id, sul2, tet(C)) were high-confidence in 15 of 16 samples (93.8%; 95% CI 71.7%-98.9%). blaKPC and blaNDM were each high-confidence in 7 samples, none from DS01. Some abundant entries lacked any high-confidence call, for example ant(3'')-Ii-aac(6')-IId (mean 5,835.7; any hit in 15 samples), so shares partly reflect unconfirmed alignments. Detection indicates DNA presence only, and the skewed means are driven by a few samples.",
+  "notes": "Gene names collapse alleles; detection counts are samples (of 16), with Wilson 95% CI for high-confidence prevalence. FPKM-16S, fragments per kilobase per million prokaryotic 16S fragments. Unit: sample; descriptive.",
+  "sort_hint": "mean_FPKM_16S"
+ },
+ "DH14": {
+  "title": "Antibiotic-class composition of the Dhaka resistome: share of total FPKM-16S and mean per-sample share by class group, overall, by dataset and by verified sample type",
+  "interpretation": "Macrolide-lincosamide-streptogramin (MLS) genes accounted for 34.2% of pooled FPKM-16S (mean per-sample share 40.2%), followed by aminoglycoside (18.6%), beta-lactam (17.8%), tetracycline (13.4%) and folate pathway antagonist (10.0%) genes. Class composition differed sharply by dataset: MLS genes averaged 77.0% of the DS01 resistome but 22.6% in DS03 and 30.6% in DS84, whereas aminoglycoside shares were 4.9%, 24.9% and 14.4%. By sample type, municipal wastewater averaged 59.2% MLS against 23.2% in hospital wastewater, and glycopeptide genes 0.016% against 1.11%. The municipal group combines DS01 with three DS84 inlets, so type and dataset effects cannot be separated; community and surface-water values rest on single samples.",
+  "notes": "Class groups follow ResFinder phenotype annotations; shares are compositional and sum to about 100% within each column. Mean per-sample share weights samples equally. Unit: sample; descriptive.",
+  "sort_hint": ""
+ },
+ "DH16": {
+  "title": "Clinically important resistance determinants in Dhaka metagenomes: high-confidence and any-hit detection, overall, by dataset and by sample type, with Wilson 95% CI and detected alleles",
+  "interpretation": "Across 16 samples, high-confidence calls were made for sul in 15 (93.8%), qnr in 8 (50.0%), NDM and KPC in 7 each (43.8%; 95% CI 23.1%-66.8%), tet(X) in 5, OXA-48-like (blaOXA-181) and CTX-M in 4, vanA (VanHAX) in 3, IMP in 2 and VIM in 1; MCR had no high-confidence call despite any hits in 13 samples. In hospital wastewater, NDM was high-confidence in 6 of 7 samples (85.7%) and KPC in 7 of 7 (95% CI 64.6%-100%), against 1 of 7 and 0 of 7 in municipal wastewater. DS01 had no high-confidence carbapenemase, CTX-M or vanA call. Hospital samples come only from DS03 and DS84, so setting is confounded with dataset and period, and detection does not establish phenotypic resistance.",
+  "notes": "High confidence: identity >= 90% and coverage >= 60% (primary); any hit: unconfirmed upper bound. Counts are samples; Wilson score 95% CI. Unit: sample; descriptive, no hypothesis test.",
+  "sort_hint": ""
+ },
+ "DH17": {
+  "title": "Genus alpha diversity (rarefied to 850 genus-assigned 16S fragments; richness, Shannon, Gini-Simpson, Pielou) and ARG diversity per Dhaka metagenome",
+  "interpretation": "After rarefaction to 850 genus-assigned fragments, genus richness ranged from 26 to 123 and rarefied Shannon diversity from 1.33 to 3.25. The DS01 sample of 2018-07-03 had the lowest values (richness 26, Shannon 1.33, Pielou 0.31), consistent with its dominance by two genera (Table DH09), whereas the pond sample had the highest evenness (Pielou 0.73) but no high-confidence ARG. High-confidence gene richness ranged from 0 to 68 and gene Shannon diversity from 1.54 to 4.18. Taxonomic and resistome diversity did not track each other uniformly, as the pond and the DS01 samples illustrate. Values describe single samples; the low rarefaction depth, set by the pond sample, limits resolution of rare genera, and dataset contrasts are confounded.",
+  "notes": "Rarefied metrics use 850 genus-assigned 16S fragments; unrarefied observed genera and Shannon are also shown. ARG diversity uses high-confidence richness and Shannon of gene FPKM-16S. Unit: sample; descriptive.",
+  "sort_hint": ""
+ },
+ "DH23": {
+  "title": "PERMANOVA and PERMDISP of Dhaka genus and ARG composition by dataset and by sample type (descriptive; confounded design, n = 16)",
+  "interpretation": "Dataset accounted for 30.3% of variation in genus Bray-Curtis distances (pseudo-F 2.83, p = 0.0048), 29.0% in genus Aitchison distances (p = 0.0001) and 36.1% in ARG Bray-Curtis distances (p = 0.0002), with no detectable difference in dispersion (PERMDISP p = 0.49-0.90). Sample type accounted for 25.7%-31.7% of variation, reaching p = 0.0029 only for genus Aitchison distances (ARG Bray-Curtis p = 0.056; genus Bray-Curtis p = 0.18). Dataset therefore aligned more consistently with composition than sample type did. Because dataset, sample type, year and platform are confounded and samples were permuted freely, these results are descriptive and cannot separate setting from study or sequencing effects.",
+  "notes": "PERMANOVA (R2, free permutation of samples) and PERMDISP on Bray-Curtis (relative abundance) and Aitchison (centred log-ratio) distances; unit: sample (n = 16). Status column marks all results as descriptive.",
+  "sort_hint": ""
+ },
+ "DH25": {
+  "title": "Concordance between microbiome and resistome structure in Dhaka metagenomes: Mantel test of genus Aitchison distances against ARG Bray-Curtis distances",
+  "interpretation": "Pairwise genus Aitchison distances correlated strongly with pairwise ARG Bray-Curtis distances across the 16 Dhaka samples (Mantel Spearman r = 0.69, p = 0.0001, 9,999 permutations). Samples that differed in taxonomic composition therefore also tended to differ in resistome composition. This concordance is expected if both profiles share a common structure, and the same dataset grouping explained a large part of both (Table DH23), so much of the correlation may reflect study, year and platform rather than taxa carrying particular genes. Metagenomic co-variation does not assign genes to hosts, and the Mantel statistic is not a test of dependence between microbial taxa and resistance determinants.",
+  "notes": "Mantel test, Spearman correlation between distance matrices; 9,999 permutations; unit: sample (n = 16; 120 sample pairs, not independent). Descriptive given the confounded design.",
+  "sort_hint": ""
+ },
+ "DH28": {
+  "title": "Matched-protocol comparison of municipal sewage from Dhaka and four South Asian cities (Global Sewage Surveillance, uniform reprocessing): per-city ARG and genus diversity summaries",
+  "interpretation": "Within one sewage-surveillance protocol, Dhaka (DS01, n = 4) had a median log10 total abundance of 5.46 FPKM-16S (range 5.21-5.59), similar to Karachi (5.40, n = 7) and higher than the medians for Colombo (5.26), Kochi (5.13) and Kathmandu (5.09). Dhaka samples carried fewer high-confidence genes (median 19.5, range 13-24) than each comparator (medians 29.5-43.0) and had lower ARG Shannon diversity (2.06 versus 3.60-4.14). Rarefied genus richness overlapped across cities (Dhaka median 79.5; others 69.0-103.0). Groups contain 3-7 samples, one per city-round, so these summaries are descriptive; formal contrasts with independent units appear in Table DH29, and the results do not support any ordering of cities by risk.",
+  "notes": "Medians (min-max) per city; log10 total FPKM-16S; high-confidence genes (identity >= 90%, coverage >= 60%); Shannon of gene FPKM-16S; genus richness rarefied to a common depth. Unit: sewage sample; descriptive.",
+  "sort_hint": ""
+ },
+ "DH29": {
+  "title": "Dhaka comparative analysis: all tests with independent unit, group sizes, statistic, p-value, Benjamini-Hochberg adjustment within comparison level, effect size and inferential status",
+  "interpretation": "The 53 tests separate descriptive sample-level contrasts among the confounded Dhaka datasets from design-appropriate ones. Within DS84, hospital wastewater exceeded sewage-treatment-plant inlets in total abundance (ratio of medians 1.93; Cliff's delta 1.0; exact p = 0.057; q = 0.10) and differed in ARG composition (R2 = 0.40, p = 0.031). Under the matched sewage protocol, Dhaka carried fewer high-confidence genes than Karachi (median difference -23.5; p = 0.012; q = 0.096) without a detectable abundance difference (ratio 1.16; 95% CI 0.65-1.54), and ARG composition differed (R2 = 0.37, q = 0.005). Against Delhi open drains, the unit-level abundance difference was 0.087 log10 (p = 0.048; q = 0.11). Only composition contrasts remained significant after adjustment; small groups limit power, and Dhaka-Delhi contrasts remain descriptive of differing matrices and periods.",
+  "notes": "Independent unit stated per row; exact or 9,999-permutation p-values; Kruskal-Wallis and Mann-Whitney asymptotic. q, Benjamini-Hochberg within comparison level. Cliff's delta, epsilon-squared and R2 are effect sizes. Status separates design-appropriate from descriptive tests.",
+  "sort_hint": ""
+ },
+ "DH29b": {
+  "title": "Sensitivity of Dhaka versus Delhi exact permutation tests to four definitions of the Dhaka sampling unit (unreported DS01 sites; DS84 inlet co-located with the Pagla treatment area)",
+  "interpretation": "The median difference in log10 total abundance between Dhaka sewage and Delhi open drains was positive under all four unit definitions (0.087-0.107), but its exact p-value was 0.048 only under the primary definition (5 Dhaka units versus 4 Delhi sites) and 0.057, 0.10 and 0.17 under the alternatives. No other metric reached p < 0.05 under any definition; for high-confidence gene richness the p-values were 0.33-0.92 and the median difference changed sign (-2.5) when DS01 rounds were treated as separate units. The nominal abundance contrast is therefore fragile and depends on how unreported DS01 sites and the co-located Pagla inlet are handled. Matrix, study and period also differ between the cities, so the comparison remains descriptive.",
+  "notes": "Exact permutation of whole sampling units; n_dhaka_units and n_delhi_sites give the units permuted. Delhi units are four open-drain sites. Median difference = Dhaka minus Delhi of unit medians. Unadjusted p-values.",
+  "sort_hint": ""
+ },
+ "DH30": {
+  "title": "Mean share of total FPKM-16S by antibiotic-class group in three Dhaka datasets and seven comparator groups after uniform reprocessing",
+  "interpretation": "MLS genes made up 77.0% of the DS01 Dhaka resistome on average, against 18.8%-32.2% in every other group, including DS03 (22.6%), DS84 (30.6%) and the matched-protocol sewage from Karachi, Kochi, Colombo and Kathmandu. Correspondingly, DS01 had a small aminoglycoside share (4.9%) compared with 12.0%-24.9% elsewhere. Kathmandu showed larger fosfomycin (7.1%) and multi-class (7.4%) shares than any other group (at most 1.6%), and DS03 a larger glycopeptide share (1.36% versus at most 0.31%). Beta-lactam and tetracycline shares were broadly similar outside DS01. Shares are compositional, so a large MLS fraction lowers all other fractions; groups also differ in matrix, study and period, and the profile does not rank cities.",
+  "notes": "Mean of per-sample shares (%) of total FPKM-16S; ResFinder/KMA. Group sizes: Dhaka DS01 4, DS03 4, DS84 8; Karachi 7; Kochi 4; Colombo 3; Kathmandu 3; Delhi 12 (Table DH31). Descriptive; no test.",
+  "sort_hint": ""
+ },
+ "DH31": {
+  "title": "High-confidence and any-hit detection of clinically important determinants by Dhaka dataset and comparator city after uniform reprocessing, with Wilson 95% CI",
+  "interpretation": "High-confidence NDM and KPC calls occurred only in Dhaka DS03 (2 and 3 of 4) and DS84 (5 and 4 of 8); none were made in DS01, Karachi (0 of 7), Kochi, Colombo, Kathmandu or Delhi (0 of 12; 95% CI 0%-24.3%). vanA showed the same pattern (DS03 1, DS84 2). CTX-M was detected at high confidence in 4 of 7 Karachi samples (57.1%) and qnr in 7 of 8 DS84 samples (87.5%), whereas MCR had high-confidence calls only in Karachi and Kochi (1 each) despite frequent any hits, for example 9 of 12 Delhi samples. sul was detected at high confidence in 87.5%-100% of samples in every group. DS03 and DS84 include hospital wastewater and were sampled later than the sewage comparators, so these contrasts reflect matrix and period as much as place.",
+  "notes": "High confidence: identity >= 90%, coverage >= 60% (primary); any hit: unconfirmed upper bound. Counts are samples per group; Wilson score 95% CI. Detection is DNA presence, not phenotype. Descriptive; no test.",
+  "sort_hint": ""
+ },
+ "DH32": {
+  "title": "Geographic verification of Dhaka-labelled samples: coordinate provenance and precision, point-in-polygon test against official city-corporation boundaries, distance to boundary and classification",
+  "interpretation": "All 16 Dhaka-labelled coordinates fell inside the Dhaka North or Dhaka South City Corporation polygons, 12 in the south and 4 in the north, at 0.06-2.1 km from the city boundary. Confirmation was weaker than containment implies: three DS01 samples carry only the publication's city-level coordinate (23.76, 90.38), two DS84 samples have 2-decimal coordinates, and one DS03 hospital site lies 0.06 km from the boundary, within coordinate precision. For the first DS01 sample, the sample-level ENA coordinate (Pagla sewage-treatment area, 0.81 km inside the south boundary) and the city-level publication coordinate were both retained rather than averaged. Containment shows that sampling points lie within the city, not that the wastewater originated there, because catchments can cross administrative boundaries.",
+  "notes": "Point-in-polygon against BBS/OCHA administrative level-3 boundaries; distance to the nearest city boundary in km. Precision: exact (>= 3 decimals) or approximate (<= 2 decimals). Unit: sample; verification, no test.",
+  "sort_hint": ""
+ },
+ "DH33": {
+  "title": "Number of Dhaka-labelled samples by geographic verification status (16 samples)",
+  "interpretation": "Of 16 Dhaka-labelled samples, 10 were confirmed within Dhaka City with sample-level coordinates, 2 lay within the city corporations but had approximate 2-decimal coordinates, 1 lay inside but closer to the boundary than its coordinate precision, and 3 had only a publication city-level coordinate with the sampling site unreported. All samples could therefore be retained as Dhaka observations, but only the 10 confirmed samples support sample-level spatial statements. The 3 location-uncertain samples all belong to DS01 (Table DH32), which is the dataset used in the matched-protocol comparisons, so any map of Dhaka points should mark these samples as approximate rather than as measured sites.",
+  "notes": "Counts of samples per status derived from the verification in Table DH32. City corporations: Dhaka North (DNCC) and Dhaka South (DSCC). Descriptive; no test.",
+  "sort_hint": ""
+ },
+ "GI01": {
+  "title": "Calibration of the uniform reprocessing pipeline against the Martiny et al. ResFinder resource for the same five 2016 pilot sewage units: gene-level agreement and total-abundance ratio",
+  "interpretation": "For five pilot sewage units, gene presence agreed only moderately between the uniform pipeline and the resource (Jaccard 0.42-0.64), but relative abundances of shared genes agreed closely (Spearman 0.81-0.92; 0.68-0.94 for the resource's top 50 genes). Shared genes carried 82.7%-97.4% of resource FPKM, so discordant presence calls involved mainly low-abundance genes. Total abundance was lower in the uniform pipeline for every unit (log10 ratio -0.053 to -0.137). Agreement was weakest for the Colombo unit (Jaccard 0.42; 82.7% of FPKM in shared genes). The pipelines therefore rank genes consistently but are not interchangeable for presence counts or absolute totals, which supports keeping Streams 2 and 3 separate; five units provide limited calibration.",
+  "notes": "FPKM as defined in each source; log10 ratio = uniform pipeline versus resource. Jaccard on gene presence; Spearman on log FPKM of shared genes. Unit: sewage unit (n = 5; 6 runs). Descriptive.",
+  "sort_hint": ""
+ },
+ "GI02": {
+  "title": "Gene-level FPKM from the uniform reprocessing pipeline and from the Martiny et al. ResFinder resource for each of the five calibration sewage units",
+  "interpretation": "The table contains 952 gene-unit pairs; 199 genes were found only by the uniform pipeline and 229 only in the resource. Abundant genes agreed closely, for example msr(D) in the Kathmandu unit (19,925.0 versus 19,704.9) and blaOXA in the Cochin unit (11,005.2 versus 12,952.7; city labels from Table GI01). Part of the discordance is nomenclatural rather than biological: OqxA and OqxB appear only in the pipeline output and oqxA and oqxB only in the resource, mdf(A) only in the resource, and tmexC and tmexD only in the newer database release. Most other one-sided calls had low FPKM. Gene names should be harmonized before cross-source comparison, and a zero in one source indicates non-detection under that pipeline, not absence.",
+  "notes": "FPKM_ours, uniform pipeline (ResFinder 4.7.2, KMA); FPKM_resource, values reported in the resource. Zero denotes no detection. One row per gene and unit; descriptive.",
+  "sort_hint": "FPKM_resource"
+ },
+ "GI04": {
+  "title": "Cross-pipeline check for 12 Delhi samples: samples with each clinically important determinant by tier and pipeline, and agreement of ResFinder high-confidence calls with each CARD tier",
+  "interpretation": "Both pipelines detected sul in all 12 Delhi samples in every tier (agreement 1.0), and neither made a high-confidence NDM, KPC, OXA-48-like, CTX-M or vanA call, although CARD any hits flagged OXA-48-like in 8 samples. The pipelines diverged for tet(X) and qnr, which the CARD high-confidence tier called in 10 samples each against 1 and 2 ResFinder high-confidence calls (agreement 0.25 and 0.33), and for MCR and IMP (CARD 2 each, ResFinder 0). ResFinder high-confidence calls were thus the more conservative, and agreement fell further against CARD any hits (0.0 for MCR). Determinant prevalence depends on database and threshold, so Stream 1 (CARD) and Stream 3 (ResFinder) prevalences should not be compared directly.",
+  "notes": "Counts are samples (of 12) with the determinant; agreement is the proportion of samples with identical presence calls. CARD/RGI tiers as provided by the data producer; ResFinder high confidence: identity >= 90%, coverage >= 60%. Descriptive.",
+  "sort_hint": ""
+ },
+ "GI05": {
+  "title": "Total normalized ARG abundance in 12 Delhi samples: producer CARD/RGI RPKM versus independent ResFinder/KMA totals (Spearman rho 0.68 for CARD versus ResFinder RPKM)",
+  "interpretation": "Producer CARD/RGI totals ranged from 369.6 to 735.3 RPKM, ResFinder totals from 187.8 to 593.2 RPKM-depth and from 83,448.7 to 245,856 FPKM-16S. ResFinder RPKM-depth was lower than the CARD total in every one of the 12 samples, consistent with the smaller, acquired-gene ResFinder reference. Sample ordering agreed only moderately (correlation in the title), and one discordant sample, SAMN54918511, had a mid-range CARD total (506.5) but the lowest ResFinder totals (187.8 RPKM-depth). Absolute values from the two pipelines therefore cannot be pooled or interchanged, and the moderate rank agreement, based on 12 samples repeated within four sites, carries wide uncertainty.",
+  "notes": "RPKM, reads per kilobase per million sequenced reads (CARD) or analysed read pairs (ResFinder); FPKM-16S, per million prokaryotic 16S fragments. Spearman rho computed on CARD RPKM vs ResFinder RPKM-depth (n = 12; samples not independent).",
+  "sort_hint": ""
+ }
+}

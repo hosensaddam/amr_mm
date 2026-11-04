@@ -1,0 +1,21 @@
+Project_Accession,Dataset_ID,Sample_Type,Stratum,mean,std,count,se,ci_low,ci_high
+PRJDB6153,DS14,Surface water,Urban environmental,4.06406,0.466678,16,0.11667,3.81539,4.31274
+PRJEB13832,DS18,Municipal wastewater,Urban environmental,4.99706,0.13974,60,0.0180403,4.96096,5.03316
+PRJEB14051,DS20,Municipal wastewater,Urban environmental,4.73909,0.269673,69,0.0324648,4.6743,4.80387
+PRJEB22915,DS21,Surface water,Urban environmental,5.30239,0.264922,11,0.0798769,5.12441,5.48037
+PRJEB27054,DS01,Municipal wastewater,Urban environmental,5.32599,0.308214,86,0.0332355,5.25991,5.39207
+PRJEB2763,DS22,Food-related environment,Food-related (contextual),3.77946,0.00741583,2,0.00524378,3.71283,3.84609
+PRJEB27640,DS23,Built environment,Urban environmental,4.45998,0.462448,8,0.1635,4.07336,4.8466
+PRJEB34690,DS24,Municipal wastewater,Urban environmental,4.61838,0.579619,18,0.136617,4.33014,4.90662
+PRJNA267173,DS95,Surface water,Urban environmental,3.86069,0.233708,4,0.116854,3.48881,4.23257
+PRJNA298260,DS96,Food-related environment,Food-related (contextual),4.59108,0.76588,34,0.131347,4.32385,4.8583
+PRJNA299404,DS97,Built environment,Urban environmental,3.35053,,1,,,
+PRJNA301589,DS98,Transit surface,Urban environmental,4.53585,0.243824,24,0.0497703,4.43289,4.63881
+PRJNA340876,DS99,Food-related environment,Food-related (contextual),4.80471,0.288315,12,0.0832294,4.62152,4.9879
+PRJNA400857,DS101,Surface water,Urban environmental,5.06647,0.958471,13,0.265832,4.48727,5.64567
+PRJNA413894,DS102,Municipal wastewater,Urban environmental,4.71689,0.191556,21,0.0418009,4.6297,4.80409
+PRJNA438174,DS103,Municipal wastewater,Urban environmental,5.13235,0.414487,36,0.0690812,4.9921,5.27259
+PRJNA506137,DS105,Municipal wastewater,Urban environmental,4.89395,0.372795,3,0.215233,3.96788,5.82002
+PRJNA506137,DS105,Surface water,Urban environmental,3.9497,0.356406,2,0.252017,0.747518,7.15187
+PRJNA527324,DS106,Air,Urban environmental,4.14119,0.39541,24,0.0807128,3.97422,4.30816
+PRJNA593573,DS113,Food-related environment,Food-related (contextual),3.84498,0.671975,107,0.0649623,3.71619,3.97377

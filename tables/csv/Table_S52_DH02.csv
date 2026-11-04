@@ -1,0 +1,4 @@
+Dataset_ID,samples,projects,platform,first_date,last_date,median_Gbp,min_Gbp,max_Gbp,sample_types
+DS01,4,PRJEB27621; PRJEB40798; PRJEB40815; PRJEB40816,Illumina NovaSeq 6000,2017-06-14,2018-12-31,13.4471,12.853,13.7395,Municipal wastewater 4
+DS03,4,PRJNA1399457,NextSeq 2000,2025-06-18,2025-06-18,7.06543,6.01146,7.99442,Hospital wastewater 3; Community wastewater 1
+DS84,8,PRJNA1475805,NextSeq 500,2024-06-04,2024-11-01,2.43446,1.16331,4.86877,Hospital wastewater 4; Municipal wastewater 3; Surface water 1

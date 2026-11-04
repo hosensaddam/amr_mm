@@ -1,0 +1,26 @@
+{
+ "python": "3.12.10",
+ "executable": "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+ "platform": "Windows-11-10.0.26220-SP0",
+ "machine": "AMD64",
+ "packages": {
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "sklearn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "seaborn": "0.13.2",
+  "openpyxl": "3.1.5",
+  "skbio": "0.7.4",
+  "geopandas": "1.2.0",
+  "shapely": "2.2.0",
+  "networkx": "3.7",
+  "nbformat": "5.11.1",
+  "nbconvert": "7.17.2",
+  "nbclient": "0.11.0",
+  "PIL": "13.0.0"
+ },
+ "seed": 20261031,
+ "run_timestamp": "2026-10-31T18:32:40"
+}

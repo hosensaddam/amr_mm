@@ -1,0 +1,16 @@
+Quantity,Included urban environmental samples,Food-related contextual samples
+Samples,8053,840
+Datasets,112,16
+Projects (accessions),122,16
+Countries (reported),106,11
+Source-labelled cities (City|Country),274,0
+Continents,7,4
+Sample types,8,2
+Samples with coordinates,6134,401
+Samples with any AMR gene table,1072,155
+  CARD/RGI,447,0
+  ResFinder/KMA,625,155
+Samples with taxonomy table,447,0
+Samples with diversity indices,625,155
+Collection years (min-max),2011-2026,2009-2025
+Samples with collection year,7375,739

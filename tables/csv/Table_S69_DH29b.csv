@@ -1,0 +1,21 @@
+unit_definition,metric,n_dhaka_units,n_delhi_sites,median_difference_Dhaka_minus_Delhi,p_exact,p_method
+Primary: DS01 rounds pooled as one unit; DS84 UWW1 separate,log10_total_FPKM_16S,5,4,0.08665495,0.04761905,exact permutation of units
+Primary: DS01 rounds pooled as one unit; DS84 UWW1 separate,ARG_genes_high_conf,5,4,10.0,0.3333333,exact permutation of units
+Primary: DS01 rounds pooled as one unit; DS84 UWW1 separate,ARG_gene_shannon,5,4,0.3112604,0.0952381,exact permutation of units
+Primary: DS01 rounds pooled as one unit; DS84 UWW1 separate,genus_richness_rarefied,5,4,14.0,0.07936508,exact permutation of units
+Primary: DS01 rounds pooled as one unit; DS84 UWW1 separate,genus_shannon,5,4,0.1855802,0.2380952,exact permutation of units
+Pagla merged: DS84 UWW1 pooled with the DS01 unit,log10_total_FPKM_16S,4,4,0.1066102,0.05714286,exact permutation of units
+Pagla merged: DS84 UWW1 pooled with the DS01 unit,ARG_genes_high_conf,4,4,6.0,0.6285714,exact permutation of units
+Pagla merged: DS84 UWW1 pooled with the DS01 unit,ARG_gene_shannon,4,4,0.3132262,0.1428571,exact permutation of units
+Pagla merged: DS84 UWW1 pooled with the DS01 unit,genus_richness_rarefied,4,4,11.0,0.1428571,exact permutation of units
+Pagla merged: DS84 UWW1 pooled with the DS01 unit,genus_shannon,4,4,0.2178111,0.2,exact permutation of units
+DS01 rounds as separate units (treats repeated rounds as independent),log10_total_FPKM_16S,8,4,0.1066102,0.1010101,exact permutation of units
+DS01 rounds as separate units (treats repeated rounds as independent),ARG_genes_high_conf,8,4,-2.5,0.840404,exact permutation of units
+DS01 rounds as separate units (treats repeated rounds as independent),ARG_gene_shannon,8,4,-0.1340394,0.7232323,exact permutation of units
+DS01 rounds as separate units (treats repeated rounds as independent),genus_richness_rarefied,8,4,4.5,0.6323232,exact permutation of units
+DS01 rounds as separate units (treats repeated rounds as independent),genus_shannon,8,4,-0.01951485,0.9353535,exact permutation of units
+Pagla split: SAMEA4777503 + UWW1 as one unit; other DS01 rounds as a second unit,log10_total_FPKM_16S,5,4,0.08665495,0.1666667,exact permutation of units
+Pagla split: SAMEA4777503 + UWW1 as one unit; other DS01 rounds as a second unit,ARG_genes_high_conf,5,4,2.5,0.9206349,exact permutation of units
+Pagla split: SAMEA4777503 + UWW1 as one unit; other DS01 rounds as a second unit,ARG_gene_shannon,5,4,0.3112604,0.1666667,exact permutation of units
+Pagla split: SAMEA4777503 + UWW1 as one unit; other DS01 rounds as a second unit,genus_richness_rarefied,5,4,6.0,0.3174603,exact permutation of units
+Pagla split: SAMEA4777503 + UWW1 as one unit; other DS01 rounds as a second unit,genus_shannon,5,4,0.1568547,0.1825397,exact permutation of units

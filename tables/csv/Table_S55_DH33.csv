@@ -1,0 +1,5 @@
+geographic_status,samples
+"Confirmed within Dhaka City (DNCC/DSCC), sample-level coordinate",10
+Dhaka-labelled; location uncertain (publication city-level coordinate; sampling site not reported),3
+Within Dhaka City (DNCC/DSCC); approximate (2-decimal) coordinate,2
+Within DNCC/DSCC but closer to the boundary than the coordinate precision - uncertain,1

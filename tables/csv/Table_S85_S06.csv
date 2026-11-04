@@ -1,0 +1,8 @@
+variable,weights,n,morans_I,expected_I,null_mean,null_sd,z,p_value_two_sided,permutations,mantel_r
+log10 total ARG FPKM,"k-nearest neighbours (k=5), row-standardised",86,0.1844905,-0.01176471,-0.01173653,0.05821849,3.370528,0.0024,9999,
+log10 total ARG FPKM,"k-nearest neighbours (k=8), row-standardised",86,0.138045,-0.01176471,-0.01207775,0.04521223,3.3204,0.0033,9999,
+ARG gene richness,"k-nearest neighbours (k=5), row-standardised",86,0.2107475,-0.01176471,-0.01216698,0.06044859,3.68767,0.0009,9999,
+ARG gene richness,"k-nearest neighbours (k=8), row-standardised",86,0.08810573,-0.01176471,-0.01188527,0.04639287,2.15531,0.0325,9999,
+Beta-lactam share of FPKM,"k-nearest neighbours (k=5), row-standardised",86,0.143017,-0.01176471,-0.01166375,0.05901405,2.621084,0.0147,9999,
+Beta-lactam share of FPKM,"k-nearest neighbours (k=8), row-standardised",86,0.1021826,-0.01176471,-0.0113489,0.04549755,2.495333,0.0176,9999,
+Resistome Bray-Curtis vs great-circle distance,Mantel (Spearman),86,,,,,,0.0003,9999,0.2036081

@@ -1,0 +1,10 @@
+term,estimate,SE,ci_low,ci_high,p_value
+Intercept,4.092522,0.8198588,2.485628,5.699416,5.983782e-07
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Air]",0.9610261,0.7080512,-0.4267288,2.348781,0.1746912
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Built environment]",-0.8259318,0.6066498,-2.014944,0.36308,0.1733671
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Surface water]",0.1204532,0.3445577,-0.5548676,0.7957739,0.7266481
+"C(Sample_Type, Treatment('Municipal wastewater'))[T.Transit surface]",1.046064,0.708161,-0.341906,2.434034,0.1396339
+log10_total_fragments,-0.02467037,0.1099355,-0.2401401,0.1907993,0.8224402
+Study random-effect variance,0.4287416,,,,
+Residual variance,0.3323028,,,,
+ICC (study),0.5633595,,,,

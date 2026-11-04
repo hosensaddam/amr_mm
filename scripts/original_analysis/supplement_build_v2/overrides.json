@@ -1,0 +1,5 @@
+{
+ "S07": {
+  "interpretation": "Of the six spatial methods considered, three were performed (one restricted to the pilot), two were not performed and one was adapted. Observed-value point maps used producer-reported coordinates for 6,134 included samples, including 278 wastewater ARG units, and a country-level choropleth covered 106 countries. Global Moran's I and Mantel tests required comparable measurements at 30 or more locations from one protocol and were therefore limited to the 86-city 2016 pilot. Local hotspot statistics were not computed because sampling (one sample per city; sparse in Africa, South America and Oceania) would make hotspots artefacts of sampling gaps. Interpolated surfaces and risk maps were not produced because neither dense sampling nor outcome data defining risk existed. For the Indian open-drain data, the feasibility record lists missing site identifiers; site labels for the 19 sites were later recovered from repository records and used for site-aware tests, but city remained the mapping unit because site coordinates were not available in the retrieved records."
+ }
+}

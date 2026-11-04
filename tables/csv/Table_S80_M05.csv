@@ -1,0 +1,19 @@
+model,validation,n_test,R2,MAE,RMSE,spearman_rho,R2_ci_low,R2_ci_high
+Baseline (training mean),"Temporal hold-out (train < Sep 2023, n=332; test >= Sep 2023, n=115)",115,-0.0232173,0.160235,0.219212,,-0.145003,-7.52352e-05
+Baseline (training mean),Leave-one-city-out (pooled out-of-fold),447,-0.1396,0.17671,0.23826,-0.406452,-0.179802,-0.112108
+Baseline (training mean),Leave-one-city-out: held-out Mumbai,189,-0.265142,0.150418,0.215414,,,
+Baseline (training mean),Leave-one-city-out: held-out Delhi,100,-1.66945,0.216142,0.245179,,,
+Baseline (training mean),Leave-one-city-out: held-out Chennai,109,-0.115112,0.176658,0.268249,,,
+Baseline (training mean),Leave-one-city-out: held-out Kolkata,49,-0.0797833,0.197765,0.236918,,,
+Ridge regression (CV alpha),"Temporal hold-out (train < Sep 2023, n=332; test >= Sep 2023, n=115)",115,0.516521,0.109944,0.150685,0.705737,0.280958,0.668651
+Ridge regression (CV alpha),Leave-one-city-out (pooled out-of-fold),447,0.280794,0.123566,0.189279,0.635109,0.170069,0.401114
+Ridge regression (CV alpha),Leave-one-city-out: held-out Mumbai,189,0.0888633,0.114702,0.182809,0.629322,,
+Ridge regression (CV alpha),Leave-one-city-out: held-out Delhi,100,-0.0373888,0.129116,0.152842,0.663606,,
+Ridge regression (CV alpha),Leave-one-city-out: held-out Chennai,109,0.168696,0.12787,0.231611,0.67952,,
+Ridge regression (CV alpha),Leave-one-city-out: held-out Kolkata,49,0.405217,0.136855,0.175836,0.673163,,
+Random forest,"Temporal hold-out (train < Sep 2023, n=332; test >= Sep 2023, n=115)",115,0.321051,0.113816,0.178566,0.67516,0.127104,0.529439
+Random forest,Leave-one-city-out (pooled out-of-fold),447,0.237667,0.12489,0.194871,0.618587,0.131169,0.359429
+Random forest,Leave-one-city-out: held-out Mumbai,189,0.0358929,0.118167,0.188047,0.632249,,
+Random forest,Leave-one-city-out: held-out Delhi,100,-0.531331,0.15412,0.185698,0.640168,,
+Random forest,Leave-one-city-out: held-out Chennai,109,0.159467,0.120395,0.232893,0.684431,,
+Random forest,Leave-one-city-out: held-out Kolkata,49,0.634534,0.101165,0.137833,0.843878,,

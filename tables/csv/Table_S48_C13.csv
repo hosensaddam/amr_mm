@@ -1,0 +1,5 @@
+set,term,covariates,n,df_term,df_resid,pseudo_F,R2_partial,p_value,permutation_scheme
+Urban units,Sample_Type,(none),396,4,391,26.27409,0.2118466,0.036,blocks: block
+Urban units,Project_Accession,Sample_Type,396,14,377,10.569,0.2221476,0.001,within Sample_Type
+Urban + food-related contextual,Sample_Type,(none),551,5,545,32.5513,0.2299612,0.068,blocks: block
+Urban units,Sample_Type,(PERMDISP),396,4,391,28.97434,,0.001,PERMDISP

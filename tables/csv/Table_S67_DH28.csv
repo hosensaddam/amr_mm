@@ -1,0 +1,6 @@
+City_group,log10_total_FPKM_16S_median,log10_total_FPKM_16S_min,log10_total_FPKM_16S_max,log10_total_FPKM_16S_count,ARG_genes_high_conf_median,ARG_genes_high_conf_min,ARG_genes_high_conf_max,ARG_genes_high_conf_count,ARG_gene_shannon_median,ARG_gene_shannon_min,ARG_gene_shannon_max,ARG_gene_shannon_count,genus_richness_rarefied_median,genus_richness_rarefied_min,genus_richness_rarefied_max,genus_richness_rarefied_count,genus_shannon_median,genus_shannon_min,genus_shannon_max,genus_shannon_count
+Dhaka,5.46395,5.21273,5.58934,4,19.5,13,24,4,2.05933,1.53859,3.22508,4,79.5,26,85,4,2.52584,1.37598,2.72218,4
+Karachi,5.40051,5.23229,5.44533,7,43.0,28,49,7,4.02835,3.13304,4.13338,7,103.0,32,138,7,3.33493,1.43347,3.65668,7
+Kathmandu,5.08707,5.01196,5.31172,3,30.0,18,35,3,3.64357,3.01799,4.09133,3,73.0,27,96,3,2.6195,1.77085,3.2565,3
+Kochi,5.12603,5.06274,5.23748,4,29.5,21,42,4,3.59971,3.10005,4.0811,4,69.0,31,115,4,2.68355,1.90848,3.40807,4
+Colombo,5.26268,5.08634,5.3036,3,38.0,32,39,3,4.1418,4.04347,4.27794,3,99.0,87,114,3,3.24803,3.15301,3.48353,3

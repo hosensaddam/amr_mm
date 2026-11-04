@@ -1,0 +1,6 @@
+Sample_Type,units,studies,study_list,largest_study_share_pct,matrix_effect_identifiable_from_study_effect
+Air,24,1,PRJNA527324 (24),100.0,No - single-study matrix: matrix and study effects are not separable
+Built environment,9,2,PRJEB27640 (8); PRJNA299404 (1),88.889,Weakly (2 studies)
+Municipal wastewater,293,7,PRJEB27054 (86); PRJEB14051 (69); PRJEB13832 (60); PRJNA438174 (36); PRJNA413894 (21); PRJEB34690 (18); PRJNA506137 (3),29.352,Partly (>= 3 studies; still study-limited)
+Surface water,46,5,PRJDB6153 (16); PRJNA400857 (13); PRJEB22915 (11); PRJNA267173 (4); PRJNA506137 (2),34.783,Partly (>= 3 studies; still study-limited)
+Transit surface,24,1,PRJNA301589 (24),100.0,No - single-study matrix: matrix and study effects are not separable

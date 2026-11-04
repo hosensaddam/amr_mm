@@ -1,0 +1,7 @@
+specification,n,H,p,epsilon2
+"Primary: all RGI hits, per million sequenced reads",447,91.892261,8.5917162e-20,0.20065973
+Allele coverage >= 50%,447,96.400385,9.2329168e-21,0.21083608
+Allele coverage >= 80%,447,93.490459,3.8967402e-20,0.2042674
+Denominator: prokaryote-classified reads (Bracken),447,31.190514,7.7504348e-07,0.063635471
+"Primary, excluding depth-flagged samples",443,93.903978,3.1757444e-20,0.20707056
+City-month geometric means (n = city-months),96,33.670194,2.3256299e-07,0.33337168

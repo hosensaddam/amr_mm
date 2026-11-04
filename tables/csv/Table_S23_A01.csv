@@ -1,0 +1,316 @@
+AMR_Gene_Family,Class_Group,mean_RPKM,median_RPKM,sd_RPKM,share_of_total_pct,detected_any_hit_n,detected_cov50_n,prevalence_cov50_pct,prev_cov50_ci_low,prev_cov50_ci_high
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Multi-class,85.0945,46.1119,123.34,16.4314,447,446.0,99.7763,98.7438,99.9605
+major facilitator superfamily (MFS) antibiotic efflux pump,Tetracycline,70.451,69.061,34.5237,13.6038,447,447.0,100.0,99.1479,100.0
+sulfonamide resistant sul,Folate pathway antagonist,43.8364,41.0236,21.4414,8.46465,447,447.0,100.0,99.1479,100.0
+ANT(3''),Aminoglycoside,28.2192,26.8502,14.9953,5.44903,447,446.0,99.7763,98.7438,99.9605
+msr-type ABC-F protein,MLS,22.2096,20.0503,12.6573,4.28859,447,445.0,99.5526,98.3835,99.8772
+tetracycline-resistant ribosomal protection protein,Tetracycline,20.6584,17.089,16.7272,3.98906,447,433.0,96.868,94.812,98.1253
+macrolide phosphotransferase (MPH),MLS,18.2617,12.2009,16.6264,3.52626,447,447.0,100.0,99.1479,100.0
+VEB beta-lactamase,Beta-lactam,15.9159,13.7677,12.1946,3.07329,447,422.0,94.4072,91.8742,96.1833
+ANT(6),Aminoglycoside,15.3398,13.2077,11.3757,2.96205,447,440.0,98.434,96.8032,99.2394
+macrolide esterase,MLS,15.1098,13.375,10.5,2.91764,447,442.0,98.8814,97.4086,99.5213
+AAC(6'),Aminoglycoside,14.1299,12.5423,9.09,2.72843,447,422.0,94.4072,91.8742,96.1833
+Erm 23S ribosomal RNA methyltransferase,MLS,13.3762,11.2462,10.4975,2.58289,446,443.0,99.1051,97.722,99.6515
+rifamycin-resistant beta-subunit of RNA polymerase (rpoB),Rifamycin,11.9441,10.3142,6.27076,2.30636,447,405.0,90.604,87.5426,92.9735
+OXA beta-lactamase,Beta-lactam,11.4195,9.04365,9.13095,2.20507,445,438.0,97.9866,96.2182,98.9372
+chloramphenicol acetyltransferase (CAT),Phenicol,8.48894,7.6463,5.52618,1.63918,445,435.0,97.3154,95.3668,98.4578
+RSD2 beta-lactamase,Beta-lactam,8.35168,2.2607,22.532,1.61268,430,373.0,83.4452,79.7176,86.6029
+APH(6),Aminoglycoside,8.12804,6.87144,5.74306,1.56949,447,444.0,99.3289,98.0456,99.7715
+APH(3''),Aminoglycoside,8.06511,6.93432,5.72379,1.55734,447,444.0,99.3289,98.0456,99.7715
+lincosamide nucleotidyltransferase (LNU),MLS,7.64834,7.26516,4.58073,1.47687,447,437.0,97.7629,95.9314,98.7804
+Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,MLS,7.32952,6.05545,4.68818,1.4153,447,,,,
+small multidrug resistance (SMR) antibiotic efflux pump,Biocide,7.30901,5.42817,7.34736,1.41134,447,443.0,99.1051,97.722,99.6515
+trimethoprim resistant dihydrofolate reductase dfr,Folate pathway antagonist,6.32607,4.74068,6.14295,1.22154,440,426.0,95.302,92.9251,96.907
+OXA beta-lactamase; OXA-10-like beta-lactamase,Beta-lactam,5.83168,4.8235,4.27153,1.12608,446,422.0,94.4072,91.8742,96.1833
+CfxA beta-lactamase,Beta-lactam,5.12447,2.69579,7.97279,0.989516,423,379.0,84.7875,81.1627,87.8194
+pmr phosphoethanolamine transferase,Peptide/polymyxin,4.68023,2.66599,6.13857,0.903735,445,150.0,33.557,29.3362,38.0581
+ATP-binding cassette (ABC) antibiotic efflux pump,MLS,4.44746,3.75162,3.11851,0.858788,447,180.0,40.2685,35.8235,44.8792
+rifampin ADP-ribosyltransferase (Arr),Rifamycin,4.26975,3.54177,3.63377,0.824472,445,432.0,96.6443,94.5377,97.956
+OXA beta-lactamase; OXA-46-like beta-lactamase,Beta-lactam,3.1283,1.69141,4.95639,0.604062,438,393.0,87.9195,84.5708,90.622
+GES beta-lactamase,Beta-lactam,2.94424,2.28338,2.422,0.568522,444,336.0,75.1678,70.9595,78.9471
+tetracycline inactivation enzyme,Tetracycline,2.60796,1.79553,2.67209,0.503587,439,400.0,89.4855,86.2977,92.0004
+quinolone resistance protein (qnr),Fluoroquinolone/quinolone,2.41359,0.891398,4.76425,0.466056,417,300.0,67.1141,62.6292,71.3073
+NPS beta-lactamase,Beta-lactam,1.64296,0.959417,2.4138,0.317249,424,375.0,83.8926,80.1984,87.0093
+OXA beta-lactamase; OXA-1-like beta-lactamase,Beta-lactam,1.59456,1.28985,1.37549,0.307903,441,369.0,82.5503,78.7586,85.7873
+ANT(2''),Aminoglycoside,1.48054,0.922227,1.92403,0.285887,427,393.0,87.9195,84.5708,90.622
+multidrug and toxic compound extrusion (MATE) transporter,Multi-class,1.44341,0.197822,4.39135,0.278716,386,146.0,32.6622,28.4784,37.1414
+OXA beta-lactamase; OXA-2-like beta-lactamase,Beta-lactam,1.40547,1.19582,0.961114,0.271391,442,360.0,80.5369,76.6129,83.9406
+aminoglycoside bifunctional resistance protein,Aminoglycoside,1.28468,0.915793,1.32702,0.248066,430,332.0,74.2729,70.0258,78.1064
+AER beta-lactamase,Beta-lactam,1.27407,0.910386,1.6308,0.246019,425,373.0,83.4452,79.7176,86.6029
+PAU beta-lactamase,Beta-lactam,1.0776,0.401597,2.01402,0.208081,411,298.0,66.6667,62.1709,70.8784
+lsa-type ABC-F protein,MLS,0.971071,0.771584,0.90909,0.18751,429,373.0,83.4452,79.7176,86.6029
+MOX beta-lactamase,Beta-lactam,0.894833,0.0481762,3.21723,0.172789,253,101.0,22.5951,18.9612,26.696
+antibiotic-resistant isoleucyl-tRNA synthetase (ileS),Other,0.888023,0.503408,1.90448,0.171474,445,154.0,34.4519,30.1958,38.9729
+CMY beta-lactamase,Beta-lactam,0.873163,0.306204,1.73794,0.168604,397,73.0,16.3311,13.1938,20.0421
+OXA beta-lactamase; OXA-5-like beta-lactamase,Beta-lactam,0.867374,0.271017,3.39529,0.167487,370,229.0,51.2304,46.606,55.8339
+RAD beta-lactamase,Beta-lactam,0.817161,0.623074,0.71976,0.157791,416,298.0,66.6667,62.1709,70.8784
+TLA beta-lactamase,Beta-lactam,0.765332,0.459567,1.23888,0.147783,403,292.0,65.3244,60.7986,69.589
+MCR phosphoethanolamine transferase,Peptide/polymyxin,0.759227,0.232927,1.89319,0.146604,398,90.0,20.1342,16.6784,24.099
+APH(3'),Aminoglycoside,0.694664,0.31687,4.62642,0.134137,391,223.0,49.8881,45.2737,54.5045
+LCR beta-lactamase,Beta-lactam,0.651692,0.431037,0.732368,0.125839,404,292.0,65.3244,60.7986,69.589
+major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump,Multi-class,0.616064,0.0412708,2.47697,0.11896,291,126.0,28.1879,24.2166,32.531
+resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),Multi-class,0.599643,0.19828,2.15533,0.115789,349,21.0,4.69799,3.09303,7.07495
+RSA beta-lactamase,Beta-lactam,0.599349,0.263703,1.10491,0.115732,362,254.0,56.8233,52.1926,61.3377
+General Bacterial Porin with reduced permeability to peptide antibiotics,Peptide/polymyxin,0.585276,0.261766,1.07358,0.113015,376,93.0,20.8054,17.299,24.8093
+OXA beta-lactamase; OXA-48-like beta-lactamase,Beta-lactam,0.569122,0.122885,2.18839,0.109895,326,57.0,12.7517,9.97382,16.1643
+glycopeptide resistance gene cluster; vanR,Glycopeptide,0.494192,0.342495,0.658613,0.0954267,403,51.0,11.4094,8.78517,14.6913
+ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump,Multi-class,0.445138,0.0490031,1.59581,0.0859545,267,90.0,20.1342,16.6784,24.099
+AAC(3),Aminoglycoside,0.441225,0.268218,1.7644,0.0851988,388,110.0,24.6085,20.843,28.8067
+nitroimidazole reductase,Other,0.437588,0.0575555,1.12343,0.0844967,224,147.0,32.8859,28.6927,37.3708
+CphA beta-lactamase,Beta-lactam,0.413526,0.0,1.57979,0.0798504,178,50.0,11.1857,8.58823,14.4446
+RbpA bacterial RNA polymerase-binding protein,Rifamycin,0.410565,0.0,2.05665,0.0792786,177,106.0,23.7136,20.0052,27.8701
+RCP beta-lactamase,Beta-lactam,0.396685,0.0727279,1.26998,0.0765984,270,139.0,31.0962,26.9814,35.5331
+CARB beta-lactamase,Beta-lactam,0.368753,0.171866,1.82722,0.0712049,374,95.0,21.2528,17.7135,25.2819
+resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams,Multi-class,0.363703,0.0,1.58847,0.0702298,175,102.0,22.8188,19.1697,26.9311
+OXA beta-lactamase; OXA-211-like beta-lactamase,Beta-lactam,0.328197,0.0,2.91683,0.0633737,85,25.0,5.59284,3.81666,8.12577
+AAC(6'); AAC(6')-Ib-cr,Multi-class,0.321116,0.162025,0.621878,0.0620064,336,99.0,22.1477,18.5447,26.2253
+undecaprenyl pyrophosphate related proteins,Peptide/polymyxin,0.320744,0.046298,1.17175,0.0619345,228,83.0,18.5682,15.2367,22.4354
+PRC beta-lactamase,Beta-lactam,0.310009,0.0301658,2.41383,0.0598616,226,54.0,12.0805,9.37803,15.4292
+PDC beta-lactamase,Beta-lactam,0.307462,0.0,1.54462,0.0593697,184,,,,
+streptothricin acetyltransferase (SAT),Other,0.294781,0.160022,0.413239,0.0569212,291,138.0,30.8725,26.7681,35.3029
+TEM beta-lactamase,Beta-lactam,0.287518,0.111421,0.545195,0.0555186,309,15.0,3.3557,2.04397,5.46232
+fosfomycin thiol transferase,Multi-class,0.286481,0.0,1.05947,0.0553184,177,78.0,17.4497,14.2127,21.2414
+kdpDE,Aminoglycoside,0.275282,0.0,1.12326,0.0531559,220,75.0,16.7785,13.6007,20.5225
+General Bacterial Porin with reduced permeability to beta-lactams,Beta-lactam,0.268053,0.0719145,0.662713,0.05176,288,57.0,12.7517,9.97382,16.1643
+metal transporters with antibiotic efflux,Multi-class,0.258502,0.0,1.27719,0.0499157,207,25.0,5.59284,3.81666,8.12577
+ACI beta-lactamase,Beta-lactam,0.254186,0.0,0.919696,0.0490823,217,98.0,21.9239,18.3366,25.9897
+OXA beta-lactamase; OXA-12-like beta-lactamase,Beta-lactam,0.254144,0.0,1.31446,0.0490742,141,59.0,13.1991,10.3725,16.6528
+EC beta-lactamase,Beta-lactam,0.20355,0.0367357,0.704915,0.0393047,235,36.0,8.05369,5.87391,10.9483
+OXA beta-lactamase; OXA-372-like beta-lactamase,Beta-lactam,0.190059,0.10258,0.270095,0.0366997,315,126.0,28.1879,24.2166,32.531
+DES beta-lactamase,Beta-lactam,0.182966,0.0577061,0.41281,0.0353301,245,77.0,17.226,14.0085,21.002
+CAE beta-lactamase,Beta-lactam,0.180828,0.0,2.70849,0.0349172,126,25.0,5.59284,3.81666,8.12577
+Bleomycin resistant protein,Glycopeptide,0.152352,0.0,2.24482,0.0294185,64,30.0,6.71141,4.74128,9.41923
+PER beta-lactamase,Beta-lactam,0.139102,0.0,0.616299,0.0268602,117,23.0,5.14541,3.45283,7.60238
+AIM beta-lactamase,Beta-lactam,0.139083,0.0,0.404966,0.0268565,199,67.0,14.9888,11.9786,18.5956
+OXA beta-lactamase; OXA-58-like beta-lactamase,Beta-lactam,0.13848,0.0,0.488651,0.0267399,163,32.0,7.15884,5.11631,9.93143
+IDC beta-lactamase,Beta-lactam,0.13756,0.0462671,0.392914,0.0265624,266,61.0,13.6465,10.7724,17.1401
+NDM beta-lactamase,Beta-lactam,0.135581,0.0,1.9766,0.0261802,77,7.0,1.566,0.760594,3.19678
+streptogramin vat acetyltransferase,MLS,0.120304,0.0719937,0.178735,0.0232302,250,1.0,0.223714,0.0395019,1.25618
+AAC(2'),Aminoglycoside,0.118941,0.0,0.716685,0.0229671,116,17.0,3.80313,2.38783,6.00569
+DHA beta-lactamase,Beta-lactam,0.11825,0.0,0.33635,0.0228336,208,16.0,3.57942,2.21507,5.73483
+AXC beta-lactamase,Beta-lactam,0.113965,0.0423937,0.199939,0.0220062,228,,,,
+KPC beta-lactamase,Beta-lactam,0.110154,0.0,0.403993,0.0212703,171,8.0,1.78971,0.909602,3.49138
+OXA beta-lactamase; OXA-9-like beta-lactamase,Beta-lactam,0.108308,0.0506031,0.175669,0.0209139,238,58.0,12.9754,10.173,16.4087
+PAC beta-lactamase,Beta-lactam,0.108243,0.0,0.29523,0.0209013,165,65.0,14.5414,11.5755,18.1115
+CTX-M beta-lactamase,Beta-lactam,0.100399,0.0,0.464245,0.0193868,137,7.0,1.566,0.760594,3.19678
+OXA beta-lactamase; OXA-548-like beta-lactamase,Beta-lactam,0.0987534,0.0,0.88762,0.0190689,17,10.0,2.23714,1.21962,4.06859
+BES Beta-lactamase,Beta-lactam,0.0849632,0.0,0.186686,0.0164061,169,50.0,11.1857,8.58823,14.4446
+ACT beta-lactamase,Beta-lactam,0.0817323,0.0,0.405723,0.0157822,160,8.0,1.78971,0.909602,3.49138
+IMP beta-lactamase,Beta-lactam,0.0790817,0.0,0.247262,0.0152704,110,21.0,4.69799,3.09303,7.07495
+AQU beta-lactamase,Beta-lactam,0.0708298,0.0,0.326104,0.013677,127,21.0,4.69799,3.09303,7.07495
+OXA beta-lactamase; OXA-427-like beta-lactamase,Beta-lactam,0.0678031,0.0,0.328477,0.0130925,71,29.0,6.4877,4.55481,9.16209
+SGM beta-lactamase,Beta-lactam,0.0675484,0.0,0.221051,0.0130433,179,1.0,0.223714,0.0395019,1.25618
+VIM beta-lactamase,Beta-lactam,0.0671596,0.0,0.364022,0.0129683,124,6.0,1.34228,0.616593,2.89716
+OXA beta-lactamase; OXA-134-like beta-lactamase,Beta-lactam,0.0648556,0.0,0.464665,0.0125234,92,4.0,0.894855,0.348526,2.278
+OXA beta-lactamase; OXA-198-like beta-lactamase,Beta-lactam,0.0623507,0.0,0.142312,0.0120397,156,27.0,6.04027,4.18411,8.64556
+intrinsic colistin resistant phosphoethanolamine transferase,Peptide/polymyxin,0.0622969,0.0,0.26046,0.0120293,137,27.0,6.04027,4.18411,8.64556
+rifampin monooxygenase,Rifamycin,0.0621748,0.0,0.159709,0.0120057,200,,,,
+FOX beta-lactamase,Beta-lactam,0.0621244,0.0,0.384668,0.011996,95,4.0,0.894855,0.348526,2.278
+CblA beta-lactamase,Beta-lactam,0.0601678,0.0,0.13572,0.0116182,142,43.0,9.61969,7.22031,12.7072
+Outer Membrane Porin (Opr),Beta-lactam,0.0588048,0.0,0.171304,0.011355,140,36.0,8.05369,5.87391,10.9483
+LHK beta-lactamase,Beta-lactam,0.0566065,0.0,0.111387,0.0109305,193,16.0,3.57942,2.21507,5.73483
+OCH beta-lactamase,Beta-lactam,0.0564228,0.0,0.329115,0.010895,149,,,,
+rifampin phosphotransferase,Rifamycin,0.0553039,0.0286869,0.0917154,0.010679,323,2.0,0.447427,0.122787,1.61651
+ampC-type beta-lactamase,Beta-lactam,0.0474062,0.0,0.175451,0.00915397,113,19.0,4.25056,2.73781,6.54294
+SHV beta-lactamase,Beta-lactam,0.0471358,0.0,0.128294,0.00910174,109,2.0,0.447427,0.122787,1.61651
+Rm3 family beta-lactamase,Beta-lactam,0.0441148,0.0,0.360373,0.0085184,45,5.0,1.11857,0.478706,2.59143
+helicase-like RNA polymerase protection protein,Rifamycin,0.0440986,0.0191598,0.0789492,0.00851527,231,,,,
+OXA beta-lactamase; OXA-60-like beta-lactamase,Beta-lactam,0.0403669,0.0,0.105927,0.00779471,126,1.0,0.223714,0.0395019,1.25618
+MIR beta-lactamase,Beta-lactam,0.0362372,0.0,0.149787,0.00699726,91,4.0,0.894855,0.348526,2.278
+PME beta-lactamase,Beta-lactam,0.0326245,0.0,0.102413,0.00629967,103,8.0,1.78971,0.909602,3.49138
+CME beta-lactamase,Beta-lactam,0.0312275,0.0,0.0807344,0.00602992,102,,,,
+blaF family beta-lactamase,Beta-lactam,0.029436,0.0,0.214507,0.00568398,44,9.0,2.01342,1.06281,3.78179
+Intrinsic peptide antibiotic resistant Lps,Peptide/polymyxin,0.0267043,0.0,0.0936773,0.0051565,79,4.0,0.894855,0.348526,2.278
+PJM beta-lactamase,Beta-lactam,0.0266538,0.0,0.185407,0.00514675,79,1.0,0.223714,0.0395019,1.25618
+class A LRA beta-lactamase,Beta-lactam,0.025972,0.0,0.0759503,0.0050151,104,,,,
+vanS; glycopeptide resistance gene cluster,Glycopeptide,0.0253853,0.0,0.0639969,0.00490182,107,1.0,0.223714,0.0395019,1.25618
+ALG6 beta-lactamases,Beta-lactam,0.0244534,0.0,0.149212,0.00472187,46,,,,
+CAU beta-lactamase,Beta-lactam,0.0241975,0.0,0.139679,0.00467244,42,8.0,1.78971,0.909602,3.49138
+CepS beta-lactamase,Beta-lactam,0.0229106,0.0,0.113676,0.00442396,46,10.0,2.23714,1.21962,4.06859
+CMH beta-lactamase,Beta-lactam,0.0227758,0.0,0.0624589,0.00439791,93,9.0,2.01342,1.06281,3.78179
+THIN-B beta-lactamase,Beta-lactam,0.0221879,0.0,0.213933,0.0042844,29,5.0,1.11857,0.478706,2.59143
+DIM beta-lactamase,Beta-lactam,0.0209042,0.0,0.0522961,0.00403652,87,,,,
+vanX; glycopeptide resistance gene cluster,Glycopeptide,0.0201206,0.0,0.0744578,0.00388521,61,4.0,0.894855,0.348526,2.278
+Llm 23S ribosomal RNA methyltransferase,MLS,0.0200525,0.0,0.0504765,0.00387207,84,,,,
+16S rRNA methyltransferase (G1405),Aminoglycoside,0.0194289,0.0,0.0611325,0.00375165,71,3.0,0.671141,0.228506,1.9544
+blaS,Beta-lactam,0.0186086,0.0,0.0610811,0.00359326,66,,,,
+OXA beta-lactamase; OXA-50-like beta-lactamase,Beta-lactam,0.0182317,0.0,0.0640395,0.00352047,63,,,,
+glycopeptide resistance gene cluster; Van ligase,Glycopeptide,0.0174729,0.0,0.04946,0.00337395,88,1.0,0.223714,0.0395019,1.25618
+SST beta-lactamase,Beta-lactam,0.0173566,0.0,0.149823,0.00335149,26,,,,
+BKC Beta-lactamase,Beta-lactam,0.0170374,0.0,0.0892273,0.00328986,49,2.0,0.447427,0.122787,1.61651
+AMZ beta-lactamase,Beta-lactam,0.0166377,0.0,0.0956321,0.00321268,38,1.0,0.223714,0.0395019,1.25618
+OKP beta-lactamase,Beta-lactam,0.0138907,0.0,0.0448084,0.00268225,59,1.0,0.223714,0.0395019,1.25618
+KBL beta-lactamase,Beta-lactam,0.0129563,0.0,0.0473193,0.00250181,49,,,,
+Cfr 23S ribosomal RNA methyltransferase,Multi-class,0.0124624,0.0,0.0392065,0.00240645,58,7.0,1.566,0.760594,3.19678
+MBL beta-lactamase,Beta-lactam,0.0112731,0.0,0.0653378,0.0021768,27,5.0,1.11857,0.478706,2.59143
+ADC beta-lactamases pending classification for carbapenemase activity,Beta-lactam,0.0110632,0.0,0.0426944,0.00213627,47,,,,
+CepA beta-lactamase,Beta-lactam,0.0103233,0.0,0.0359931,0.00199338,49,,,,
+POM beta-lactamase,Beta-lactam,0.0103228,0.0,0.0545671,0.00199329,35,3.0,0.671141,0.228506,1.9544
+vga-type ABC-F protein,MLS,0.00900152,0.0,0.0214567,0.00173816,84,,,,
+APH(9),Aminoglycoside,0.00899786,0.0,0.0533876,0.00173745,30,7.0,1.566,0.760594,3.19678
+FAR beta-lactamase,Beta-lactam,0.00896106,0.0,0.029785,0.00173035,46,,,,
+non-erm 23S ribosomal RNA methyltransferase (G748),MLS,0.00858395,0.0,0.0295896,0.00165753,44,,,,
+DHT2 beta-lactamase,Beta-lactam,0.00855047,0.0,0.0324448,0.00165106,43,,,,
+OXA beta-lactamase; OXA-213-like beta-lactamase,Beta-lactam,0.00840757,0.0,0.0471129,0.00162347,30,,,,
+ADC beta-lactamase without carbapenemase activity,Beta-lactam,0.00834659,0.0,0.0418589,0.0016117,39,,,,
+HERA beta-lactamase,Beta-lactam,0.00829825,0.0,0.0286967,0.00160236,44,,,,
+OXA beta-lactamase; OXA-22-like beta-lactamase,Beta-lactam,0.00797018,0.0,0.0369187,0.00153901,28,2.0,0.447427,0.122787,1.61651
+ANT(4'),Aminoglycoside,0.00795111,0.0,0.032969,0.00153533,32,2.0,0.447427,0.122787,1.61651
+APH(2''),Aminoglycoside,0.00759456,0.0,0.0295408,0.00146648,37,1.0,0.223714,0.0395019,1.25618
+class C LRA beta-lactamase; class D LRA beta-lactamase,Beta-lactam,0.00757973,0.0,0.0340926,0.00146362,57,,,,
+GPC beta-lactamase,Beta-lactam,0.00687295,0.0,0.0310888,0.00132714,29,1.0,0.223714,0.0395019,1.25618
+OXA beta-lactamase; OXA-63-like beta-lactamase,Beta-lactam,0.00655309,0.0,0.0292142,0.00126538,28,,,,
+vanZ; glycopeptide resistance gene cluster,Glycopeptide,0.0065333,0.0,0.040167,0.00126156,16,6.0,1.34228,0.616593,2.89716
+class C LRA beta-lactamase,Beta-lactam,0.00633164,0.0,0.055392,0.00122262,26,,,,
+CfiA beta-lactamase,Beta-lactam,0.00625616,0.0,0.0306799,0.00120804,24,,,,
+CGA beta-lactamase,Beta-lactam,0.00625551,0.0,0.0242066,0.00120792,34,,,,
+PAM beta-lactamase,Beta-lactam,0.0061961,0.0,0.0695542,0.00119644,15,1.0,0.223714,0.0395019,1.25618
+BEL beta-lactamase,Beta-lactam,0.0057317,0.0,0.025823,0.00110677,29,,,,
+L1 family beta-lactamase,Beta-lactam,0.00555723,0.0,0.0305682,0.00107308,23,2.0,0.447427,0.122787,1.61651
+OXY beta-lactamase,Beta-lactam,0.00542318,0.0,0.0299025,0.0010472,21,,,,
+BlaZ beta-lactamase,Beta-lactam,0.00514759,0.0,0.0273169,0.00099398,25,1.0,0.223714,0.0395019,1.25618
+subclass B3 LRA beta-lactamase,Beta-lactam,0.00485085,0.0,0.0260189,0.000936681,23,,,,
+OXA beta-lactamase; OXA-51-like beta-lactamase,Beta-lactam,0.00473916,0.0,0.0232706,0.000915114,23,,,,
+LEN beta-lactamase,Beta-lactam,0.00469207,0.0,0.0287691,0.000906021,19,,,,
+vanH; glycopeptide resistance gene cluster,Glycopeptide,0.00444863,0.0,0.0192338,0.000859013,28,,,,
+RSA2 beta-lactamase,Beta-lactam,0.0044098,0.0,0.0300988,0.000851516,20,1.0,0.223714,0.0395019,1.25618
+OXA beta-lactamase; OXA-114-like beta-lactamase,Beta-lactam,0.00440686,0.0,0.0453564,0.000850948,12,,,,
+RAHN beta-lactamase,Beta-lactam,0.00419363,0.0,0.0393406,0.000809774,9,2.0,0.447427,0.122787,1.61651
+OXA beta-lactamase; OXA-727-like beta-lactamase,Beta-lactam,0.00415927,0.0,0.0250234,0.000803139,20,,,,
+vanY; glycopeptide resistance gene cluster,Glycopeptide,0.00399643,0.0,0.0228003,0.000771696,17,,,,
+LAP beta-lactamase,Beta-lactam,0.00396749,0.0,0.0313692,0.000766108,16,1.0,0.223714,0.0395019,1.25618
+CRH beta-lactamase,Beta-lactam,0.00383571,0.0,0.0183137,0.000740661,24,,,,
+OXA beta-lactamase; OXA-62-like beta-lactamase,Beta-lactam,0.0038064,0.0,0.0193828,0.000735002,20,,,,
+EVM beta-lactamase,Beta-lactam,0.00379988,0.0,0.0194869,0.000733743,22,1.0,0.223714,0.0395019,1.25618
+ECM beta-lactamase,Beta-lactam,0.00376425,0.0,0.0229697,0.000726863,16,,,,
+MSI-OXA family beta-lactamase,Beta-lactam,0.00361918,0.0,0.0230141,0.00069885,15,,,,
+OXA beta-lactamase; OXA-364-like beta-lactamase,Beta-lactam,0.00359132,0.0,0.0230643,0.000693471,15,,,,
+GRD33 beta-lactamase,Beta-lactam,0.00324536,0.0,0.0357654,0.000626667,9,,,,
+OXA beta-lactamase; OXA-274-like beta-lactamase,Beta-lactam,0.00313002,0.0,0.0266283,0.000604395,12,,,,
+EBR beta-lactamase,Beta-lactam,0.00306881,0.0,0.0325886,0.000592576,9,1.0,0.223714,0.0395019,1.25618
+glycopeptide resistance gene cluster; vanU,Glycopeptide,0.00282813,0.0,0.026839,0.000546101,5,,,,
+chloramphenicol phosphotransferase,Phenicol,0.00276571,0.0,0.0184273,0.000534048,15,,,,
+glycopeptide resistance gene cluster; vanXY,Glycopeptide,0.00258754,0.0,0.0197579,0.000499645,12,,,,
+lipid A acyltransferase; polymyxin resistance operon,Peptide/polymyxin,0.00249757,0.0,0.0215346,0.000482271,8,1.0,0.223714,0.0395019,1.25618
+streptogramin vgb lyase,MLS,0.00246699,0.0,0.052158,0.000476366,1,1.0,0.223714,0.0395019,1.25618
+BlaB beta-lactamase,Beta-lactam,0.00243048,0.0,0.0286425,0.000469316,5,,,,
+TER beta-lactamase,Beta-lactam,0.00237016,0.0,0.015253,0.00045767,12,,,,
+rifampin glycosyltransferase,Rifamycin,0.00235168,0.0,0.0161134,0.0004541,13,,,,
+GOB beta-lactamase,Beta-lactam,0.00231345,0.0,0.0189339,0.000446719,10,,,,
+OXA beta-lactamase; OXA-679-like beta-lactamase,Beta-lactam,0.00229903,0.0,0.0224486,0.000443935,7,,,,
+methicillin resistant PBP2,Beta-lactam,0.00218173,0.0,0.0306356,0.000421284,9,,,,
+R39 beta-lactamase,Beta-lactam,0.00216895,0.0,0.0147263,0.000418817,13,,,,
+LAQ beta lactamase,Beta-lactam,0.00211659,0.0,0.0135037,0.000408706,16,1.0,0.223714,0.0395019,1.25618
+ESP beta-lactamase,Beta-lactam,0.00208887,0.0,0.0197765,0.000403352,9,,,,
+OXA beta-lactamase; OXA-229-like beta-lactamase,Beta-lactam,0.00197538,0.0,0.02344,0.000381439,7,,,,
+glycopeptide resistance gene cluster; vanT,Glycopeptide,0.00196134,0.0,0.00816874,0.000378728,28,,,,
+OXA beta-lactamase; OXA-294-like beta-lactamase,Beta-lactam,0.00195756,0.0,0.0254502,0.000377998,6,,,,
+CVI beta-lactamase,Beta-lactam,0.00191586,0.0,0.014937,0.000369946,8,,,,
+vanW; glycopeptide resistance gene cluster,Glycopeptide,0.00191549,0.0,0.0143554,0.000369874,10,,,,
+TRU beta-lactamase,Beta-lactam,0.00191446,0.0,0.0120241,0.000369674,13,,,,
+BIL Beta-lactamase,Beta-lactam,0.00187885,0.0,0.00999512,0.000362799,17,,,,
+OXA beta-lactamase; OXA-42-like beta-lactamase,Beta-lactam,0.001848,0.0,0.0164158,0.000356842,7,,,,
+polymyxin resistance operon; alm glycyltransferase,Peptide/polymyxin,0.0018299,0.0,0.0148065,0.000353346,11,1.0,0.223714,0.0395019,1.25618
+SRT beta-lactamase,Beta-lactam,0.00181208,0.0,0.0123541,0.000349905,12,,,,
+FONA beta-lactamase,Beta-lactam,0.00180118,0.0,0.0254098,0.000347801,4,,,,
+defensin resistant mprF,Peptide/polymyxin,0.00173319,0.0,0.014549,0.000334672,15,,,,
+class A Bacillus cereus Bc beta-lactamase,Beta-lactam,0.00168928,0.0,0.0357153,0.000326193,1,,,,
+AST Beta-lactamase,Beta-lactam,0.00168215,0.0,0.011173,0.000324818,11,,,,
+PST beta-lactamase,Beta-lactam,0.00162879,0.0,0.0229602,0.000314513,4,1.0,0.223714,0.0395019,1.25618
+OXA beta-lactamase; OXA-61-like beta-lactamase,Beta-lactam,0.0015964,0.0,0.0115031,0.000308258,9,,,,
+MSI beta-lactamase,Beta-lactam,0.00159403,0.0,0.025266,0.000307802,4,,,,
+gimA family macrolide glycosyltransferase,MLS,0.00154248,0.0,0.00951592,0.000297848,14,,,,
+ERP beta-lactamase,Beta-lactam,0.00148493,0.0,0.0127704,0.000286734,7,,,,
+ANT(9),Aminoglycoside,0.00147317,0.0,0.0122869,0.000284464,7,,,,
+SFO beta-lactamase,Beta-lactam,0.00147316,0.0,0.0152628,0.000284462,6,,,,
+class A Mycobacterium abscessus beta-lactamase,Beta-lactam,0.00144655,0.0,0.0136228,0.000279323,6,,,,
+polymyxin resistance operon; alm glycyl carrier protein,Peptide/polymyxin,0.0014453,0.0,0.0227177,0.000279082,2,2.0,0.447427,0.122787,1.61651
+ANA beta-lactamase,Beta-lactam,0.00129376,0.0,0.0196724,0.000249819,3,,,,
+EXO beta-lactamase,Beta-lactam,0.00128864,0.0,0.01033,0.000248831,9,,,,
+OXA beta-lactamase; OXA-286-like beta-lactamase,Beta-lactam,0.00125777,0.0,0.013622,0.00024287,6,,,,
+OXA beta-lactamase; OXA-266-like beta-lactamase,Beta-lactam,0.00124563,0.0,0.00941385,0.000240526,8,,,,
+OXA beta-lactamase; OXA-23-like beta-lactamase,Beta-lactam,0.00123648,0.0,0.00943887,0.00023876,8,,,,
+SPU beta-lactamase,Beta-lactam,0.00122723,0.0,0.00958107,0.000236973,8,,,,
+ole glycosyltransferase,MLS,0.00117806,0.0,0.00858784,0.000227479,9,,,,
+VHW beta-lactamase,Beta-lactam,0.00114005,0.0,0.0241033,0.000220139,1,1.0,0.223714,0.0395019,1.25618
+CRD3 beta-lactamase,Beta-lactam,0.00106764,0.0,0.00806939,0.000206157,8,,,,
+EAM beta-lactamase,Beta-lactam,0.00106393,0.0,0.0112123,0.00020544,5,,,,
+VHH beta-lactamase,Beta-lactam,0.00101239,0.0,0.0214044,0.00019549,1,1.0,0.223714,0.0395019,1.25618
+sal-type ABC-F protein,MLS,0.00100289,0.0,0.00964,0.000193654,9,,,,
+viomycin phosphotransferase,Peptide/polymyxin,0.000978034,0.0,0.012373,0.000188855,3,,,,
+Serine/threonine kinases,Beta-lactam,0.000972412,0.0,0.00563555,0.000187769,15,,,,
+ECF transporter S component,Folate pathway antagonist,0.00096989,0.0,0.0109065,0.000187282,4,,,,
+ACC beta-lactamase,Beta-lactam,0.000957406,0.0,0.0110689,0.000184872,6,,,,
+mgt macrolide glycotransferase,MLS,0.000864177,0.0,0.00698911,0.000166869,8,,,,
+EFM beta-lactamase,Beta-lactam,0.000859628,0.0,0.00834145,0.000165991,6,,,,
+ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump,Multi-class,0.000858201,0.0,0.0136442,0.000165715,2,,,,
+fusidic acid inactivation enzyme,Other,0.000838032,0.0,0.00576512,0.000161821,10,,,,
+vanJ membrane protein,Glycopeptide,0.000807034,0.0,0.00945199,0.000155835,5,,,,
+Edeine acetyltransferase,Multi-class,0.000749358,0.0,0.0158432,0.000144698,1,,,,
+fosC phosphotransferase family,Fosfomycin,0.000745213,0.0,0.00937768,0.000143898,3,,,,
+CSA beta-lactamase,Beta-lactam,0.000741244,0.0,0.00755977,0.000143132,5,,,,
+CPS beta-lactamase,Beta-lactam,0.000736722,0.0,0.00841486,0.000142258,4,1.0,0.223714,0.0395019,1.25618
+ORN beta-lactamase,Beta-lactam,0.000722538,0.0,0.00810673,0.000139519,4,,,,
+PFM beta-lactamase,Beta-lactam,0.000717447,0.0,0.0123941,0.000138536,2,,,,
+antibiotic-resistant murA transferase,Fosfomycin,0.000713129,0.0,0.0110447,0.000137703,2,,,,
+MOR beta-lactamase,Beta-lactam,0.000686458,0.0,0.00564252,0.000132552,7,,,,
+TMB beta-lactamase,Beta-lactam,0.000674832,0.0,0.00915889,0.000130308,3,,,,
+LUS beta-lactamase,Beta-lactam,0.00064275,0.0,0.00618497,0.000124113,5,,,,
+YRC Beta-lactamase,Beta-lactam,0.000631325,0.0,0.00625613,0.000121907,5,,,,
+OXA beta-lactamase; OXA-24-like beta-lactamase,Beta-lactam,0.00058709,0.0,0.00647227,0.000113365,4,,,,
+CSP beta-lactamase,Beta-lactam,0.00056621,0.0,0.00609074,0.000109333,4,,,,
+LMB beta-lactamase,Beta-lactam,0.000564369,0.0,0.00842962,0.000108978,2,,,,
+SPN79 beta-lactamase,Beta-lactam,0.000563324,0.0,0.00541265,0.000108776,5,,,,
+PLA beta-lactamase,Beta-lactam,0.000563015,0.0,0.0119035,0.000108716,1,,,,
+class A Bacillus anthracis Bla beta-lactamase,Beta-lactam,0.000559205,0.0,0.00595915,0.00010798,4,,,,
+Fom phosphotransferase family,Fosfomycin,0.000550103,0.0,0.00682948,0.000106223,3,,,,
+SPG beta-lactamase,Beta-lactam,0.00054724,0.0,0.00603556,0.00010567,4,,,,
+FPH beta-lactamase,Beta-lactam,0.000520451,0.0,0.00861131,0.000100497,2,1.0,0.223714,0.0395019,1.25618
+MYO beta-lactamase,Beta-lactam,0.000503807,0.0,0.00647259,9.72834e-05,3,,,,
+FEZ beta-lactamase,Beta-lactam,0.000473248,0.0,0.00580411,9.13823e-05,3,,,,
+ALG11 beta-lactamase,Beta-lactam,0.000471893,0.0,0.00733397,9.11209e-05,2,,,,
+non-erm 23S ribosomal RNA methyltransferase (A1067),Peptide/polymyxin,0.000470668,0.0,0.0058469,9.08843e-05,3,,,,
+MAL beta-lactamase,Beta-lactam,0.00046935,0.0,0.00628064,9.06298e-05,3,,,,
+BJP beta-lactamase,Beta-lactam,0.000451525,0.0,0.0047941,8.71877e-05,4,,,,
+ARL Beta-lactamase,Beta-lactam,0.000447402,0.0,0.00562843,8.63917e-05,3,,,,
+tunicamycin resistance protein,Other,0.000436238,0.0,0.00655178,8.42359e-05,2,,,,
+CDA beta-lactamase,Beta-lactam,0.000383316,0.0,0.00484186,7.40168e-05,3,,,,
+NmcA beta-lactamase,Beta-lactam,0.000377505,0.0,0.00798136,7.28948e-05,1,,,,
+CAR beta-lactamase,Beta-lactam,0.000367797,0.0,0.00462684,7.10203e-05,3,,,,
+subclass B1 Bacteroides xylanisolvens crx beta-lactamase,Beta-lactam,0.000345855,0.0,0.00434795,6.67834e-05,3,,,,
+Target protecting FusB-type protein conferring resistance to Fusidic acid,Other,0.00034386,0.0,0.00513979,6.63982e-05,2,,,,
+CRP beta-lactamase,Beta-lactam,0.00033754,0.0,0.00507377,6.51776e-05,2,,,,
+glycopeptide resistance gene cluster; vanV,Glycopeptide,0.000322386,0.0,0.00681601,6.22516e-05,1,,,,
+FTU beta-lactamase,Beta-lactam,0.000314028,0.0,0.00472825,6.06377e-05,2,,,,
+IMI beta-lactamase,Beta-lactam,0.00029783,0.0,0.00444963,5.75098e-05,2,,,,
+BUT beta-lactamase,Beta-lactam,0.000290881,0.0,0.00355441,5.61681e-05,3,,,,
+ELM beta-lactamase,Beta-lactam,0.000288797,0.0,0.00445102,5.57656e-05,2,,,,
+BRO Beta-lactamase,Beta-lactam,0.000283581,0.0,0.00427507,5.47584e-05,2,,,,
+CDD beta-lactamase,Beta-lactam,0.00027894,0.0,0.00432773,5.38622e-05,2,,,,
+STA beta-lactamase,Beta-lactam,0.000260517,0.0,0.00550794,5.03048e-05,1,,,,
+OXA beta-lactamase; OXA-143-like beta-lactamase,Beta-lactam,0.00026036,0.0,0.00419625,5.02745e-05,2,,,,
+CKO beta-lactamase,Beta-lactam,0.000256789,0.0,0.00383487,4.95851e-05,2,,,,
+SME beta-lactamase,Beta-lactam,0.000252237,0.0,0.00533288,4.8706e-05,1,,,,
+OXA beta-lactamase; OXA-55-like beta-lactamase,Beta-lactam,0.000251888,0.0,0.00378753,4.86386e-05,2,,,,
+GIL beta-lactamase,Beta-lactam,0.000246789,0.0,0.00368924,4.76541e-05,2,,,,
+KLUC beta-lactamase,Beta-lactam,0.000231735,0.0,0.00350512,4.47471e-05,2,,,,
+Sed beta-lactamase,Beta-lactam,0.000216987,0.0,0.00327592,4.18994e-05,2,,,,
+SMB beta-lactamase,Beta-lactam,0.000212682,0.0,0.0044966,4.10681e-05,1,,,,
+HMB beta-lactamase,Beta-lactam,0.000201165,0.0,0.0042531,3.88442e-05,1,,,,
+Subclass B1 Vibrio cholerae varG beta-lactamase,Beta-lactam,0.000196302,0.0,0.00415029,3.79052e-05,1,,,,
+SHW beta-lactamase,Beta-lactam,0.000190748,0.0,0.00403286,3.68326e-05,1,,,,
+BAT Beta-lactamase,Beta-lactam,0.000180974,0.0,0.00382621,3.49453e-05,1,,,,
+CMA beta-lactamase,Beta-lactam,0.000180462,0.0,0.00269583,3.48466e-05,2,,,,
+RUB beta-lactamase,Beta-lactam,0.000180191,0.0,0.00380967,3.47943e-05,1,,,,
+OXA beta-lactamase; OXA-184-like beta-lactamase,Beta-lactam,0.000168572,0.0,0.00356401,3.25506e-05,1,,,,
+AFM beta-lactamase,Beta-lactam,0.00016253,0.0,0.00343626,3.13839e-05,1,,,,
+ROB beta-lactamase,Beta-lactam,0.000158749,0.0,0.00335632,3.06538e-05,1,,,,
+CAM beta-lactamase,Beta-lactam,0.000150323,0.0,0.00317819,2.90269e-05,1,,,,
+CBP beta-lactamase,Beta-lactam,0.000140223,0.0,0.00296464,2.70765e-05,1,,,,
+SPS beta-lactamase,Beta-lactam,0.000139224,0.0,0.00294353,2.68837e-05,1,,,,
+class A Mycobacterium tuberculosis bla beta-lactamase,Beta-lactam,0.000137969,0.0,0.00291698,2.66412e-05,1,,,,
+BlaA beta-lactamase,Beta-lactam,0.000133118,0.0,0.00281443,2.57046e-05,1,,,,
+SCO beta-lactamase,Beta-lactam,0.000130936,0.0,0.0027683,2.52833e-05,1,,,,
+GIM beta-lactamase,Beta-lactam,0.000128393,0.0,0.00271454,2.47922e-05,1,,,,
+PSZ beta-lactamase,Beta-lactam,0.00010134,0.0,0.00214257,1.95684e-05,1,,,,
+APH(4),Aminoglycoside,9.28699e-05,0.0,0.00196349,1.79328e-05,1,,,,
