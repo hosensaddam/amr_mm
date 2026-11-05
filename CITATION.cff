@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below, together with the chapter and the original data sources listed in README.md."
+type: dataset
+title: "Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping: Supplementary Data, Code and Materials"
+version: 1.0.0
+date-released: 2026-11-05
+authors:
+  - family-names: Hosen
+    given-names: Mohammad Saddam
+  - family-names: Fakir
+    given-names: MD Shahidul Islam
+  - family-names: Khan
+    given-names: Kurshed
+repository-code: "https://github.com/hosensaddam/amr_mm"
+url: "https://github.com/hosensaddam/amr_mm"
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: >-
+  Supplementary materials package for the book chapter "Global Insights of the
+  Urban Microbiome and AMR Landscape from Metagenomic Mapping" (Academic Press,
+  Elsevier). It maps the urban microbiome and its antimicrobial-resistance (AMR)
+  landscape in 8,053 public urban environmental shotgun metagenomes from 112
+  datasets, 106 countries and 274 cities, analysed in three streams kept separate
+  by pipeline (Indian open-drain wastewater with CARD/RGI; the global ResFinder
+  resource; and uniform reprocessing of 51 runs centred on Dhaka and South Asian
+  comparators). The package contains the Supplementary Material document,
+  Tables S1-S96, Figures S1-S30, twelve cleaned datasets with data dictionaries,
+  an independent recomputation of the headline results, analysis code and
+  executed notebooks, and methodological and quality-control reports.
+keywords:
+  - Antimicrobial Resistance
+  - AMR
+  - Metagenomics
+  - Supplementary Materials
+  - Elsevier

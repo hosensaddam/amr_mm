@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Code licence: MIT](https://img.shields.io/badge/code%20licence-MIT-blue.svg)](LICENSE)
+[![Data licence: CC BY 4.0](https://img.shields.io/badge/data%20licence-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping
 
 **Supplementary data, code and materials for the book chapter (Academic Press, Elsevier)**
@@ -147,16 +151,43 @@ Dhaka administrative boundaries come from the BBS/OCHA COD-AB dataset (Humanitar
 repository contains no patient-level or personal data. Third-party publications and raw downloads are not
 redistributed and can be retrieved from the sources above.
 
-## 10. Citation, licence and contact
+## 10. Licence and contact
 
-If you use these materials, please cite the chapter *Global Insights of the Urban Microbiome and AMR Landscape
-from Metagenomic Mapping* (Academic Press, Elsevier) and this repository, together with the original data
-sources listed above.
-
-**Licence:** this repository does not currently include a licence file, so the default copyright applies. Data
-derived from CC BY 4.0 sources remain subject to those licences.
+**Licence:**
+* **Code** (`scripts/`, `notebooks/`, `figures/editable_plotting_code/`) is released under the
+  [MIT License](LICENSE).
+* **Data, tables, figures and documents** (`data/`, `tables/`, `figures/`, `analysis/`, `documentation/`,
+  `supplementary_materials/` and the data-collection files in the repository root) are released under the
+  [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+* Data derived from third-party CC BY 4.0 sources remain subject to those licences and their attribution requirements.
 
 **Contact:** Mohammad Saddam Hosen (repository owner, via GitHub).
 
 Parts of the data preparation and packaging were carried out with AI assistance (Claude) for author review;
 the authors are responsible for the verification and interpretation of the results.
+
+## 11. Citation
+
+If you use these materials, please cite the chapter *Global Insights of the Urban Microbiome and AMR Landscape
+from Metagenomic Mapping* (Academic Press, Elsevier), this repository, and the original data sources listed in
+section 9. Citation metadata is also provided in [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button).
+
+> Hosen, M. S., Fakir, M. S. I., & Khan, K. (2026). *Global Insights of the Urban Microbiome and AMR Landscape
+> from Metagenomic Mapping: Supplementary Data, Code and Materials* (Version 1.0.0) [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.XXXXXXX
+
+```bibtex
+@dataset{hosen_2026_amr_mm,
+  author    = {Hosen, Mohammad Saddam and Fakir, MD Shahidul Islam and Khan, Kurshed},
+  title     = {Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping:
+               Supplementary Data, Code and Materials},
+  year      = {2026},
+  version   = {1.0.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.XXXXXXX},
+  url       = {https://github.com/hosensaddam/amr_mm}
+}
+```
+
+*The DOI `10.5281/zenodo.XXXXXXX` is a placeholder and will be replaced with the Zenodo DOI once the v1.0.0
+release has been archived.*

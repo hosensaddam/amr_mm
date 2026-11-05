@@ -1,0 +1,49 @@
+{
+  "title": "Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping: Supplementary Data, Code and Materials",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "description": "<p>Supplementary materials package for the book chapter <em>Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping</em> (Academic Press, Elsevier).</p><p>The chapter maps the urban microbiome and its antimicrobial-resistance (AMR) landscape in public shotgun metagenomes: 8,053 included urban environmental metagenomes from 112 datasets, 106 countries and 274 source-labelled cities. The evidence is analysed in three streams that are kept separate by pipeline and abundance unit: (1) Indian open-drain wastewater annotated with CARD/RGI (RPKM); (2) the curated global ResFinder resource (FPKM); and (3) uniform reprocessing of 51 public runs centred on Dhaka and South Asian comparators with fastp, Kraken 2/SILVA 138 and KMA/ResFinder 4.7.2 (FPKM-16S).</p><p>The package contains:</p><ul><li>the Supplementary Material document (Figures S1–S30 and Tables S1–S96 with interpretations);</li><li>Tables S1–S96 unabridged (CSV and a formatted Excel workbook);</li><li>Figures S1–S30 (PNG 300 dpi, TIFF 600 dpi, PDF) with editable plotting code;</li><li>twelve cleaned, non-destructively harmonized datasets with data dictionaries and a cleaning-operations log;</li><li>an independent recomputation of the headline results from the cleaned data (75 of 75 checks reproduced);</li><li>workflow and archived analysis code with twenty executed Jupyter notebooks;</li><li>data-cleaning, statistical-analysis, reproducibility and quality-control reports;</li><li>the original data-collection package (dataset inventory, sample metadata, analysis-ready data, AMR reference-database register and public data-source log).</li></ul><p>All sequence data analysed are publicly available in INSDC (ENA/SRA/DDBJ) or MG-RAST. The repository contains no patient-level or personal data. Gene detection indicates DNA presence, not phenotypic resistance.</p>",
+  "creators": [
+    {
+      "name": "Hosen, Mohammad Saddam"
+    },
+    {
+      "name": "Fakir, MD Shahidul Islam"
+    },
+    {
+      "name": "Khan, Kurshed"
+    }
+  ],
+  "keywords": [
+    "Antimicrobial Resistance",
+    "AMR",
+    "Metagenomics",
+    "Supplementary Materials",
+    "Elsevier"
+  ],
+  "notes": "Data, tables, figures and documents are released under CC BY 4.0. Code and scripts (scripts/, notebooks/, figures/editable_plotting_code/) are released under the MIT License (see LICENSE). Data derived from third-party CC BY 4.0 sources remain subject to those licences.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/hosensaddam/amr_mm",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.17590646",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.6919377",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1038/s41467-022-34312-7",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}
