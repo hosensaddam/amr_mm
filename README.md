@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23969915.svg)](https://doi.org/10.5281/zenodo.23969915)
 [![Code licence: MIT](https://img.shields.io/badge/code%20licence-MIT-blue.svg)](LICENSE)
 [![Data licence: CC BY 4.0](https://img.shields.io/badge/data%20licence-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -174,7 +174,7 @@ section 9. Citation metadata is also provided in [`CITATION.cff`](CITATION.cff) 
 
 > Hosen, M. S., Fakir, M. S. I., & Khan, K. (2026). *Global Insights of the Urban Microbiome and AMR Landscape
 > from Metagenomic Mapping: Supplementary Data, Code and Materials* (Version 1.0.0) [Data set]. Zenodo.
-> https://doi.org/10.5281/zenodo.XXXXXXX
+> https://doi.org/10.5281/zenodo.23969916
 
 ```bibtex
 @dataset{hosen_2026_amr_mm,
@@ -184,10 +184,11 @@ section 9. Citation metadata is also provided in [`CITATION.cff`](CITATION.cff) 
   year      = {2026},
   version   = {1.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
+  doi       = {10.5281/zenodo.23969916},
   url       = {https://github.com/hosensaddam/amr_mm}
 }
 ```
 
-*The DOI `10.5281/zenodo.XXXXXXX` is a placeholder and will be replaced with the Zenodo DOI once the v1.0.0
-release has been archived.*
+The DOI above, [10.5281/zenodo.23969916](https://doi.org/10.5281/zenodo.23969916), identifies version 1.0.0.
+To cite all versions (it always resolves to the latest), use the concept DOI
+[10.5281/zenodo.23969915](https://doi.org/10.5281/zenodo.23969915).

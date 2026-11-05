@@ -4,6 +4,14 @@ type: dataset
 title: "Global Insights of the Urban Microbiome and AMR Landscape from Metagenomic Mapping: Supplementary Data, Code and Materials"
 version: 1.0.0
 date-released: 2026-11-05
+doi: 10.5281/zenodo.23969915
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23969915
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.23969916
+    description: Version 1.0.0
 authors:
   - family-names: Hosen
     given-names: Mohammad Saddam
